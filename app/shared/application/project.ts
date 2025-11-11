@@ -25,8 +25,8 @@ export const getTemplate = (project?: Project): ProjectTemplate => {
 export const resolveCSSVariables = (project?: Project) => {
     if (!project?.resources?.colors) {
         return `:root {
-            --brand-color-1: #00b5e2;
-            --brand-color-2: #351f65;
+            --brand-color-1: #4c6b7f;
+            --brand-color-2: #223e51;
             --text_color: #333333;
             --site-background-color: #ffffff;
         }`;

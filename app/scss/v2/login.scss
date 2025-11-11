@@ -1,0 +1,37 @@
+#storybook-root .o-grid__inner{
+    margin: 0;
+}
+
+#storybook-root .l-site-content{
+    padding: 60px 40px;
+}
+
+#storybook-root .title-login{
+    font-weight: 500;
+    color: #808080;
+    line-height: 1.2;
+}
+
+#storybook-root p{
+    font-weight: 500;
+}
+
+#storybook-root .bg-login{
+    background-image: url("/assets/images/bg/login-page-mobile.png");
+}
+
+.h-margin-right-10 {
+    margin-right: 10px !important;
+}
+
+@media (min-width: 768px) {
+    #storybook-root .l-site-content{
+        height: 100vh;
+    }
+
+    #storybook-root .bg-login{
+        background-image: url("/assets/images/bg/login-page-desktop.png");
+        background-size: cover;
+        background-position: center center;
+    }
+}
