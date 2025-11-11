@@ -1,0 +1,198 @@
+/* ==========================================================================
+   #FOOTER
+   ========================================================================== */
+
+.o-footer {
+    @if $theme== 'a' {
+        border-top: 1px solid $footer-border-color;
+        background-color: $footer-background-color;
+    } @else if $theme== 'b' {
+        padding: 0 30px;
+    }
+}
+
+.o-footer__top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: solid 1px $footer-border-color;
+
+    @media (min-width: $screen-sm-min) {
+        flex-wrap: nowrap;
+        padding: 20px 40px;
+    }
+
+    @if $theme== 'b' {
+        background-color: $footer-background-color-theme-b;
+        border-radius: $panels-radius;
+
+        .l-site-content:has(> .o-bottom-banner) + footer &,
+        .l-site-content:has(> .o-error-block) + footer & {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+    }
+}
+
+.o-footer__logo-wrapper {
+    flex-shrink: 0;
+    width: 120px;
+    height: auto;
+
+    @if $theme== 'a' {
+        margin: 20px 10px 20px auto;
+    } @else if $theme== 'b' {
+        margin: 20px auto 20px 10px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        margin: 20px auto;
+        order: 1;
+    }
+}
+
+.o-footer__logo {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+
+    &.o-footer__logo-white {
+        @if $theme== 'a' {
+            path {
+                fill: $white;
+            }
+        } @else if $theme== 'b' {
+            path {
+                fill: $grey-4;
+            }
+        }
+    }
+}
+
+.o-footer__disclaimer {
+    @include text-note;
+    flex-grow: 1;
+    padding: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-grow: 0;
+        padding: 10px 80px 10px 0;
+    }
+    @if $theme== 'a' {
+        color: $footer-text-color;
+    } @else if $theme== 'b' {
+        color: $footer-text-color-theme-b;
+    }
+}
+
+.o-footer__bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    @if $theme== 'a' {
+        background-color: $footer-bottom-background-color;
+    }
+}
+
+.o-footer__copyright {
+    text-align: center;
+    font-size: 0.875rem;
+    color: $footer-copyright-color;
+    margin: 10px 0;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+        text-align: left;
+    }
+}
+
+/* Navigation
+   ========================================================================== */
+
+.o-footer__navigation {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: auto;
+    }
+}
+
+.o-footer__links {
+    @include reset-list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2rem;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+        justify-content: flex-end;
+    }
+
+    @media (min-width: $screen-md-min) {
+        height: auto;
+    }
+}
+
+.o-footer__links-item {
+    display: flex;
+    align-items: center;
+
+    &:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+
+.o-footer__links-anchor {
+    font-size: 1rem;
+    font-weight: $brand-weight-2;
+    color: $footer-link-color;
+    text-decoration: underline;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.o-footer__links-title {
+    @include text-note;
+    color: $footer-text-color;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Cookies
+   ========================================================================== */
+
+.ot-sdk-show-settings {
+    border: none !important;
+    color: $footer-link-color !important;
+    background: none !important;
+    text-decoration: underline;
+    font-size: 1rem !important;
+    font-weight: $brand-weight-1;
+    padding: 0 !important;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

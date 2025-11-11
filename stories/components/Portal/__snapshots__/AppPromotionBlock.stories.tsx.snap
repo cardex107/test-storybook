@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/AppPromotionBlock Default smoke-test 1`] = `
+<div class="o-app-block">
+  <div class="o-app-block__text-wrapper">
+    <span class="o-app-block__small-text">
+      Title
+    </span>
+    <span class="o-app-block__text">
+      Voluptate occaecat in excepteur laborum dolore sunt mollit deserunt adipisicing sunt commodo fugiat sit cillum.
+    </span>
+  </div>
+  <div class="o-app-block__app-screen"
+       style="background-image: url(&quot;/stories/assets/app-image.png&quot;);"
+  >
+    <img class="a-mobile-notch"
+         src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+         alt="mobile screen"
+    >
+  </div>
+</div>
+`;

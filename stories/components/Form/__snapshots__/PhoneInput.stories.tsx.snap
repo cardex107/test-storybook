@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/PhoneInput Default smoke-test 1`] = `
+<div class="undefined m-field ">
+  <label class="m-field__label ">
+    Phone
+  </label>
+  <div class="m-select-combo">
+    <div class="m-select-combo__select a-select">
+      <select class="a-select__input "
+              data-testid="phone-number-prefix"
+      >
+        <option value>
+          [...]
+        </option>
+        <option value="+31">
+          +31
+        </option>
+        <option value="+34">
+          +34
+        </option>
+        <option value="+44">
+          +44
+        </option>
+      </select>
+      <svg width="14"
+           height="14"
+           viewbox="0 0 14 14"
+           class="a-select__arrow svg-fill-grey undefined"
+      >
+        <path fill="#00008F"
+              fill-rule="nonzero"
+              d="M3.175 4L7 7.712 10.825 4 12 5.148 7 10 2 5.148z"
+        >
+        </path>
+      </svg>
+    </div>
+    <input type="number"
+           name="phone"
+           class="a-input"
+           aria-label="Phone"
+           data-testid="phone-number-input"
+           value
+    >
+  </div>
+</div>
+`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/CmsList Default play-test 1`] = `
+<div class="o-cms-list-responsive">
+  <div class="o-cms-list-responsive__text">
+    the title
+  </div>
+  <div class="o-cms-list-responsive__text">
+    the subtitle
+  </div>
+  <ul class="o-cms-list-responsive__list">
+    <li>
+      <span>
+        item1
+      </span>
+    </li>
+    <li>
+      <span>
+        item2
+      </span>
+    </li>
+    <li>
+      <span>
+        item3
+      </span>
+    </li>
+  </ul>
+  <strong class="o-cms-list-responsive__featured">
+    the featured
+  </strong>
+</div>
+`;
+
+exports[`components/Portal/CmsList WithoutListAndFeatured play-test 1`] = `
+<div class="o-cms-list-responsive">
+  <div class="o-cms-list-responsive__text">
+    the title
+  </div>
+  <div class="o-cms-list-responsive__text">
+    the subtitle
+  </div>
+</div>
+`;
+
+exports[`components/Portal/CmsList WithoutTitleAndSubtitle play-test 1`] = `
+<div class="o-cms-list-responsive">
+  <ul class="o-cms-list-responsive__list">
+    <li>
+      <span>
+        item1
+      </span>
+    </li>
+    <li>
+      <span>
+        item2
+      </span>
+    </li>
+    <li>
+      <span>
+        item3
+      </span>
+    </li>
+  </ul>
+  <strong class="o-cms-list-responsive__featured">
+    the featured
+  </strong>
+</div>
+`;

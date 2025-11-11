@@ -1,0 +1,109 @@
+[class*='sendbird-label'] {
+    font-family: $primary-font !important;
+}
+
+.sendbird-text-message-item-body {
+    &.outgoing {
+        background-color: var(--brand-color-1) !important;
+        color: $white;
+    }
+
+    &.incoming {
+        background-color: $white !important;
+        color: $text-color;
+        border: 1px solid $grey-2;
+    }
+}
+
+.sendbird-channel-preview--active {
+    background-color: $white !important;
+    color: $text-color;
+    border: 1px solid $grey-2;
+}
+
+.sendbird-msg-hoc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 10px !important;
+}
+
+.sendbird-admin-message {
+    padding: 20px 30px !important;
+    border: 1px solid $grey-5;
+    background-color: $grey-3;
+    border-radius: 5px;
+    max-width: 85%;
+    width: fit-content;
+    margin: 2px;
+
+    span {
+        font-weight: 600;
+        color: $white !important;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        max-width: 65%;
+    }
+}
+
+.sendbird-thumbnail-message-item-body {
+    min-width: 284px !important;
+
+    .sendbird-thumbnail-message-item-body__thumbnail {
+        &.sendbird-image-renderer,
+        .sendbird-image-renderer__image {
+            min-width: 284px !important;
+        }
+    }
+}
+
+.sendbird-conversation__messages__notification {
+    display: none !important;
+}
+
+.sendbird-message-input-wrapper__message-input {
+    &.sendbird-message-input-form__disabled {
+        display: none;
+    }
+}
+
+.sendbird-modal {
+    z-index: 9999 !important;
+}
+
+.sendbird-avatar-img {
+    &.sendbird-image-renderer {
+        background-size: cover;
+        background-position: top center;
+    }
+
+    height: 40px !important;
+}
+
+.sendbird-message-content {
+    &.incoming {
+        .sendbird-message-content__left {
+            min-width: 50px !important;
+
+            .sendbird-message-content__left__avatar {
+                width: 40px !important;
+                height: 40px !important;
+            }
+        }
+    }
+}
+
+.sendbird-conversation__footer {
+    background-color: $grey-8;
+    padding-top: 10px !important;
+}
+
+.sendbird-message-input--textarea:focus {
+    border-color: var(--brand-color-1) !important;
+}
+
+.sendbird-icon-color--primary [class*='fill'] {
+    fill: var(--brand-color-1) !important;
+}

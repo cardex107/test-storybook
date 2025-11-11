@@ -1,0 +1,22 @@
+/* ==========================================================================
+   #CMS-CONTENT-BLOCK
+   ========================================================================== */
+
+.o-cms-content-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+    .o-hero-block + & {
+        padding: 80px 30px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        padding: 40px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 80px 70px;
+    }
+}

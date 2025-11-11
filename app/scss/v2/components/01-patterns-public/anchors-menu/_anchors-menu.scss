@@ -1,0 +1,57 @@
+/* ==========================================================================
+   #ANCHORS MENU
+   ========================================================================== */
+
+.m-anchors-menu {
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        position: absolute;
+        display: flex;
+        gap: 50px;
+        width: 60%;
+    }
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-md-min) {
+            top: -52px;
+            left: 20%;
+            right: 180px;
+            z-index: 300;
+            justify-content: center;
+            width: 60%;
+        }
+    } @else if $theme== 'b' {
+        @media (min-width: $screen-md-min) {
+            top: 28px;
+            right: 130px;
+            z-index: 299;
+            justify-content: flex-end;
+            width: 60%;
+        }
+    }
+
+    .m-anchors-menu__link {
+        font-size: 1.125rem;
+        color: $brand-color-2;
+
+        @if $theme== 'a' {
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        } @else if $theme== 'b' {
+            @media (min-width: $screen-md-min) {
+                padding: 6px 20px;
+                border-radius: 30px;
+                background-color: $white;
+                transition: background-color 0.1s ease-in-out;
+
+                &:hover {
+                    background-color: color-mix(in srgb, $brand-color-2 10%, $white 90%);
+                }
+            }
+        }
+    }
+}

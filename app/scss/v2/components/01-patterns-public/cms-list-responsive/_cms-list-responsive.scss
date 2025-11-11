@@ -1,0 +1,67 @@
+/* ==========================================================================
+   #CMS-LIST-RESPONSIVE
+   ========================================================================== */
+
+.o-cms-list-responsive {
+    background-color: $grey-8;
+    padding: 50px 20px 120px 20px;
+    text-align: center;
+    margin: 0;
+
+    @media (min-width: $screen-md-min) {
+        background-color: transparent;
+        padding: 80px 40px 40px 40px;
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+.o-cms-list-responsive__title {
+    @include text-style-4;
+}
+
+.o-cms-list-responsive__list {
+    @include paragraph;
+    @include reset-list;
+    margin: 50px 0;
+
+    @media (min-width: $screen-md-min) {
+        margin: 20px 0;
+        padding-left: 40px;
+        list-style-type: disc;
+    }
+
+    li {
+        padding: 10px;
+        border-top: 1px solid $grey-6;
+        &:last-child {
+            border-bottom: 1px solid $grey-6;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 5px;
+            border: 0;
+            &:last-child {
+                border: 0;
+            }
+        }
+    }
+}
+
+.o-cms-list-responsive__text {
+    @include paragraph;
+    margin: 50px 0;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin: 20px 0;
+    }
+}
+
+.o-cms-list-responsive__featured {
+    line-height: 1.6rem;
+}

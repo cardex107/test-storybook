@@ -1,0 +1,66 @@
+/* ==========================================================================
+    #REVIEWS-SWIPER
+    ========================================================================== */
+
+.swiper-container.swiper-container--photoguidance {
+    display: flex;
+    align-items: center;
+    height: auto;
+    min-height: 200px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        .swiper-button-prev {
+            left: 20px;
+        }
+
+        .swiper-button-next {
+            right: 20px;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        .swiper-button-prev {
+            left: 50px;
+        }
+
+        .swiper-button-next {
+            right: 50px;
+        }
+    }
+}
+
+.swiper-container--photoguidance .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 0;
+    padding: 0 15px;
+
+    img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        padding: 0 15px;
+    }
+}
+
+.swiper-container--photoguidance .swiper-arrow {
+    background-color: transparent;
+    border: none;
+
+    path {
+        stroke: $brand-color-2;
+    }
+}

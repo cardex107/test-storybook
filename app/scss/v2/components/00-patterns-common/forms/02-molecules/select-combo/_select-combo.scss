@@ -1,0 +1,39 @@
+/* ==========================================================================
+   #SELECT-COMBO
+   ========================================================================== */
+
+.m-select-combo {
+    display: flex;
+
+    & > :nth-child(2) {
+        width: 75%;
+
+        @media (min-width: $screen-sm-min) {
+            width: 67%;
+        }
+    }
+
+    input {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+
+        &:focus {
+            position: relative;
+            z-index: 100;
+        }
+    }
+}
+
+.m-select-combo__select {
+    margin-right: -1px;
+    width: calc(25% + 10px);
+
+    .a-select__input {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        width: calc(33% + 10px);
+    }
+}

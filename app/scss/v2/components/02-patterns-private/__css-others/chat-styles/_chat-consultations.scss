@@ -1,0 +1,201 @@
+/* ==========================================================================
+   #CHAT
+   ========================================================================== */
+// styles not associated to a styleguide component
+
+.o-chat {
+    padding: 20px 15px 40px;
+    width: 100%;
+    min-width: 320px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 30px 40px 80px;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 50px 40px 100px;
+        max-width: 800px;
+    }
+}
+
+.o-chat__back-button {
+    margin-bottom: 10px;
+}
+
+.o-chat__title {
+    @include text-style-1;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-chat-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    min-height: 500px;
+    max-height: 700px;
+}
+
+.o-chat__window {
+    border: 1px solid $input-border-color;
+    background-color: $grey-8;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+.o-chat__write {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.o-chat__textareaCont {
+    flex: 1 0 80%;
+    position: relative;
+
+    @media (min-width: $screen-sm-min) {
+        flex: 1 0 89%;
+    }
+
+    textarea {
+        height: 60px;
+        padding-right: 60px;
+
+        @media (min-width: $screen-sm-min) {
+            height: auto;
+            padding-right: 10px;
+        }
+    }
+
+    .o-chat__attachedFile {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 3px;
+        margin: 3px;
+        background-color: white;
+        color: $primary-button-background-color;
+        border-top: 1px solid $grey-6;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding: 9px;
+        }
+    }
+}
+
+.o-chat__buttonsArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 0 0 70px;
+    height: 100%;
+    padding-bottom: 5px;
+    z-index: 1;
+    position: relative;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    button {
+        width: 37px;
+        height: 37px;
+        flex-shrink: 0;
+        border: 0;
+        margin: 1px;
+        border-radius: 40px;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+        margin-left: 20px;
+
+        &.attachment {
+            background-color: $white;
+            position: absolute;
+            left: -70px;
+            z-index: 1;
+
+            path {
+                fill: $primary-button-background-color;
+            }
+
+            &:disabled {
+                border: none;
+            }
+
+            @media (min-width: $screen-sm-min) {
+                position: static;
+            }
+        }
+        &.sendChat {
+            background-color: $primary-button-background-color;
+            position: relative;
+
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -10px;
+                margin-top: -12px;
+            }
+            path {
+                fill: $white;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            &:hover,
+            &.is-active {
+                background-color: $primary-button-hover-background-color;
+
+                &.attachment path {
+                    fill: $white;
+                }
+            }
+        }
+
+        &:disabled {
+            border: solid 2px $disabled-button-color;
+            background-color: transparent;
+            color: $disabled-button-color;
+            cursor: not-allowed;
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    border: solid 2px $disabled-button-color;
+                    background-color: transparent;
+                    color: $disabled-button-color;
+                    cursor: not-allowed;
+                }
+            }
+
+            path {
+                fill: $disabled-button-color;
+            }
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 50px;
+            height: 50px;
+            margin: 3px 3px 3px 20px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+/* ==========================================================================
+   #APP-BUTTONS
+   ========================================================================== */
+
+.m-app-buttons__list {
+    @include reset-list;
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: $screen-md-min) {
+        justify-content: flex-start;
+    }
+}
+
+.m-app-buttons__item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.m-app-buttons__item-link {
+    display: block;
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        max-width: 135px;
+    }
+}
+
+.m-app-buttons__item-image {
+    border-style: none;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.m-app-buttons__note {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+    color: $grey-4;
+}
+
+/* Banner modifiers
+   ========================================================================== */
+
+.m-app-buttons__list--centered {
+    @include reset-list;
+    display: flex;
+    justify-content: center;
+}
+
+.m-app-buttons__note--white {
+    color: $white;
+    text-align: center;
+}

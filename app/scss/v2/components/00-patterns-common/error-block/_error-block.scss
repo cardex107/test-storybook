@@ -1,0 +1,72 @@
+/* ==========================================================================
+   #ERROR-BLOCK  ---remove o-text-block styles when component is unified in public/private
+   ========================================================================== */
+
+.o-error-block,
+.o-text-block {
+    padding: 40px 15px 60px;
+    min-height: 600px;
+    background-color: $error-block-background-color;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 90px 40px 100px;
+        min-height: 750px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 90px 85px 100px;
+        min-height: 830px;
+    }
+
+    @if $theme== 'b' {
+        margin: 120px 30px 0 30px;
+        border-top-left-radius: $panels-radius;
+        border-top-right-radius: $panels-radius;
+    }
+}
+
+.o-error-block__title,
+.o-text-block__title {
+    @include text-style-1-white;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 60px;
+    }
+}
+
+.o-error-block__text-wrapper,
+.o-text-block__text-wrapper {
+    margin-bottom: 40px;
+}
+
+.o-error-block__cms-content,
+.o-text-block__cms-content {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.o-error-block__text,
+.o-text-block__text {
+    @include paragraph-white;
+    max-width: 800px;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.o-error-block__button,
+.o-text-block__button {
+    width: 100%;
+    max-width: 400px;
+
+    @media (min-width: $screen-sm-min) {
+        width: auto;
+    }
+}

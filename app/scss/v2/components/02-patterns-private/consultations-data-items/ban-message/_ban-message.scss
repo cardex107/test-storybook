@@ -1,0 +1,26 @@
+/* ==========================================================================
+   #BAN-MESSAGE
+   ========================================================================== */
+
+.o-ban-message {
+    display: flex;
+    flex-direction: column;
+    background-color: $brand-color-1-lighter;
+    padding: 30px;
+    border-radius: 6px;
+
+    ul {
+        margin-top: 0;
+        list-style-image: url(/images/icons/icon--arrow-right.svg);
+    }
+
+    .a-button {
+        margin-top: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-top: 5px;
+            width: auto;
+            align-self: flex-end;
+        }
+    }
+}

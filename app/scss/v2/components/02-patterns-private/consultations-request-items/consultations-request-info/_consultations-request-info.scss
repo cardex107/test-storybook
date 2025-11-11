@@ -1,0 +1,179 @@
+/* ==========================================================================
+   #CONSULTATIONS-REQUEST-INFO
+   ========================================================================== */
+
+.o-request-info {
+    position: relative;
+
+    @if $theme== 'a' {
+        background-color: $white;
+    }
+
+    .o-info-header {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $grey-5;
+    }
+
+    &:has(.o-data-bar__wrapper) {
+        .o-info-header {
+            border-bottom: none;
+        }
+    }
+}
+
+.o-request-info__inner {
+    @include consultation-form;
+}
+
+.o-request-info__dynamic {
+    width: 100%;
+}
+
+.o-request-info__inputs {
+    margin-bottom: 20px;
+}
+
+.o-request-info__subtitle {
+    @include paragraph-bold;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 20px;
+    }
+}
+
+.o-request-info__upload {
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 50px;
+    }
+}
+
+.o-request-info__upload-button {
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 20px;
+    }
+}
+
+.o-request-info__legend {
+    @include text-note;
+    display: block;
+}
+
+.o-request-info__note {
+    @include text-note-grey-4;
+    display: block;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+    }
+}
+
+.o-request-info__button-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+.o-request-info__fields-group {
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-request-info__fields-group--flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.o-request-info__field {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.o-request-info__input {
+    flex-grow: 1;
+    min-width: calc(50% - 10px);
+}
+
+.o-request-info__highlight-text {
+    @include text-style-6;
+    text-transform: uppercase;
+}
+
+.o-request-info__text-bold {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: $brand-weight-2;
+    line-height: 20px;
+}
+
+.o-request-info__text {
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    line-height: 20px;
+}
+
+.o-request-info__data-sharing-check {
+    padding: 20px 10px;
+    border-top: 1px solid $grey-5;
+    border-bottom: 1px solid $grey-5;
+}
+
+/* Video consultation elements style
+   ========================================================================== */
+
+.o-request-info__hour {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: calc(33.33333333333333% - 10px);
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: 5px;
+        margin-bottom: 5px;
+        width: auto;
+    }
+}
+
+.o-request-info__loading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+/* Symptom consultation elements style
+   ========================================================================== */
+
+.o-request-info__iframe-wrapper {
+    margin: 60px auto 40px;
+    text-align: center;
+}
+
+.o-request-info__button-center {
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}

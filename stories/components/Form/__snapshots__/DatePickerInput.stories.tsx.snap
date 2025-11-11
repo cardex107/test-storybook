@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/DatePickerInput Default play-test 1`] = `
+<div class="undefined m-field ">
+  <label class="m-field__label "
+         for="date1"
+  >
+    Date
+  </label>
+  <div class="m-field__wrapper">
+    <input class="a-input flatpickr-input active"
+           id="date1"
+           data-testid="datepicker-input"
+           style="cursor: pointer; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"
+           value
+           type="text"
+           readonly="readonly"
+    >
+  </div>
+</div>
+`;

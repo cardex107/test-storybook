@@ -1,0 +1,100 @@
+/* ==========================================================================
+   #COOKIE-LAYER
+   ========================================================================== */
+
+.o-cookie-layer {
+    @include fade-out(0.3s);
+    will-change: transform;
+    position: fixed;
+    z-index: 300;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    max-width: 1798px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translateX(-50%);
+
+    @media (min-width: $screen-sm-min) {
+        flex-wrap: nowrap;
+        justify-content: center;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    &.is-visible {
+        @include fade-in(0.3s);
+    }
+}
+
+.o-cookie-layer__icon {
+    flex-shrink: 0;
+
+    @media (min-width: $screen-sm-min) {
+        order: 1;
+        margin-right: 20px;
+    }
+}
+
+.o-cookie-layer__text {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 0.937rem;
+    color: $white;
+
+    @media (min-width: $screen-sm-min) {
+        order: 2;
+        width: auto;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+.o-cookie-layer__link {
+    font-weight: $brand-weight-1;
+    text-decoration: underline;
+    color: $white;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.o-cookie-layer__button {
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-size: 0.937rem;
+    font-weight: $brand-weight-2;
+    text-transform: uppercase;
+    background-color: $white;
+    cursor: pointer;
+
+    @media (min-width: $screen-sm-min) {
+        order: 3;
+    }
+}
+
+/* White modifier
+   ========================================================================== */
+
+.o-cookie-layer--white {
+    background-color: $white;
+}
+
+.o-cookie-layer--white__link,
+.o-cookie-layer--white__text {
+    color: #333;
+}
+
+.o-cookie-layer--white__button {
+    background-color: #333;
+    color: $white;
+}

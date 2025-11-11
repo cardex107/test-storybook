@@ -1,0 +1,67 @@
+/* ==========================================================================
+   #INPUT
+   ========================================================================== */
+
+/**
+  * Error styles extended in `_field.scss`.
+  */
+
+/**
+  * 1. Styles needed to override IOS styles
+  * 2. Remove IE and Edge x clear field button
+  */
+
+.a-input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    color: $text-color;
+    border-radius: $input-radius;
+    border: 1px solid $input-border-color;
+    background-color: $white;
+    outline: none;
+    appearance: none; /* [1] */
+    transition: box-shadow 0.3s ease-in-out;
+
+    &::-ms-clear {
+        display: none; /* [2] */
+    }
+
+    &:focus,
+    &:active {
+        border: 1px solid $input-focus-border-color;
+    }
+
+    &[disabled],
+    &[readonly],
+    &.a-input--disabled {
+        border: 1px solid $input-border-color;
+        color: $input-disabled-color;
+        background-color: $input-disabled-background-color;
+        opacity: 1;
+        cursor: not-allowed;
+    }
+
+    &::placeholder {
+        color: $input-placeholder-color;
+    }
+}
+
+.a-input__icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Input Datepicker: Hide readonly state
+   ========================================================================== */
+
+.a-input.js-datepicker {
+    color: $black;
+    background-color: $white;
+    cursor: pointer;
+}

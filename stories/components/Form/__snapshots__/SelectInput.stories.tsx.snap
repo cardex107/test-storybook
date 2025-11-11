@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/SelectInput Default smoke-test 1`] = `
+<div class="undefined m-field ">
+  <label class="m-field__label "
+         for="option1"
+  >
+    What's your preference
+  </label>
+  <div class="m-field__wrapper">
+    <div class="a-select">
+      <select class="a-select__input "
+              id="option1"
+              name="option"
+      >
+        <option value>
+          -- Select an option --
+        </option>
+        <option value="1">
+          Option 1
+        </option>
+        <option value="2">
+          Option 2
+        </option>
+        <option value="3">
+          Option 3
+        </option>
+        <option value="4">
+          Option 4
+        </option>
+      </select>
+      <svg width="14"
+           height="14"
+           viewbox="0 0 14 14"
+           class="a-select__arrow svg-fill-grey undefined"
+      >
+        <path fill="#00008F"
+              fill-rule="nonzero"
+              d="M3.175 4L7 7.712 10.825 4 12 5.148 7 10 2 5.148z"
+        >
+        </path>
+      </svg>
+    </div>
+  </div>
+</div>
+`;

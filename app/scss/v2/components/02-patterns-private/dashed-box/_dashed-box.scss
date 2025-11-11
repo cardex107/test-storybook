@@ -1,0 +1,45 @@
+/* ==========================================================================
+   #DASHED-BOX
+   ========================================================================== */
+
+.m-dashed-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: dashed 1px $grey-5;
+    padding: 15px;
+    background-color: $grey-9;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 30px 25px 60px;
+    }
+}
+
+.m-dashed-box__text-wrapper {
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+
+    .a-checkbox__label {
+        font-size: 1rem;
+    }
+}
+
+.m-dashed-box__title {
+    @include paragraph-bold;
+    display: block;
+}
+
+.m-dashed-box__subtitle {
+    @include text-note-grey-4;
+}
+
+.m-dashed-box__button {
+    min-width: auto;
+}

@@ -1,0 +1,52 @@
+/* ==========================================================================
+   #PAGINATOR
+   ========================================================================== */
+
+.m-paginator {
+    display: flex;
+    align-items: center;
+}
+
+.m-paginator__counter {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.m-paginator__number {
+    @include text-note-grey-4;
+    margin-right: 20px;
+}
+
+.m-paginator__button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid $grey-5;
+    border-radius: 30px;
+    color: $brand-color-1;
+    background-color: $white;
+    transition: box-shadow 0.1s linear;
+    cursor: pointer;
+
+    &.is-disabled {
+        opacity: 0.8;
+        color: $grey-6;
+        cursor: not-allowed;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            box-shadow: 0 0 10px $grey-6;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #programme
+   ========================================================================== */
+
+.o-programme__title {
+    @include text-style-6;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.o-programme__week {
+    &:not(:last-of-type) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-programme__day {
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.o-programme__button {
+    @media (min-width: $screen-sm-min) {
+        margin-top: 20px;
+    }
+}

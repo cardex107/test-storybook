@@ -1,0 +1,245 @@
+/* ==========================================================================
+   #FIELD
+   ========================================================================== */
+
+.m-field {
+    position: relative;
+
+    /**
+      * Validation states.
+      *
+      * These styles extend the following patterns:
+      * - `_input.scss`
+      * - `_select.scss`
+      * - `_textarea.scss`
+      * - `_checkbox.scss`
+      */
+
+    &.has-errors {
+        .m-field__error-message {
+            display: block;
+        }
+
+        .a-input,
+        .a-select__input,
+        .a-textarea {
+            border-color: $input-error-border-color;
+            background-color: rgba($input-error-background-color, 0.1);
+            color: $input-error-color;
+
+            &:focus {
+                border-color: $input-error-border-color;
+            }
+        }
+
+        .a-select__arrow {
+            background-color: transparent;
+        }
+
+        .m-field__wrapper--validation {
+            &::after {
+                background-image: url('/images/forms/form-error.svg');
+                height: 14px;
+                width: 14px;
+            }
+        }
+
+        /**
+          * Apply checkbox error styles only when the input
+          * is not checked.
+          */
+
+        .a-checkbox__input {
+            &:not(:checked) + .a-checkbox__label {
+                &::before {
+                    border: 1px solid $red;
+                }
+            }
+        }
+    }
+
+    &.is-read-only {
+        .a-radio-button-toggle {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+    }
+}
+
+.m-field__label {
+    @include label-text;
+    color: $grey-2;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/**
+  * Extra margin bottom modifier. It's used in radio fields
+  */
+
+.m-field__label--extra-margin-bottom {
+    margin-bottom: 10px;
+}
+
+.m-field__link {
+    @include text-link-small-primary;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+
+.m-field__description {
+    @include label-text;
+    margin-bottom: 20px;
+}
+
+/* Wrapper
+   ========================================================================== */
+
+.m-field__wrapper {
+    position: relative;
+}
+
+.m-field__calendar-wrapper {
+    position: relative;
+    display: flex;
+    min-height: 310px;
+}
+
+.m-field__wrapper--validation {
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+}
+
+.m-field__wrapper-inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: -10px;
+
+    div {
+        margin-bottom: 10px;
+    }
+}
+
+.m-field__wrapper-inner--col {
+    flex-direction: column;
+}
+
+.m-field__wrapper--date {
+    display: flex;
+    align-items: center;
+}
+
+.m-field__wrapper-checkbox-button {
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.m-field__additional-fields {
+    display: none;
+    margin-top: 10px;
+    margin-left: 40px;
+
+    .m-field__label {
+        margin-top: 10px;
+    }
+
+    &.is-visible {
+        display: block;
+    }
+}
+
+/* Icon
+   ========================================================================== */
+
+.m-field__icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.m-field__icon--password {
+    right: 0;
+    display: block;
+    height: 40px;
+    width: 50px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* Field question
+   ========================================================================== */
+
+.m-field__question {
+    @include text-note;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.m-field__answers {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.m-field__question-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .m-field__question-label {
+        max-width: 438px;
+    }
+
+    .m-field__question-options {
+        min-width: 145px;
+        padding-left: 1rem;
+        justify-content: end;
+        display: flex;
+        flex: 1;
+        @media (min-width: $screen-sm-min) {
+            min-width: 165px;
+        }
+    }
+}
+
+.m-field__question-input-wrapper {
+    margin-top: 5px;
+
+    .a-textarea {
+        margin-top: 5px;
+    }
+}
+
+/* Error message
+   ========================================================================== */
+
+.m-field__error-message {
+    @include error-message-text;
+    display: none;
+    margin-top: 5px;
+}
+
+/* Note
+   ========================================================================== */
+
+.m-field__note {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.937rem;
+    font-weight: $brand-weight-1;
+    color: $grey-3;
+}

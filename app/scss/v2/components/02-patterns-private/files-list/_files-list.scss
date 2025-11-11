@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #FILES LIST
+   ========================================================================== */
+
+.m-files-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0 30px 0;
+}
+
+.m-files-list___wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

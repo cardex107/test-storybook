@@ -1,0 +1,133 @@
+/* ==========================================================================
+   #LOGIN-BLOCK
+   ========================================================================== */
+
+.o-login-block {
+    display: flex;
+    flex-grow: 1;
+
+    .iframe & {
+        flex-grow: unset;
+    }
+}
+
+.o-login-block__login-wrapper {
+    padding: 20px 30px 40px;
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        flex-shrink: 0;
+        padding: 30px 40px 80px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 50px 40px 100px;
+        width: auto;
+    }
+
+    @if $theme== 'a' {
+        background-color: $white;
+    } @else if $theme== 'b' {
+        background-color: $site-background-color;
+        margin-top: 90px;
+    }
+}
+
+.o-login-block__login-inner {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 auto;
+        width: 330px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 340px;
+    }
+}
+
+.o-login-block__title {
+    @include text-style-2-b;
+    margin: 20px 0;
+}
+
+.o-login-block__text-wrapper {
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-login-block__text {
+    @include paragraph;
+
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.o-login-block__label {
+    @include label-text;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.o-login-block__form {
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 50px;
+    }
+}
+
+.o-login-block__input-wrapper {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.o-login-block__input {
+    &:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.o-login-block__image {
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        display: block;
+        width: calc(100% - 420px);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @if $theme== 'b' {
+        @include mask-bottom;
+        margin-bottom: 50px;
+        min-height: 700px;
+    }
+}
+
+.o-login-block__note {
+    @include text-note-grey-4;
+    margin-bottom: 10px !important;
+    margin-right: auto;
+}
+
+.o-login-block__error {
+    color: $red;
+}

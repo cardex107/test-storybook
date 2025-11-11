@@ -1,0 +1,42 @@
+/* ==========================================================================
+   #PROGRAMME DAY
+   ========================================================================== */
+
+.m-programme-day__date {
+    @include label-text;
+    color: $grey-4;
+    display: block;
+    margin-bottom: 4px;
+    flex-shrink: 0;
+}
+
+.m-programme-day__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 30px;
+    border-bottom: 1px solid $brand-color-1;
+    margin: 40px 0 10px 0;
+}
+
+.m-programme-day__state {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.m-programme-day__state {
+    @include text-note-grey-4;
+}
+
+.m-programme-day__state-icon {
+    margin-right: 5px;
+}
+
+.m-programme-day__button {
+    margin-top: 10px;
+
+    &:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}

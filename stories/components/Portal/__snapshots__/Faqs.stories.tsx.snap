@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/Faqs Default play-test 1`] = `
+<div style="width: 400px;">
+  <div class="s-cms-content--padded">
+    <div class="h-margin-bottom-30">
+      <h2 class="m-faq-section">
+        section 1
+      </h2>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action faq-open">
+          section 1 question 1
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content faq-open"
+             style="max-height: 19px;"
+        >
+          <div class="s-cms-content">
+            <span>
+              section 1 answer 1
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action faq-open">
+          section 1 question 2
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content faq-open"
+             style="max-height: 19px;"
+        >
+          <div class="s-cms-content">
+            <span>
+              section 1 answer 2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 1 question 3
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 1 answer 3
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-margin-bottom-30">
+      <h2 class="m-faq-section">
+        section 2
+      </h2>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 2 question 1
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 2 answer 1
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 2 question 2
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 2 answer 2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 2 question 3
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 2 answer 3
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-margin-bottom-30">
+      <h2 class="m-faq-section">
+        section 3
+      </h2>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 3 question 1
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 3 answer 1
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 3 question 2
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 3 answer 2
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="m-faq js-collapsible-faq">
+        <div class="m-question js-collapsible-action">
+          section 3 question 3
+          <span class="a-dropdown__arrow">
+          </span>
+        </div>
+        <div class="m-answer js-collapsible-content">
+          <div class="s-cms-content">
+            <span>
+              section 3 answer 3
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

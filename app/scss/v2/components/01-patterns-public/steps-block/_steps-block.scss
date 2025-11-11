@@ -1,0 +1,171 @@
+/* ==========================================================================
+   #STEPS-BLOCK
+   ========================================================================== */
+
+.o-steps-block {
+    @if $theme== 'a' {
+        @media (min-width: $screen-sm-min) {
+            padding: 40px;
+
+            .o-text-image-block + & {
+                padding: 0 40px 40px 40px;
+
+                .o-steps-block__inner {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                }
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 70px;
+
+            .o-text-image-block + & {
+                padding: 0 70px 70px 70px;
+            }
+        }
+
+        &.o-steps-block--inverted {
+            background-color: $brand-color-2;
+
+            .o-steps-block__inner {
+                background-color: transparent;
+            }
+
+            .m-steps-list__number {
+                color: $brand-color-2;
+                background-color: $white;
+            }
+            .m-steps-list__item:not(:last-child):before {
+                background-color: $white;
+            }
+            p,
+            h2,
+            li span {
+                color: $white;
+            }
+
+            @media (min-width: $screen-md-min) {
+                padding: 10px;
+            }
+        }
+
+        .m-download-buttons-cont {
+            justify-content: flex-start;
+        }
+    } @else if $theme== 'b' {
+        padding: 30px;
+        margin-bottom: 50px;
+
+        .m-download-buttons-cont {
+            justify-content: center;
+        }
+
+        @media (min-width: $screen-md-min) {
+            .m-download-buttons-cont {
+                justify-content: flex-start;
+            }
+        }
+    }
+}
+
+.o-steps-block__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @if $theme== 'a' {
+        margin: 0 auto;
+        padding: 80px 30px;
+        background-color: $white;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 80px 40px;
+            border-radius: $panels-radius;
+        }
+
+        @media (min-width: $screen-md-min) {
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 80px;
+        }
+    } @else if $theme== 'b' {
+        gap: 50px;
+    }
+}
+
+.o-steps-block__text-panel {
+    @if $theme== 'a' {
+        max-width: 1200px;
+        margin-bottom: 45px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: 60px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            display: flex;
+            justify-content: flex-end;
+            width: 46%;
+            margin-bottom: 0;
+        }
+    } @else if $theme== 'b' {
+        text-wrap: balance;
+    }
+}
+
+.o-steps-block__text-panel-wrapper {
+    width: 100%;
+    text-align: center;
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-md-min) {
+            margin-right: 37px;
+            text-align: right;
+            max-width: 350px;
+        }
+    } @else if $theme== 'b' {
+        @media (min-width: $screen-sm-min) {
+            width: 70%;
+            margin: 0 auto;
+        }
+        @media (min-width: $screen-md-min) {
+            max-width: 700px;
+        }
+    }
+
+    .o-steps-block__title {
+        @include text-style-3;
+        color: $title-color;
+        margin-bottom: 10px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: 10px;
+        }
+
+        @if $theme== 'b' {
+            font-size: 2.1rem;
+
+            @media (min-width: $screen-sm-min) {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    p {
+        @include paragraph;
+    }
+}
+
+.o-steps-block__steps-panel {
+    @if $theme== 'a' {
+        @media (min-width: $screen-md-min) {
+            width: 54%;
+        }
+    } @else if $theme== 'b' {
+        text-wrap: balance;
+        @media (min-width: $screen-md-min) {
+            text-wrap: unset;
+        }
+    }
+}

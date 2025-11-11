@@ -1,0 +1,41 @@
+/* ==========================================================================
+   #COLUMN LIST
+   ========================================================================== */
+
+.o-column-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 40px 60px 40px;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 70px 40px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 70px;
+    }
+
+    .o-column-list__item {
+        @include text-style-3;
+        color: $title-color;
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+
+        @media (min-width: $screen-sm-min) {
+            justify-content: center;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 50%;
+        }
+
+        svg {
+            flex-shrink: 0;
+            margin: 5px 5px 0 0;
+        }
+    }
+}

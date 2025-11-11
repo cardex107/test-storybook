@@ -1,0 +1,144 @@
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+.o-profile-user {
+    @include max-width;
+    @include padding-content;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 50px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: 100px;
+    }
+
+    @if $theme== 'a' {
+        margin-top: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-top: 30px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 50px;
+        }
+    } @else if $theme== 'b' {
+        margin-top: 110px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-top: 100px;
+        }
+    }
+}
+
+.o-profile-user__card {
+    margin-bottom: 10px;
+}
+
+.o-profile-user__form {
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-profile-user__field {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.o-profile-user__additional-fields {
+    display: none;
+    margin-top: 10px;
+    margin-left: 40px;
+
+    &.is-visible {
+        display: block;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+}
+
+.o-profile-user__paragraph {
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-profile-user__note {
+    @include text-note-grey-4;
+    display: block;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+    }
+}
+
+.o-profile-user__footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+
+/* ==========================================================================
+
+   Beneficiaries
+   ========================================================================== */
+
+.o-profile-user__block {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+.o-profile-user__form-mail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.o-profile-user__form-mail-input {
+    width: 100%;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+.o-profile-user__form-mail-button {
+    flex-shrink: 0;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 30px;
+    }
+}
+
+.o-profile-user__subtitle {
+    @include text-style-6;
+    display: block;
+    margin-bottom: 15px;
+}

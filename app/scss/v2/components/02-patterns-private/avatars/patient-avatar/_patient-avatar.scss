@@ -1,0 +1,78 @@
+/* ==========================================================================
+   #PATIENT-AVATAR
+   ========================================================================== */
+
+.m-patient-avatar {
+    display: flex;
+    align-items: center;
+}
+
+.m-patient-avatar__icon {
+    display: none;
+
+    @media (min-width: $screen-sm-min) {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-right: 30px;
+    }
+}
+
+.m-patient-avatar__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.m-patient-avatar__name {
+    @include text-style-6;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 2px;
+
+    .m-patient-avatar__status {
+        @include paragraph;
+        color: $grey-3;
+        text-transform: none;
+        margin-left: 10px;
+    }
+}
+
+.m-patient-avatar__name--dependent {
+    @include paragraph-bold;
+}
+
+.m-patient-avatar__name--beneficiary {
+    @include paragraph-bold;
+    line-height: 1;
+}
+
+.m-patient-avatar__small-text {
+    @include text-note-grey-3;
+    @include truncate-text-ellipsis;
+    max-width: 200px;
+
+    @media (min-width: $screen-sm-min) {
+        max-width: 560px;
+    }
+}
+
+.m-patient-avatar__phones {
+    @include paragraph;
+    display: inline-block;
+    margin: 6px 10px 6px 0;
+
+    svg {
+        margin-bottom: -3px;
+    }
+}
+
+.m-patient-avatar__small-text--dark {
+    color: $grey-1;
+}
+
+.m-patient-avatar__small-text--uppercase {
+    text-transform: uppercase;
+}

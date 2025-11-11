@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/BannerlList Default smoke-test 1`] = `
+<div class="o-banner-list">
+  <img src="/stories/assets/how-does-it-work.jpeg"
+       class="o-banner-list__image"
+       alt
+  >
+  <div class="o-banner-list__text-wrapper">
+    <h3 class="o-banner-list__title">
+      How does it work?
+    </h3>
+    <ul class="o-banner-list__list">
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Request an Expert Medical Opinion.
+      </li>
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Intake interview and collection of medical files.
+      </li>
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Evaluation of the medical files.
+      </li>
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Selection of the best specialist.
+      </li>
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Analysis of the case.
+      </li>
+      <li class="o-banner-list__list-item">
+        <span class="o-banner-list__list-icon">
+        </span>
+        Sharing the final report.
+      </li>
+    </ul>
+  </div>
+</div>
+`;

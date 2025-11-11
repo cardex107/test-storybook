@@ -1,0 +1,51 @@
+/* ==========================================================================
+   #CONSULTATIONS-GROUP
+   ========================================================================== */
+
+.m-consultations-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
+
+.m-consultations-group__title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.m-consultations-group__title {
+    @include paragraph-bold;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    gap: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-basis: 50%;
+    }
+}
+
+.m-consultations-group__icon {
+    width: 25px;
+    height: 25px;
+
+    @media (min-width: $screen-sm-min) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.m-consultations-group__paginator {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        width: auto;
+    }
+}

@@ -1,0 +1,474 @@
+/* ==========================================================================
+   #MIXINS
+   ========================================================================== */
+
+/**
+  * Reset default ul styles
+  */
+
+@mixin reset-list {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/**
+  * Truncate text with ellipsis
+  */
+
+@mixin truncate-text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/**
+  * Animations
+  */
+
+@mixin fade-out($transition-duration) {
+    visibility: hidden;
+    opacity: 0;
+    transition:
+        visibility 0s linear $transition-duration,
+        opacity $transition-duration linear;
+}
+
+@mixin fade-in($transition-duration) {
+    visibility: visible;
+    opacity: 1;
+    transition:
+        visibility 0s linear,
+        opacity $transition-duration linear;
+}
+@mixin dropAnimation {
+    animation: dropDown 200ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes dropDown {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+/**
+  * Reset button
+  */
+
+@mixin reset-button {
+    padding: 0;
+    min-width: 0;
+    min-height: 0;
+    width: auto;
+    border: none;
+    background-color: transparent;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            background-color: transparent;
+        }
+    }
+}
+
+/**
+  * Resize icon
+  */
+
+@mixin resize-icon($width, $height) {
+    width: $width;
+    height: $height;
+    background-size: contain;
+}
+
+@mixin close-icon {
+    @include reset-button;
+    position: relative;
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    z-index: 5;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        display: block;
+        width: 25px;
+        height: 2px;
+        border-radius: 2px;
+        transition: all 0.2s ease 0s;
+        z-index: -1;
+    }
+
+    &:after {
+        transform: rotate(45deg);
+    }
+
+    &:before {
+        transform: rotate(-45deg);
+    }
+}
+
+/**
+  * Max-width & center
+  */
+@mixin width-align--normal {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    @media (min-width: $screen-md-min) {
+        max-width: 930px;
+    }
+}
+
+@mixin max-width {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+    }
+}
+
+@mixin max-width-reduced {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 500px;
+    }
+}
+
+@mixin padding-content {
+    @if $theme== 'a' {
+        padding: 0 15px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 0 40px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 0 65px;
+        }
+    } @else if $theme== 'b' {
+        padding: 0 30px;
+    }
+}
+
+/**
+  * Backdrop
+  */
+
+@mixin backdrop {
+    display: block;
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+
+    @media (min-width: $screen-sm-min) {
+        top: 71px;
+    }
+}
+
+/**
+  * Buttons icons
+  */
+
+@mixin button-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    -webkit-mask-position-y: center;
+    mask-repeat: no-repeat;
+}
+
+/**
+  * Backgrounds
+  */
+
+@mixin background-hero {
+    height: clamp(300px, 50vh, 600px);
+    background-size: cover;
+    background-position: center center;
+
+    @media (min-width: $screen-sm-min) {
+        height: clamp(300px, 60vh, 600px);
+    }
+
+    @media (min-width: $screen-md-min) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &.o-hero-block__background-right {
+        background-position: center right;
+    }
+
+    &.o-hero-block__background-top-right {
+        background-position: top right;
+    }
+}
+
+@mixin background--service {
+    height: 300px;
+
+    @media (min-width: $screen-sm-min) {
+        height: 400px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// THEME B
+
+@mixin mask-bottom {
+    mask-image: url("data:image/svg+xml,%3Csvg width='1280' height='668' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M-1.47829e-05 562L-0.000152588 0.5H1282L1282 616.443C1276.66 624.65 1166.91 645.85 770.601 664.992C374.292 684.134 91.7382 604.306 -1.47829e-05 562Z' fill='white'/%3E%3C/svg%3E ");
+    mask-size: auto 100%;
+
+    @container hero (min-width: 500px) {
+        mask-size: 100vw 100%;
+    }
+}
+@mixin mask-complete {
+    mask-image: url("data:image/svg+xml,%3Csvg width='1282' height='590' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M1282 103C1190.26 60.6937 908.17 0.00817655 511.399 0.00817238C170.5 0.00817309 3.43959e-05 48.5565 3.43959e-05 48.5565L0 336.5V422.581V487C91.7382 529.306 373.83 589.992 770.601 589.992C1111.5 589.992 1282 541.444 1282 541.444V442V355.919L1282 103Z' fill='white'/%3E%3C/svg%3E ");
+    mask-size: 100% 100%;
+}
+@mixin mask-lateral-1 {
+    mask-image: url("data:image/svg+xml,%3Csvg width='610' height='440' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M609.633 0L0 0V440H608.064C574.156 374.577 555 300.276 555 221.5C555 141.518 574.747 66.148 609.633 0Z' fill='white'/%3E%3C/svg%3E ");
+    mask-size: 100% 100%;
+}
+@mixin mask-lateral-2 {
+    mask-image: url("data:image/svg+xml,%3Csvg width='517' height='321' fill='none' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' clip-rule='evenodd' d='M488.01 321C506.586 282.601 517 239.517 517 194C517 119.535 489.126 51.5799 443.243 0L6.75744 0C4.45937 2.58338 2.20648 5.20783 0 7.87212V321H488.01Z' fill='white'/%3E%3C/svg%3E ");
+    mask-size: 100% 100%;
+}
+@mixin text-over-image {
+    color: $white;
+    text-shadow: 0 0 28px rgba(0, 0, 0, 0.3);
+}
+@mixin overlay {
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    }
+}
+@mixin text-link-animation {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: $brand-color-1;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+}
+@mixin scrollbar-styled {
+    &::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $brand-color-1-light;
+        border-radius: 30px;
+    }
+
+    .a-radio-button-toggle--small .a-radio-button-toggle__label {
+        min-width: 55px;
+        min-height: 30px;
+    }
+}
+@mixin contact-icon {
+    padding-left: 27px;
+
+    &::before {
+        position: absolute;
+        display: block;
+        content: '';
+        mask-repeat: no-repeat;
+        mask-position: left center;
+        left: 0;
+        height: 20px;
+        width: 20px;
+
+        .o-top-bar & {
+            background-color: $white;
+        }
+
+        .m-nav-mobile & {
+            background-color: $brand-color-2;
+        }
+    }
+
+    @media (min-width: $screen-sm-min) {
+        padding-left: 35px;
+
+        &::before {
+            left: 12px;
+        }
+    }
+
+    .o-top-bar &:before {
+        background-color: $white;
+    }
+
+    .m-nav-mobile &:before {
+        background-color: $brand-color-2;
+    }
+}
+@mixin menu-top-position {
+    .o-header--pinned {
+        .o-header__icon-menu,
+        .o-header__side-menus {
+            top: 20px !important;
+        }
+    }
+
+    .o-header__icon-menu,
+    .o-header__side-menus {
+        top: 20px;
+    }
+
+    .o-header__icon-menu {
+        transition: top 0.1s ease-in-out;
+    }
+
+    &:has(.o-top-bar) {
+        .o-header__icon-menu,
+        .o-header__side-menus {
+            top: 60px;
+        }
+    }
+
+    &:has(.o-top-bar-alert) {
+        .o-header__icon-menu,
+        .o-header__side-menus {
+            top: 100px;
+        }
+    }
+}
+
+/**
+  * Consultations layout
+  */
+
+@mixin consultation-container {
+    @media (min-width: $screen-md-min) {
+        display: grid;
+        min-height: 80vh;
+
+        .iframe & {
+            min-height: auto;
+        }
+
+        @if $theme== 'a' {
+            grid-template-columns: 1fr 1fr;
+        } @else if $theme== 'b' {
+            grid-template-columns: 460px 1fr;
+        }
+    }
+}
+
+@mixin consultation-form-wrapper {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+
+    .iframe & {
+        height: auto;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 100%;
+    }
+
+    @if $theme== 'a' {
+        padding: 20px 15px 50px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 40px 40px 80px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 50px 40px 100px;
+        }
+    } @else if $theme== 'b' {
+        padding: 20px 30px 50px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 40px 40px 80px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 50px 40px 50px;
+
+            &.o-request-info,
+            &.o-consultation-data-info {
+                border-left: 1px solid $grey-6;
+            }
+        }
+    }
+}
+
+@mixin consultation-form {
+    width: 100%;
+    margin: 0 auto;
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-sm-min) {
+            width: 85%;
+        }
+        @media (min-width: $screen-md-min) {
+            width: 100%;
+        }
+    } @else if $theme== 'b' {
+        @media (min-width: $screen-md-min) {
+            width: 70%;
+            max-width: 800px;
+        }
+    }
+}

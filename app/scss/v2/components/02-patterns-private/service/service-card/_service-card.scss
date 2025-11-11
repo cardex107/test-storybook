@@ -1,0 +1,126 @@
+/* ==========================================================================
+   #SERVICE-CARD
+   ========================================================================== */
+
+.m-service-card {
+    display: block;
+    background-color: $service-card-background-color;
+    border-radius: $panels-radius-low;
+    overflow: hidden;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            background-color: $service-card-background-color-hover;
+        }
+    }
+
+    &:has(.m-service-card__options) {
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                background-color: $service-card-background-color;
+            }
+        }
+    }
+
+    &.is-disabled {
+        background-color: $grey-6;
+    }
+}
+
+.m-service-card__wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 25px 20px;
+    }
+}
+
+.m-service-card__icon {
+    flex-shrink: 0;
+    margin: 5px 15px 0 0;
+    width: 20px;
+    height: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        width: 24px;
+        height: 24px;
+        margin: 0 15px 0 0;
+    }
+}
+
+.m-service-card__text-wrapper {
+    @media (min-width: $screen-sm-min) {
+        margin-top: -5px;
+    }
+}
+
+.m-service-card__title {
+    @include text-style-3-white;
+    display: block;
+    font-weight: $brand-weight-1;
+    margin-bottom: 5px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 10px;
+    }
+}
+
+.m-service-card__text {
+    @include text-note-white;
+}
+
+.m-service-card__options {
+    display: none;
+
+    &.m-service-card__options--show {
+        display: flex;
+        border-top: 1px solid $white;
+    }
+}
+
+.m-service-card__option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    color: $white;
+
+    &:first-child {
+        border-right: 1px solid $white;
+    }
+}
+
+.m-service-card__scheduled,
+.m-service-card__asap {
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            background-color: $service-card-background-color-hover;
+        }
+    }
+
+    &:before {
+        content: '';
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        mask-repeat: no-repeat;
+        background-color: $white;
+    }
+}
+
+.m-service-card__scheduled {
+    &:before {
+        margin-top: 4px;
+        mask-image: url('#{$icons-path}/icon--clock.svg');
+    }
+}
+
+.m-service-card__asap {
+    &:before {
+        margin-top: 2px;
+        mask-image: url('#{$icons-path}/icon--bolt-outlined.svg');
+    }
+}

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #VERIFICATION-TAG
+   ========================================================================== */
+
+.m-verification-status {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-verification-status__text {
+    margin-left: 5px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $red;
+    text-transform: uppercase;
+}
+
+.m-verification-status__icon--unverified {
+    path {
+        fill: $red;
+    }
+}
+
+.m-verification-status__icon--verified {
+    path {
+        fill: $green;
+    }
+}
+
+.m-verification-status__text--verified {
+    color: $green;
+}

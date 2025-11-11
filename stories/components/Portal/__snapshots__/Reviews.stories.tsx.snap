@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/Reviews Default smoke-test 1`] = `
+<div class="o-reviews">
+  <h2 class="o-reviews__title">
+    Son muchos los que ya lo han conseguido
+  </h2>
+  <div class="o-reviews__cont">
+    <div class="o-reviews__review">
+      <img src="/assets/images/vfz/website/review-1.png"
+           class="o-reviews__image"
+           alt
+      >
+      <div class="o-reviews__text">
+        <div class=" s-cms-content">
+          Lorem et non anim laboris eu velit.
+          <br>
+          M. C.
+        </div>
+      </div>
+    </div>
+    <div class="o-reviews__review">
+      <img src="/assets/images/vfz/website/review-2.png"
+           class="o-reviews__image"
+           alt
+      >
+      <div class="o-reviews__text">
+        <div class=" s-cms-content">
+          Sunt incididunt adipisicing occaecat id aliquip non veniam dolor nisi.
+          <br>
+          C. R.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

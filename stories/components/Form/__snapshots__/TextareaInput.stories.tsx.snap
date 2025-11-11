@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/TextareaInput Default smoke-test 1`] = `
+<div class="undefined m-field "
+     style="display: block;"
+>
+  <label class="undefined m-field__label"
+         for="text1"
+         style="display: block;"
+  >
+    Reason
+  </label>
+  <div class="m-field__wrapper">
+    <textarea class="a-textarea"
+              id="text1"
+              rows="3"
+              cols="80"
+              name="text"
+    >
+    </textarea>
+  </div>
+</div>
+`;

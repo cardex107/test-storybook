@@ -1,0 +1,130 @@
+/* ==========================================================================
+   #THANKS-LAYER
+   ========================================================================== */
+
+.m-thanks-layer {
+    @include fade-out(0.3s);
+    padding: 30px 15px 40px;
+    width: 100%;
+    height: 100%;
+    background-color: $white;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 40px 40px 80px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 50px 40px 100px;
+    }
+
+    &.is-visible {
+        @include fade-in(0.3s);
+    }
+}
+
+.m-thanks-layer__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+.m-thanks-layer__text-wrapper {
+    width: 100%;
+}
+
+.m-thanks-layer__icon {
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+.m-thanks-layer__title {
+    @include text-style-3;
+    color: $text-color;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.m-thanks-layer__text {
+    @include paragraph;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.m-thanks-layer__text-bold {
+    @include paragraph-bold;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.m-thanks-layer__text-block {
+    width: 100%;
+
+    p {
+        @include paragraph;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    ul {
+        @include paragraph;
+
+        &:not(:last-of-type) {
+            margin-bottom: 10px;
+        }
+
+        li {
+            @include paragraph;
+            padding-left: 10px;
+
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.m-thanks-layer__text-block--lines {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 1px solid $grey-6;
+    border-bottom: 1px solid $grey-6;
+    text-align: left;
+}
+
+.m-thanks-layer__button {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        &:not(:last-child) {
+            margin-right: 20px;
+            margin-bottom: 0;
+        }
+    }
+}

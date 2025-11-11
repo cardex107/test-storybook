@@ -1,0 +1,77 @@
+/* ==========================================================================
+    #REVIEWS-SWIPER
+    ========================================================================== */
+
+.swiper-container.swiper-container--reviews {
+    display: flex;
+    align-items: center;
+    height: auto;
+    min-height: 300px;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.swiper-container--reviews .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+    padding: 80px 60px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 60px 120px;
+    }
+
+    .swiper-container--reviews__quote {
+        @include text-style-3;
+        color: $brand-color-2;
+        max-width: 1200px;
+        align-self: center;
+        text-wrap: balance;
+    }
+
+    .swiper-container--reviews__name {
+        @include paragraph-bold;
+        color: $brand-color-2;
+
+        &:after {
+            content: '-';
+        }
+    }
+
+    .swiper-container--reviews__charge {
+        @include paragraph;
+        color: $brand-color-2;
+    }
+}
+
+.swiper-container--reviews .swiper-arrow {
+    background-color: transparent;
+    border: none;
+
+    @media (min-width: $screen-sm-min) {
+        &.swiper-button-prev {
+            left: 20px;
+        }
+
+        &.swiper-button-next {
+            right: 20px;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        &.swiper-button-prev {
+            left: 50px;
+        }
+
+        &.swiper-button-next {
+            right: 50px;
+        }
+    }
+
+    path {
+        stroke: $brand-color-2;
+    }
+}

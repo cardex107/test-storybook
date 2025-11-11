@@ -1,0 +1,10 @@
+/* ==========================================================================
+   #FAQ SECTION
+   ========================================================================== */
+
+.m-faq-section {
+    @include text-style-6;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $faqs-section-color;
+}

@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/SwiperCombo Default smoke-test 1`] = `
+<div style="width: 95vw;">
+  <div class="o-swiper-combo">
+    <div class="o-swiper-combo__block">
+      <div class="o-swiper-combo__block__image"
+           style="background-image: url(&quot;/assets/images/vfz/website/1300x634_article_healthy-portions.jpg&quot;);"
+      >
+      </div>
+      <div class="o-swiper-combo__block__text-panel">
+        <h2>
+          The Title
+        </h2>
+        <p>
+          Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+        </p>
+      </div>
+    </div>
+    <div class="o-swiper-combo__swiper">
+      <div class="swiper-container swiper-app swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-active"
+               style="width: 1216px;"
+               data-swiper-slide-index="0"
+          >
+            <div class="o-swiper-content-app">
+              <div class="o-swiper-content-app__image"
+                   style="background-image: url(&quot;/assets/images/vfz/website/screenshots/app-dietitian-1.jpg&quot;);"
+              >
+                <img class="a-mobile-notch"
+                     src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                     alt="mobile screen"
+                >
+                <div class="o-swiper-content-app__text">
+                  <strong>
+                    Text 1
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-next"
+               style="width: 1216px;"
+               data-swiper-slide-index="1"
+          >
+            <div class="o-swiper-content-app">
+              <div class="o-swiper-content-app__image"
+                   style="background-image: url(&quot;/assets/images/vfz/website/screenshots/app-dietitian-2.jpg&quot;);"
+              >
+                <img class="a-mobile-notch"
+                     src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                     alt="mobile screen"
+                >
+                <div class="o-swiper-content-app__text">
+                  <strong>
+                    Text 2
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"
+               style="width: 1216px;"
+               data-swiper-slide-index="2"
+          >
+            <div class="o-swiper-content-app">
+              <div class="o-swiper-content-app__image"
+                   style="background-image: url(&quot;/assets/images/vfz/website/screenshots/app-dietitian-3.jpg&quot;);"
+              >
+                <img class="a-mobile-notch"
+                     src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                     alt="mobile screen"
+                >
+                <div class="o-swiper-content-app__text">
+                  <strong>
+                    Text 3
+                  </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <div class="swiper-arrow">
+            <svg width="20"
+                 height="16"
+                 viewbox="0 0 20 16"
+                 fill="none"
+            >
+              <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                    stroke="#AAAAAA"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+              >
+              </path>
+              <path d="M19 8.21191L1.76584 8.21192"
+                    stroke="#AAAAAA"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+              >
+              </path>
+            </svg>
+          </div>
+        </div>
+        <div class="swiper-button-prev">
+          <div class="swiper-arrow">
+            <svg width="20"
+                 height="16"
+                 viewbox="0 0 20 16"
+                 fill="none"
+            >
+              <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                    stroke="#AAAAAA"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+              >
+              </path>
+              <path d="M19 8.21191L1.76584 8.21192"
+                    stroke="#AAAAAA"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+              >
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

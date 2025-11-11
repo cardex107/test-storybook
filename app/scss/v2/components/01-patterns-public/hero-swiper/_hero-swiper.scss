@@ -1,0 +1,25 @@
+/* ==========================================================================
+    #HERO-SWIPER
+    ========================================================================== */
+
+//review when old swiper--hero can be removed
+
+@layer swiper-default, swiper-hero;
+@layer swiper-hero {
+    .o-hero-swiper {
+        height: auto;
+
+        @media (min-width: $screen-md-min) {
+            min-height: 600px;
+        }
+
+        @media (min-width: $screen-xl-min) {
+            min-height: 800px;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            top: 50%;
+        }
+    }
+}

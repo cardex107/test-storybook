@@ -1,0 +1,239 @@
+/* ==========================================================================
+   #COLORS PUBLIC
+   ========================================================================== */
+
+/* Global variables
+   ========================================================================== */
+
+$white: #ffffff;
+$black: #000000;
+
+$grey-1: #333333;
+$grey-2: #555555;
+$grey-3: #777777;
+$grey-4: #aaaaaa;
+$grey-5: #cccccc;
+$grey-6: #dddddd;
+$grey-7: #e5e5e5;
+$grey-8: #f5f5f5;
+$grey-9: #fafafa;
+
+// Dynamic variables
+$brand-color-1: var(--brand-color-1, #c3c3c3) !default;
+$brand-color-2: var(--brand-color-2, #c3c3c3) !default;
+$text-color: var(--text_color, #333333) !default;
+$site-background-color: var(--site-background-color, #ffffff) !default;
+$service-card-background-color: var(--service-card-background-color, #c3c3c3) !default;
+$additional-background-color: var(--additional-background-color, #f5f5f5) !default;
+
+$brand-color-1-dark: color-mix(in srgb, $brand-color-1 80%, $black);
+$brand-color-1-light: color-mix(in srgb, $brand-color-1 80%, $white);
+$brand-color-1-lighter: color-mix(in srgb, $brand-color-1 10%, $white);
+
+$brand-color-2-dark: color-mix(in srgb, $brand-color-2 80%, $black);
+$brand-color-2-light: color-mix(in srgb, $brand-color-2 80%, $white);
+
+$brand-color-3: $brand-color-1 !default;
+
+$service-card-background-color-hover: color-mix(in srgb, $service-card-background-color 90%, white);
+
+$green: #66bd06 !default;
+$red: #c90000 !default;
+
+/* Site Background
+========================================================================== */
+
+$menu-background-color: $white !default;
+
+/* Buttons
+========================================================================== */
+
+$primary-button-background-color: $brand-color-1 !default;
+$primary-button-hover-background-color: $brand-color-1-light !default;
+$primary-button-color: $white !default;
+$primary-button-hover-color: $white !default;
+
+$secondary-button-background-color: $brand-color-2 !default;
+$secondary-button-hover-background-color: $brand-color-2-light !default;
+$secondary-button-hover-color: $white !default;
+
+$outlined-primary-button-border-color: $brand-color-1 !default;
+$outlined-primary-button-color: $brand-color-1 !default;
+$outlined-primary-button-background: $white !default;
+$outlined-primary-button-hover-background-color: $brand-color-1 !default;
+$outlined-primary-button-hover-color: $white !default;
+
+$outlined-secondary-button-border-color: $brand-color-2 !default;
+$outlined-secondary-button-color: $brand-color-2 !default;
+$outlined-secondary-button-background: $white !default;
+$outlined-secondary-button-hover-background-color: $brand-color-2 !default;
+$outlined-secondary-button-hover-color: $white !default;
+
+$ghost-button-border-color: $white !default;
+$ghost-button-color: $white !default;
+$ghost-button-hover-background-color: $white !default;
+$ghost-button-hover-color: $brand-color-1 !default;
+
+$white-color-button-color: $brand-color-1;
+$white-color-button-hover-background-color: color-mix(in srgb, $brand-color-1 20%, $white);
+
+$naked-button-primary: $brand-color-1 !default;
+$naked-button-primary-hover: $brand-color-1 !default;
+$naked-button-secondary: $brand-color-2 !default;
+$naked-button-white: $white !default;
+$naked-button-grey: $grey-3 !default;
+$naked-button-grey-hover: $grey-1 !default;
+
+$disabled-button-color: $grey-5 !default;
+
+/* Dropdown arrow
+========================================================================== */
+
+$dropdown-arrow-color: $brand-color-2 !default;
+
+/* Anchor
+========================================================================== */
+
+$anchor-color: $brand-color-1 !default;
+
+/* Texts
+========================================================================== */
+
+$title-color: $brand-color-2 !default;
+$title-color-2: $brand-color-2;
+$text-link: $brand-color-1 !default;
+
+/* Hero block
+========================================================================== */
+
+$hero-block-text-panel-background-color: rgba($white, 0.7) !default;
+
+/* Steps list
+   ========================================================================== */
+
+$steps-list-number-background-color: $brand-color-1 !default;
+$steps-list-line-color: $brand-color-1 !default;
+
+/* Footer
+   ========================================================================== */
+
+$footer-background-color: $brand-color-2 !default;
+$footer-background-color-theme-b: rgba(0, 0, 0, 0.05) !default;
+$footer-bottom-background-color: $grey-8 !default;
+$footer-link-color: $brand-color-1 !default;
+$footer-text-color: $white !default;
+$footer-text-color-theme-b: $grey-3 !default;
+$footer-copyright-color: $grey-3 !default;
+$footer-border-color: transparent !default;
+
+/* Header
+   ========================================================================== */
+
+$header-account-text-color: $brand-color-1 !default;
+$header-link-color: $text-color !default;
+$header-link-color-hover: color-mix(in srgb, $brand-color-1 90%, $black);
+$header-link-color-active: $brand-color-1 !default;
+$header-link-active-border-bottom: transparent !default;
+$header-link-border-bottom: transparent !default;
+$header-submenu-border-bottom: $brand-color-1 !default;
+
+/* Navigation
+   ========================================================================== */
+
+$nav-background-color: $white !default;
+$nav-submenu-background-color: $grey-8 !default;
+$nav-link-menu-active-color: $brand-color-1 !default;
+$nav-link-background-color: $white;
+$nav-phone-color: $white !default;
+$nav-secondary-background-color: $brand-color-2 !default;
+
+/* Top bar
+   ========================================================================== */
+
+$top-bar-border-top-color: $brand-color-1 !default;
+$top-bar-background-color: $brand-color-2 !default;
+$top-bar-action-color: $white !default;
+$top-bar-link-color: $white !default;
+$top-bar-action-separator-color: $grey-5 !default;
+
+/* Lang selector
+   ========================================================================== */
+
+$lang-selector-background-color: $grey-9 !default;
+$lang-selector-action-color: $grey-1 !default;
+$lang-selector-active-link-color: $grey-1 !default;
+$lang-selector-active-link-background-color: $white !default;
+$lang-selector-navigation-background-color: $grey-8 !default;
+
+/* Account desktop submenu
+   ========================================================================== */
+
+$account-desktop-background-color: $white !default;
+$submenu-title-color: $brand-color-1 !default;
+$submenu-link-color: $brand-color-1 !default;
+
+/* Account mobile submenu
+   ========================================================================== */
+
+$account-mobile-submenu-background-color: $white !default;
+$account-mobile-submenu-close-color: $brand-color-1 !default;
+$account-mobile-submenu-link-color: $brand-color-1 !default;
+
+/* Text block
+   ========================================================================== */
+
+$text-block-image-background-color: color-mix(in srgb, $brand-color-1 80%, transparent);
+
+/* List Item
+========================================================================== */
+
+$list-item-link-color: $brand-color-1 !default;
+
+/* Banner + Split block
+   ========================================================================== */
+
+$banner-background-color-theme-a: $brand-color-1 !default;
+$split-block-background-color: $brand-color-1 !default;
+
+/* Banner 3 columns
+   ========================================================================== */
+
+$banner-highlight-background: $brand-color-1 !default;
+
+/* Data Table
+   ========================================================================== */
+
+$data-table-border-color: $grey-6 !default;
+
+/* Error block
+   ========================================================================== */
+
+$error-block-background-color: $brand-color-1 !default;
+
+/* FAQ question color
+   ========================================================================== */
+
+$faqs-section-color: $brand-color-1 !default;
+
+/* Forms
+========================================================================== */
+
+$input-border-color: $grey-5 !default;
+$input-focus-border-color: $brand-color-1 !default;
+$input-disabled-background-color: $grey-8 !default;
+$input-disabled-color: $grey-4 !default;
+$input-placeholder-color: $grey-4 !default;
+$input-unselected-background-color: $grey-8 !default;
+$input-selected-color: $brand-color-1 !default;
+$input-invalid-color: $grey-4 !default;
+
+$input-error-color: $red !default;
+$input-error-border-color: $red !default;
+$input-error-background-color: $red !default;
+
+$input-checkbox-color: $brand-color-1 !default;
+
+$radio-button-toggle-border-color: $grey-5 !default;
+$radio-button-toggle-focus-border-color: $brand-color-1 !default;
+$radio-button-toggle-unselected-background-color: $grey-8 !default;
+$radio-button-toggle-selected-color: $brand-color-1 !default;

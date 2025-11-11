@@ -1,0 +1,58 @@
+/* ==========================================================================
+   #FILE-UPLOADER
+   ========================================================================== */
+
+.m-file-uploader {
+    margin-top: 40px;
+}
+
+.m-file-uploader__input {
+    display: none;
+}
+
+.m-file-uploader__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+    }
+}
+
+.m-file-uploader__button {
+    cursor: pointer;
+}
+
+.m-file-uploader__text {
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    color: $text-color;
+    display: block;
+    margin-bottom: 10px;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        padding: 3px;
+        margin-bottom: -3px;
+        margin-left: 5px;
+        border-radius: 9px;
+        border: 1px solid $grey-4;
+        cursor: pointer;
+
+        path {
+            fill: $grey-4;
+        }
+
+        &:hover {
+            border: 1px solid $brand-color-1;
+
+            path {
+                fill: $brand-color-1;
+            }
+        }
+    }
+}

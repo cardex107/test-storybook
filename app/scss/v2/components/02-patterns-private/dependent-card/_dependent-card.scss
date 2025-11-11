@@ -1,0 +1,41 @@
+/* ==========================================================================
+   #DEPENDENT-CARD
+   ========================================================================== */
+
+.m-dependent-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+    background-color: $white;
+    box-shadow: 0 0 7px 0 rgba($black, 0.15);
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        padding: 20px 30px 25px 30px;
+    }
+
+    &.m-dependent-card--inactive {
+        background-color: $grey-8;
+        box-shadow: none;
+    }
+}
+
+.m-dependent-card__avatar {
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+    }
+}
+
+.m-dependent-card__edit {
+    align-self: flex-start;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-top: 5px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 2px;
+    }
+}

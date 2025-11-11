@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #swiper-content-app
+   ========================================================================== */
+
+$app-screen-width-sm: 270px;
+$app-screen-height-sm: 546px;
+
+$app-screen-width-md: 300px;
+$app-screen-height-md: 609px;
+
+.o-swiper-content-app {
+    position: relative;
+    border-radius: 20px;
+    width: $app-screen-width-sm;
+    height: $app-screen-height-sm;
+    margin-right: 41px;
+    margin-left: 41px;
+    border: 6px solid #fff;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.15);
+
+    @media (min-width: $screen-md-min) {
+        width: $app-screen-width-md;
+        height: $app-screen-height-md;
+    }
+}
+
+.o-swiper-content-app__image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.o-swiper-content-app__text {
+    @include paragraph;
+    line-height: 1.2;
+    padding: 0 30px;
+    background-color: rgba($white, 0.9);
+    border-top: 2px solid $grey-6;
+    border-bottom: 2px solid $grey-6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 65px;
+    margin-top: -30px;
+
+    strong {
+        width: 100%;
+    }
+}

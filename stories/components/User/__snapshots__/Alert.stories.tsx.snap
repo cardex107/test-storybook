@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/User/Alert Default smoke-test 1`] = `
+<div class="o-alert">
+  <div class="o-alert__inner">
+    <p class="o-alert__text">
+      Warning message
+    </p>
+    <a style="opacity: 1;"
+       class="a-button o-alert__button a-button--white h-cursor"
+       type="button"
+       href="http://google.com"
+    >
+      Ok
+    </a>
+  </div>
+</div>
+`;

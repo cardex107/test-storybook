@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #TEXT-BLOCK-C
+   ========================================================================== */
+
+.m-text-block-c {
+}
+
+.m-text-block-c__title {
+    @include paragraph-bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.m-text-block-c__text {
+    @include paragraph;
+}

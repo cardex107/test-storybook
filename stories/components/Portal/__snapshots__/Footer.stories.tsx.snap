@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/Footer Default smoke-test 1`] = `
+<footer class="o-footer">
+  <div class="o-footer__top">
+    <div class="o-footer__logo-wrapper o-footer__logo-wrapper--right">
+      <img class="o-footer__logo"
+           src="/stories/assets/teladochealth_logo_grey-small.svg"
+           alt
+      >
+    </div>
+    <p class="o-footer__disclaimer">
+      Advance Medical. These services are intended to provide general health information. Under no circumstances should these recommendations be considered to be a diagnosis or treatment. The recommendations derived from these services are based on medical information provided by the customer and should in no way replace or substitute medical information provided by medical professionals.
+    </p>
+  </div>
+  <div class="o-footer__bottom">
+    <span class="o-footer__copyright">
+      <span>
+        ©
+      </span>
+      Advance Medical, 2025. All rights reserved.
+    </span>
+    <nav class="o-footer__navigation">
+      <ul class="o-footer__links">
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/terms-and-conditions"
+             target
+          >
+            Terms &amp;amp; Conditions
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/disclaimer"
+             target
+          >
+            Privacy Notice
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/legal-notice"
+             target
+          >
+            Legal notice
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/cookies"
+          >
+            Cookies
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/faqs"
+          >
+            FAQs
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+`;
+
+exports[`components/Portal/Footer WithoutLogoAndLessConsents smoke-test 1`] = `
+<footer class="o-footer">
+  <div class="o-footer__top">
+    <p class="o-footer__disclaimer">
+      Advance Medical. These services are intended to provide general health information. Under no circumstances should these recommendations be considered to be a diagnosis or treatment. The recommendations derived from these services are based on medical information provided by the customer and should in no way replace or substitute medical information provided by medical professionals.
+    </p>
+  </div>
+  <div class="o-footer__bottom">
+    <span class="o-footer__copyright">
+      <span>
+        ©
+      </span>
+      Advance Medical, 2025. All rights reserved.
+    </span>
+    <nav class="o-footer__navigation">
+      <ul class="o-footer__links">
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/terms-and-conditions"
+             target
+          >
+            Terms &amp;amp; Conditions
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/disclaimer"
+             target
+          >
+            Privacy Notice
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/cookies"
+          >
+            Cookies
+          </a>
+        </li>
+        <li class="o-footer__links-item">
+          <a class="o-footer__links-anchor"
+             href="/faqs"
+          >
+            FAQs
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+`;

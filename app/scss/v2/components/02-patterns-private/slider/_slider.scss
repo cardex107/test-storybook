@@ -1,0 +1,56 @@
+/* ==========================================================================
+   #SLIDER
+   ========================================================================== */
+
+.o-slider {
+    display: none;
+
+    @media (min-width: $screen-md-min) {
+        display: block;
+        .owl-dots {
+            position: absolute;
+            z-index: 100;
+            bottom: 0;
+            left: 0;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            .owl-dot {
+                display: block;
+                height: 6px;
+                width: 6px;
+                border-radius: 50%;
+                border: solid 1px $white;
+                transition: background-color 0.3s ease-in-out;
+
+                &:not(:last-child) {
+                    margin-right: 12px;
+                }
+
+                &.active {
+                    background-color: $white;
+                }
+            }
+        }
+    }
+}
+
+.o-slider__slide {
+    @media (min-width: $screen-md-min) {
+        background-size: cover;
+        background-position: center center;
+        min-height: 830px;
+    }
+}
+
+// .o-slider,
+.o-slider__wrapper,
+.o-slider .owl-stage-outer,
+.o-slider .owl-stage,
+.o-slider .owl-item,
+.o-slider .o-slider__slide {
+    height: 100%;
+}

@@ -1,0 +1,64 @@
+/* ==========================================================================
+   #COMPONENTS PRIVATE
+   ========================================================================== */
+
+/* Atoms
+   ========================================================================== */
+
+@import 'components/02-patterns-private/button-icon/button-icon',
+    'components/02-patterns-private/verification/verification';
+
+/* Molecules
+========================================================================== */
+
+@import 'components/02-patterns-private/avatars/doctor-avatar/doctor-avatar',
+    'components/02-patterns-private/avatars/patient-avatar/patient-avatar',
+    'components/02-patterns-private/beneficiary-card/beneficiary-card',
+    'components/02-patterns-private/consultations-list-items/01-consultations-card/consultations-card',
+    'components/02-patterns-private/dashed-box/dashed-box',
+    'components/02-patterns-private/dependent-card/dependent-card',
+    'components/02-patterns-private/emergency-card/emergency-card',
+    'components/02-patterns-private/files-list/files-list', 'components/02-patterns-private/file-item/file-item',
+    'components/02-patterns-private/loading/loading', 'components/02-patterns-private/message/message',
+    'components/02-patterns-private/paginator/paginator', 'components/02-patterns-private/programme-day/programme-day',
+    'components/02-patterns-private/service/service-card/service-card',
+    'components/02-patterns-private/status-tag/status-tag', 'components/02-patterns-private/svg-rounded/svg-rounded',
+    'components/02-patterns-private/tabs/tabs', 'components/02-patterns-private/tabs-wrapper/tabs-wrapper',
+    'components/02-patterns-private/text-blocks/text-block-a/text-block-a',
+    'components/02-patterns-private/text-blocks/text-block-b/text-block-b',
+    'components/02-patterns-private/text-blocks/text-block-c/text-block-c',
+    'components/02-patterns-private/verify-list/verify-list';
+
+/* Organisms
+========================================================================== */
+
+@import 'components/02-patterns-private/acceptances/acceptances', 'components/02-patterns-private/alert/alert',
+    'components/02-patterns-private/buttons-block/buttons-block',
+    'components/02-patterns-private/consultations-list-items/02-consultations-group/consultations-group',
+    'components/02-patterns-private/consultations-list-items/03-consultations-list-block/consultations-list-block',
+    'components/02-patterns-private/consultations-data-items/consultations-data-info/consultations-data-info',
+    'components/02-patterns-private/consultations-data-items/consultations-data-block/consultations-data-block',
+    'components/02-patterns-private/consultations-data-items/ban-message/ban-message',
+    'components/02-patterns-private/consultations-data-items/data-bar/data-bar',
+    'components/02-patterns-private/consultations-data-items/info-header/info-header',
+    'components/02-patterns-private/consultations-data-items/patient-data/patient-data',
+    'components/02-patterns-private/consultations-request-items/consultations-request-info/consultations-request-info',
+    'components/02-patterns-private/consultations-request-items/consultations-request-block/consultations-request-block',
+    'components/02-patterns-private/consultations-request-items/consultation-banner/consultation-banner',
+    'components/02-patterns-private/comments-block/comments-block',
+    'components/02-patterns-private/data-table/data-table', 'components/02-patterns-private/header-image/header-image',
+    'components/02-patterns-private/profile-user/profile-user', 'components/02-patterns-private/programme/programme',
+    'components/02-patterns-private/slider/slider', 'components/02-patterns-private/service/service-grid/service-grid',
+    'components/02-patterns-private/test-block/test-block', 'components/02-patterns-private/videocall/videocall';
+
+/* Others (styles not associated to a styleguide component)
+========================================================================== */
+
+@import 'components/02-patterns-private/__css-others/chat-styles/chat-block',
+    'components/02-patterns-private/__css-others/chat-styles/chat-bubble',
+    'components/02-patterns-private/__css-others/chat-styles/chat-consultations',
+    'components/02-patterns-private/__css-others/chat-styles/sendbird',
+    'components/02-patterns-private/__css-others/consultations-data-table',
+    'components/02-patterns-private/__css-others/password-modal',
+    'components/02-patterns-private/__css-others/profile-dependents-info',
+    'components/02-patterns-private/__css-others/uploaded-file';

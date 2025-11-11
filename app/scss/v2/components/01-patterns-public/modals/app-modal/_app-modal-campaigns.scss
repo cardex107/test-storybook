@@ -1,0 +1,52 @@
+/* ==========================================================================
+   #APP-MODAL-CAMPAIGNS
+   ========================================================================== */
+
+// MOVISTAR
+.o-app-modal__app-box .o-app-modal__app-screen {
+    @media (min-width: $screen-sm-min) {
+        &.o-app-modal__app-screen-download {
+            background-image: url('/projects/movistar/images/main/screenshots/app-popup.png');
+        }
+        &.o-app-modal__app-screen-mental {
+            background-image: url('/projects/movistar/images/main/screenshots/app-popup-mental.png');
+        }
+        &.o-app-modal__app-screen-mental-video {
+            background-image: url('/projects/movistar/images/main/screenshots/app-popup-mental-video.jpg');
+            margin: 60px 20px 60px 140px;
+        }
+        &.o-app-modal__app-screen--overlap {
+            margin: 50px 20px -413px 62px;
+        }
+    }
+}
+
+// WE CARE - MYSTRENGTH CAMPAIGN
+.o-app-modal__box.o-app-modal__box--downloadApp.o-app-modal__box--wecare {
+    position: relative;
+    background-image: none !important;
+    background-color: #ba0c2f !important;
+    overflow-y: hidden;
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -600px;
+        left: -430px;
+        z-index: -1;
+        width: 900px;
+        height: 900px;
+        aspect-ratio: 1/1;
+        background-color: #ad0b2b;
+        border-radius: 500px;
+
+        @media (min-width: $screen-sm-min) {
+            bottom: -300px;
+            left: -560px;
+        }
+    }
+
+    .o-app-modal__app-screen {
+        transform: rotate(-15deg);
+    }
+}

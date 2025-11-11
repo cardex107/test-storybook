@@ -1,0 +1,35 @@
+/* ==========================================================================
+   #CONSULTATIONS BANNER
+   ========================================================================== */
+
+.m-consultations-banner {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: $brand-color-1-lighter;
+}
+
+.m-consultations-banner__icon {
+    width: 40px;
+    flex-shrink: 0;
+}
+
+.m-consultations-banner__text-wrapper {
+    margin-right: 10px;
+}
+
+.m-consultations-banner__title {
+    @include text-style-4;
+    color: $brand-color-1;
+    margin-bottom: 6px;
+}
+
+.m-consultations-banner__text {
+    @include paragraph-fixed;
+}
+
+.m-consultations-banner__link {
+    @include text-link;
+}

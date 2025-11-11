@@ -1,0 +1,216 @@
+/* ==========================================================================
+   #APP-MODAL
+   ========================================================================== */
+
+.o-app-modal {
+    @include fade-out(0.3s);
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+    z-index: 310;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 0 40px;
+    }
+
+    &.is-visible {
+        @include fade-in(0.3s);
+    }
+}
+
+.o-app-modal__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba($black, 0.6);
+}
+
+.o-app-modal__box {
+    position: relative;
+    z-index: 15;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 660px;
+    max-height: 90vh;
+    border-radius: $panels-radius;
+    margin: 20px 0;
+    background-color: $white;
+
+    &.o-app-modal__box--downloadApp {
+        max-width: 900px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 0 30px 0;
+        background-color: $brand-color-2;
+
+        @media (min-width: $screen-sm-min) {
+            flex-direction: row;
+            text-align: left;
+            padding: 0;
+            box-shadow: 3px 3px 16px 8px rgba(0, 0, 0, 0.2);
+            background-image: var(--modal-background-image);
+        }
+
+        .o-app-modal__title {
+            color: $white;
+            font-weight: $brand-weight-1;
+            font-size: 1.75rem;
+            max-width: 100%;
+            margin-bottom: 20px;
+
+            @media (min-width: $screen-sm-min) {
+                font-size: 2.812rem;
+                max-width: 460px;
+            }
+
+            @media (min-width: $screen-md-min) {
+                font-size: 2.937rem;
+            }
+        }
+
+        .o-app-modal__text {
+            color: $white;
+            font-weight: 400;
+            font-size: 1.125rem;
+            margin-bottom: 20px;
+
+            @media (min-width: $screen-md-min) {
+                font-size: 1.375rem;
+                max-width: 80%;
+            }
+        }
+    }
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 50px;
+    }
+}
+
+.o-app-modal__wrapper {
+    padding: 10px 40px;
+    width: 100%;
+
+    svg path {
+        fill: #ffffff;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        padding: 90px 50px 90px 50px;
+    }
+}
+
+.o-app-modal__content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.o-app-modal__icon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 5;
+    cursor: pointer;
+
+    @media (min-width: $screen-sm-min) {
+        top: 50px;
+        right: 50px;
+    }
+}
+
+.o-app-modal__app-box {
+    width: 100%;
+    padding: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        width: 50%;
+        padding: 0;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 40%;
+    }
+
+    .o-app-modal__app-screen {
+        display: none;
+        position: relative;
+
+        @media (min-width: $screen-sm-min) {
+            display: flex;
+            width: 200px;
+            height: 395px;
+            border: 6px solid #fff;
+            border-radius: 20px;
+            margin: 60px 20px 60px 80px;
+            background-size: cover;
+            background-position: center center;
+            box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.15);
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin: 60px 20px 60px 120px;
+        }
+    }
+}
+
+.o-app-modal__title {
+    font-size: 1.5rem;
+    font-weight: $brand-weight-2;
+    color: $grey-1;
+    margin-bottom: 25px;
+
+    @media (min-width: $screen-sm-min) {
+        width: 90%;
+    }
+}
+
+.o-app-modal__text {
+    @include paragraph;
+    overflow: auto;
+    margin-bottom: 30px;
+
+    a {
+        color: $white;
+        text-decoration: underline;
+    }
+}
+
+.o-app-modal__buttons-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-top: 50px;
+    }
+}
+
+.o-app-modal__link {
+    margin-top: 15px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-right: 30px;
+        margin-top: 0px;
+    }
+}

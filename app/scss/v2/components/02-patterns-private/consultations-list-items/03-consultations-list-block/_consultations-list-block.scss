@@ -1,0 +1,87 @@
+/* ==========================================================================
+   #CONSULTATIONS-LIST-BLOCK
+   ========================================================================== */
+
+.o-consultations-list-block {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'upcoming'
+        'services'
+        'history';
+    grid-template-columns: minmax(320px, 1fr);
+    width: 100%;
+
+    @if $theme== 'a' {
+        background-color: $white;
+    }
+
+    @media (min-width: $screen-md-min) {
+        grid-template-areas:
+            'header services'
+            'upcoming services'
+            'history services';
+        grid-template-columns: 67% 33%;
+        grid-template-rows: auto auto 1fr;
+    }
+}
+
+.o-consultations-list-block__header {
+    grid-area: header;
+}
+
+.o-consultations-list-block__upcoming {
+    grid-area: upcoming;
+    padding: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 40px;
+    }
+}
+
+.o-consultations-list-block__history {
+    grid-area: history;
+    padding: 20px;
+    margin-bottom: 50px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 10px 40px;
+    }
+}
+
+.o-consultations-list-block__upcoming,
+.o-consultations-list-block__history {
+    @media (min-width: $screen-sm-min) {
+        width: 85%;
+        justify-self: center;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: auto;
+        justify-self: auto;
+        border-right: 1px solid $grey-7;
+    }
+}
+
+.o-consultations-list-block__services {
+    grid-area: services;
+    padding: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        width: 85%;
+        justify-self: center;
+        padding: 40px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: auto;
+        justify-self: auto;
+        padding: 0 40px;
+    }
+}
+
+.o-consultations-list-block__title {
+    @include paragraph-bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}

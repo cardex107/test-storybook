@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #UPLOADED-FILE
+   ========================================================================== */
+// styles not associated to a styleguide component
+
+.a-upload-file {
+    font-weight: $brand-weight-2;
+    text-transform: uppercase;
+    color: $naked-button-primary;
+}
+
+.a-upload-file__icon {
+    flex-shrink: 0;
+    margin-left: 10px;
+}

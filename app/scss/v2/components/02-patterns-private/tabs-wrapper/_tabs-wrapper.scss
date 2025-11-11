@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #TABS WRAPPER
+   ========================================================================== */
+
+.o-tabs-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    border: 1px solid $grey-6;
+    border-top: 0;
+    background-color: $white;
+    border-bottom-left-radius: $tabs-radius;
+    border-bottom-right-radius: $tabs-radius;
+}

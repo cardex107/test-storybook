@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/AppButtons Default smoke-test 1`] = `
+<div class="m-download-buttons-cont m-download-buttons-cont-centered-md">
+  <div class="m-download-button m-download-button-google">
+    <a href="https://google.com"
+       class="m-download-button__link"
+    >
+      <img src="/images/common/google-play-en.svg"
+           alt
+      >
+    </a>
+    <img src="data:image/png;base64,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"
+         alt
+         class="m-download-button__qr"
+    >
+  </div>
+  <div class="m-download-button m-download-button-apple">
+    <a href="https://google.com"
+       class="m-download-button__link"
+    >
+      <img src="/images/common/app-store-en.svg"
+           alt
+      >
+    </a>
+    <img src="data:image/png;base64,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"
+         alt
+         class="m-download-button__qr"
+    >
+  </div>
+</div>
+`;

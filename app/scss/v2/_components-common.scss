@@ -1,0 +1,43 @@
+/* ==========================================================================
+   #COMPONENTS COMMON
+   ========================================================================== */
+
+/* Atoms
+   ========================================================================== */
+
+@import 'components/00-patterns-common/button/button', 'components/00-patterns-common/forms/01-atoms/checkbox/checkbox',
+    'components/00-patterns-common/forms/01-atoms/checkbox-button/checkbox-button',
+    'components/00-patterns-common/forms/01-atoms/file-uploader/file-uploader',
+    'components/00-patterns-common/forms/01-atoms/input/input',
+    'components/00-patterns-common/forms/01-atoms/radio-button/radio-button',
+    'components/00-patterns-common/forms/01-atoms/select/select', 'components/00-patterns-common/svg/svg',
+    'components/00-patterns-common/forms/01-atoms/textarea/textarea',
+    'components/00-patterns-common/forms/03-fields/field',
+    'components/00-patterns-common/forms/03-fields/field-appointment-calendar/field-appointment-calendar';
+
+/* Molecules
+========================================================================== */
+
+@import 'components/00-patterns-common/cms-content/cms-content',
+    'components/00-patterns-common/forms/02-molecules/radio-button-toggle/radio-button-toggle',
+    'components/00-patterns-common/forms/02-molecules/select-combo/select-combo',
+    'components/00-patterns-common/forms/03-fields/field',
+    'components/00-patterns-common/forms/04-datepicker/datepicker',
+    'components/00-patterns-common/forms/04-flatpickr/flatpickr', 'components/00-patterns-common/forms/05-form/form',
+    'components/00-patterns-common/forms/06-form-block/form-block',
+    'components/00-patterns-common/forms/07-thanks-layer/thanks-layer',
+    'components/00-patterns-common/forms/08-form-feedback/form-feedback',
+    'components/00-patterns-common/login-block/login-block', 'components/00-patterns-common/page-title/page-title';
+
+/* Organisms
+========================================================================== */
+
+@import 'components/00-patterns-common/bottom-banner/bottom-banner',
+    'components/00-patterns-common/base-modal/base-modal',
+    'components/00-patterns-common/download-buttons/download-buttons',
+    'components/00-patterns-common/iframe-block/iframe-block', 'components/00-patterns-common/error-block/error-block';
+
+/* Others (styles not associated to a styleguide component)
+========================================================================== */
+
+@import 'components/00-patterns-common/__css-others/message-block';

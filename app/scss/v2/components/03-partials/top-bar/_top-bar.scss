@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #TOP-BAR
+   ========================================================================== */
+
+.o-top-bar {
+    min-height: 40px;
+    max-width: 100vw;
+    background-color: $top-bar-background-color;
+
+    &:not(:has(*)) {
+        display: none !important;
+    }
+
+    @if $theme== 'a' {
+        display: none;
+
+        @media (min-width: $screen-md-min) {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 1fr max-content;
+            justify-content: flex-end;
+            padding: 0 10px;
+        }
+    } @else if $theme== 'b' {
+        display: grid;
+        grid-gap: 10px;
+        padding: 0 20px;
+        grid-template-columns: min-content 1fr;
+        z-index: 301;
+    }
+
+    .o-top-bar-alert + & {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .m-lang-selector {
+        grid-row: 1;
+
+        @if $theme== 'a' {
+            grid-column: 2;
+        } @else if $theme== 'b' {
+            grid-column: 1;
+
+            .m-lang-selector__action-icon {
+                display: none;
+            }
+
+            .m-lang-selector__wrapper {
+                right: auto;
+                left: -20px;
+            }
+        }
+    }
+}

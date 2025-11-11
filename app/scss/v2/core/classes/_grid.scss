@@ -1,0 +1,121 @@
+@use 'sass:math';
+
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+
+$column-gutter: 10px;
+$row-gutter: 15px;
+
+$column-gutter-sm: 20px;
+$row-gutter-sm: 15px;
+
+$column-gutter-md: 20px;
+$row-gutter-md: 20px;
+
+$columns: 24;
+
+.o-grid {
+    width: 100%;
+}
+
+.o-grid__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -#{$column-gutter};
+    margin-bottom: -#{$row-gutter};
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: -#{$column-gutter-sm};
+        margin-bottom: -#{$row-gutter-sm};
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-left: -#{$column-gutter-md};
+        margin-bottom: -#{$row-gutter-md};
+    }
+}
+
+.o-grid__span {
+    margin-left: $column-gutter;
+    margin-bottom: $row-gutter;
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: $column-gutter-sm;
+        margin-bottom: $row-gutter-sm;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-left: $column-gutter-md;
+        margin-bottom: $row-gutter-md;
+    }
+}
+
+/**
+ * Generate span classes ranging from 1 to the total columns number.
+ * eg., `.o-grid__span--10`.
+ */
+
+@for $i from 1 through $columns {
+    $width: math.div(100%, $columns) * $i;
+
+    .o-grid__span--#{$i} {
+        width: calc(#{$width} - #{$column-gutter});
+    }
+}
+
+/**
+ * Generate span classes @sm
+ * eg., `.o-grid__span--sm-10`.
+ */
+
+@for $i from 1 through $columns {
+    $width: math.div(100%, $columns) * $i;
+
+    .o-grid__span-sm--#{$i} {
+        @media (min-width: $screen-sm-min) {
+            width: calc(#{$width} - #{$column-gutter-sm});
+        }
+    }
+}
+
+/**
+ * Generate span classes @md
+ * eg., `.o-grid__span--md-10`.
+ */
+
+@for $i from 1 through $columns {
+    $width: math.div(100%, $columns) * $i;
+
+    .o-grid__span-md--#{$i} {
+        @media (min-width: $screen-md-min) {
+            width: calc(#{$width} - #{$column-gutter-md});
+        }
+    }
+}
+
+/* Flex modifiers
+    ========================================================================== */
+
+.o-grid__span--align-self-flex-end {
+    align-self: flex-end;
+}
+
+/**
+ * Make the grid cell grow.
+ */
+
+.o-grid__span--grow {
+    flex-grow: 1;
+    width: 0;
+}
+
+/**
+  * Add an extra margin.
+  */
+
+.o-grid__margin-right {
+    @media (min-width: $screen-sm-min) {
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/IconLink Fluid smoke-test 1`] = `
+<a class="a-button a-button--fluid"
+   href="/"
+>
+  <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+  </span>
+  Request service
+</a>
+`;
+
+exports[`components/Portal/IconLink Ghost smoke-test 1`] = `
+<a class="a-button a-button--ghost"
+   href="/"
+>
+  <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+  </span>
+  Request service
+</a>
+`;
+
+exports[`components/Portal/IconLink Primary smoke-test 1`] = `
+<a class="a-button"
+   href="/"
+>
+  <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+  </span>
+  Request service
+</a>
+`;
+
+exports[`components/Portal/IconLink Secondary smoke-test 1`] = `
+<a class="a-button a-button--secondary"
+   href="/"
+>
+  <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+  </span>
+  Request service
+</a>
+`;
+
+exports[`components/Portal/IconLink White smoke-test 1`] = `
+<a class="a-button a-button--white"
+   href="/"
+>
+  <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+  </span>
+  Request service
+</a>
+`;
+
+exports[`components/Portal/IconLink WithIconOnTheRight smoke-test 1`] = `
+<a class="a-button"
+   href="/"
+>
+  Request service
+  <span class="a-button__right-icon h-icon--phone-consultation a-icon">
+  </span>
+</a>
+`;

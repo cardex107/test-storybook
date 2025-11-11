@@ -1,0 +1,52 @@
+/* ==========================================================================
+   #APP-BADGE
+   ========================================================================== */
+
+.m-app-badge {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+    width: 144px;
+    height: 70px;
+    padding: 10px;
+    background-color: $brand-color-3;
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+
+    @media (min-width: $screen-sm-min) {
+        top: -15px;
+        left: 100%;
+        margin-left: -72px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        top: -20px;
+        left: 90%;
+    }
+
+    .m-app-badge-mobile {
+        width: 25px;
+        height: 37px;
+        margin: 10px;
+        flex-shrink: 0;
+    }
+
+    .m-app-badge-text-box {
+        color: $white;
+        text-transform: uppercase;
+
+        .m-app-badge-text1 {
+            font-size: 0.75rem;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: -2px;
+        }
+
+        .m-app-badge-text2 {
+            font-size: 1.437rem;
+            font-weight: 400;
+        }
+    }
+}

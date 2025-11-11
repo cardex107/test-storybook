@@ -1,0 +1,44 @@
+/* ==========================================================================
+   #BUTTONS BLOCK
+   ========================================================================== */
+
+.o-buttons-block--list {
+    .o-buttons-block__wrapper {
+        gap: 20px;
+        align-items: flex-start;
+        margin-bottom: 50px;
+
+        .a-button--naked {
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            flex-direction: column;
+            gap: 13px;
+        }
+    }
+}
+
+.o-buttons-block__text {
+    @include text-note;
+    display: block;
+    margin-top: 20px;
+}
+
+.o-buttons-block__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.o-buttons-block__note .a-text-link {
+    font-size: 1rem;
+    margin-left: 4px;
+}

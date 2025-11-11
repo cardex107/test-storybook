@@ -1,0 +1,167 @@
+/* ==========================================================================
+   #TYPOGRAPHY
+   ========================================================================== */
+
+/* Text style 1
+   ========================================================================== */
+
+.a-text-style-1 {
+    @include text-style-1;
+}
+
+.a-text-style-1-white {
+    @include text-style-1-white;
+}
+
+/* Text style 2
+   ========================================================================== */
+
+.a-text-style-2 {
+    @include text-style-2;
+}
+
+.a-text-style-2-white {
+    @include text-style-2-white;
+}
+
+.a-text-style-2-b {
+    @include text-style-2-b;
+}
+
+/* Text style 3
+   ========================================================================== */
+
+.a-text-style-3 {
+    @include text-style-3;
+}
+
+.a-text-style-3-white {
+    @include text-style-3-white;
+}
+
+/* Text style 4
+   ========================================================================== */
+
+.a-text-style-4 {
+    @include text-style-4;
+}
+
+.a-text-style-4-white {
+    @include text-style-4-white;
+}
+
+/* Text style 5
+   ========================================================================== */
+
+.a-text-style-5 {
+    @include text-style-5;
+}
+
+.a-text-style-5-white {
+    @include text-style-5-white;
+}
+
+/* Text style 6
+   ========================================================================== */
+
+.a-text-style-6 {
+    @include text-style-6;
+}
+
+.a-text-style-6-white {
+    @include text-style-6-white;
+}
+
+/* Paragraph
+   ========================================================================== */
+
+.a-paragraph {
+    @include paragraph;
+}
+
+.a-paragraph-white {
+    @include paragraph-white;
+}
+
+/* Paragraph bold
+   ========================================================================== */
+
+.a-paragraph-bold {
+    @include paragraph-bold;
+}
+
+/* Text note
+   ========================================================================== */
+
+.a-text-note-white {
+    @include text-note-white;
+}
+
+.a-text-note {
+    @include text-note;
+}
+
+.a-text-note-grey-3 {
+    @include text-note-grey-3;
+}
+
+.a-text-note-grey-4 {
+    @include text-note-grey-4;
+}
+
+/* Text link
+   ========================================================================== */
+
+.a-text-link {
+    @include text-link;
+
+    &.a-text-link--disabled {
+        color: $grey-4;
+        cursor: not-allowed;
+    }
+}
+
+.a-text-link-small {
+    @include text-link-small;
+}
+
+.a-text-link-small-primary {
+    @include text-link-small-primary;
+}
+
+/* Form styles
+   ========================================================================== */
+
+.a-label-text {
+    @include label-text;
+}
+
+.a-label-text-bold {
+    @include label-text-bold;
+}
+
+/**
+  * Error message
+  */
+
+.a-error-message-text {
+    @include error-message-text;
+}
+
+/* Nav styles
+   ========================================================================== */
+
+.a-nav-text {
+    @include nav-text;
+}
+
+.a-nav-text-bold {
+    @include nav-text-bold;
+}
+
+/* Effects
+   ========================================================================== */
+.a-highlight-txt {
+    padding: 10px;
+    background-color: $grey-8;
+}

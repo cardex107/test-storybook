@@ -1,0 +1,301 @@
+/* ==========================================================================
+   #HERO-CONTENT
+   ========================================================================== */
+
+.o-hero-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 380px auto;
+    height: 100%;
+    margin: 0;
+
+    @media (min-width: $screen-md-min) {
+        grid-template-columns: 70vw 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        min-height: 600px;
+        overflow: hidden;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        grid-template-columns: 50vw 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    @media (min-width: $screen-xl-min) {
+        grid-template-columns: 40vw 1fr 1fr;
+    }
+}
+
+.o-hero-content__frame {
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+
+    @media (min-width: $screen-md-min) {
+        grid-column: 1 / 3;
+        mask-image: none;
+    }
+
+    @media (min-width: $screen-lg-min) {
+        grid-column: 1 / 4;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.o-hero-content__text-panel {
+    position: relative;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: $white;
+    text-align: center;
+
+    @media (min-width: $screen-sm-min) {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: none;
+
+        .a-button {
+            max-width: fit-content;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: $panels-radius;
+        text-align: left;
+        width: auto;
+        height: auto;
+        background-color: $hero-block-text-panel-background-color;
+
+        .a-button {
+            align-self: auto;
+        }
+    }
+
+    @if $theme== 'a' {
+        padding: 80px 30px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 40px 50px 50px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin: 50px 0px 50px 30px;
+            padding: 50px 50px 70px;
+            max-width: 460px;
+            background-color: $hero-block-text-panel-background-color;
+            backdrop-filter: $panel-blur;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            max-width: 560px;
+        }
+    } @else if $theme== 'b' {
+        padding: 50px 30px 80px 30px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 40px 50px 80px 50px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 50px 0 70px 70px;
+            margin: 150px 20px 50px 20px;
+            background-color: transparent;
+        }
+
+        .a-button {
+            width: auto;
+
+            @media (min-width: $screen-md-min) {
+                box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    .o-hero-content__text-small {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.812rem;
+        line-height: 23px;
+    }
+
+    .a-button {
+        align-self: center;
+
+        @media (min-width: $screen-md-min) {
+            align-self: auto;
+        }
+    }
+
+    .m-download-buttons-cont {
+        flex-direction: column;
+        row-gap: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            flex-direction: row;
+            row-gap: 30px;
+        }
+    }
+
+    .m-app-badge {
+        top: -35px;
+        left: 50%;
+        margin-left: -72px;
+
+        @if $theme== 'a' {
+            @media (min-width: $screen-md-min) {
+                top: -30px;
+                left: 93%;
+            }
+            @media (min-width: $screen-lg-min) {
+                left: 95%;
+            }
+        } @else if $theme== 'b' {
+            transform: rotate(-8deg);
+
+            @media (min-width: $screen-md-min) {
+                position: static;
+                margin: -50px 0 -28px 0;
+            }
+        }
+    }
+}
+
+.o-hero-content__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .s-cms-content > *,
+    .s-cms-content ul li {
+        @if $theme== 'b' {
+            color: $text-color;
+
+            @media (min-width: $screen-md-min) {
+                @include text-over-image;
+                color: $white;
+            }
+        }
+    }
+}
+
+.o-hero-content__title {
+    @include text-style-1;
+
+    @if $theme== 'b' {
+        @media (min-width: $screen-md-min) {
+            @include text-over-image;
+            color: $white;
+        }
+    }
+}
+
+.o-hero-content__subtitle {
+    @include text-style-4;
+    font-weight: $brand-weight-1;
+    text-align: center;
+    line-height: 1.3;
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+
+    @if $theme== 'a' {
+        color: $title-color;
+    } @else if $theme== 'b' {
+        @media (min-width: $screen-md-min) {
+            @include text-over-image;
+            color: $white;
+        }
+    }
+
+    strong {
+        color: $brand-color-1;
+        font-weight: 600;
+
+        a {
+            color: $brand-color-1;
+            text-decoration: underline;
+        }
+    }
+}
+
+.o-hero-content__text {
+    @include paragraph;
+    font-weight: $brand-weight-1;
+    text-align: center;
+    line-height: 1.3;
+    color: $text-color;
+
+    strong {
+        color: $brand-color-1;
+        font-weight: 600;
+
+        a {
+            color: $brand-color-1;
+            text-decoration: underline;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+
+.o-hero-content__new-badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -85px;
+    left: 50%;
+    width: 110px;
+    height: 110px;
+    margin-left: -55px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: $brand-color-1;
+    color: $white;
+    box-shadow: -3px 2px 3px rgba(0, 0, 0, 0.2);
+    font-size: 1.375rem;
+    text-transform: uppercase;
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-sm-min) {
+            top: -75px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 120px;
+            height: 120px;
+            margin-left: -60px;
+            top: -30px;
+            left: 95%;
+        }
+    } @else if $theme== 'b' {
+        transform: rotate(-8deg);
+
+        @media (min-width: $screen-md-min) {
+            position: static;
+            margin: -50px 0 -28px 0;
+        }
+    }
+}

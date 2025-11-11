@@ -1,0 +1,23 @@
+/* ==========================================================================
+   #FORM-FEEDBACK
+   ========================================================================== */
+
+.m-form-feedback {
+    @include fade-out(0.3s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        justify-content: flex-end;
+    }
+
+    span {
+        margin-left: 6px;
+    }
+
+    &.is-visible {
+        @include fade-in(0.3s);
+    }
+}

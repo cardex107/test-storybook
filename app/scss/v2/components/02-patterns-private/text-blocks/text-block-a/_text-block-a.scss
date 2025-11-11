@@ -1,0 +1,47 @@
+/* ==========================================================================
+   #TEXT-BLOCK-A
+   ========================================================================== */
+
+.m-text-block-a {
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+}
+
+.m-text-block-a__title-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+        margin-bottom: 5px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: 10px;
+        }
+    }
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.m-text-block-a__title {
+    @include text-style-5;
+    font-size: 600;
+    display: block;
+}
+
+.m-text-block-a__text {
+    @include paragraph-fixed;
+
+    p {
+        line-height: 1.5;
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+}

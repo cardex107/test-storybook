@@ -1,0 +1,239 @@
+/* ==========================================================================
+   #HELPERS
+   ========================================================================== */
+
+/* Display / Hide
+   ========================================================================== */
+
+.h-block {
+    display: block !important;
+}
+
+.h-inline {
+    display: inline !important;
+}
+
+.h-inline-block {
+    display: inline-block !important;
+}
+
+.h-hidden {
+    display: none !important;
+}
+
+/* Flex
+   ========================================================================== */
+
+.h-flex {
+    display: flex !important;
+}
+
+.h-flex-distribute {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.h-space-separator {
+    flex-grow: 1 !important;
+}
+
+.h-flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.h-flex-align-start {
+    align-self: flex-start !important;
+}
+
+.h-align-center {
+    align-self: center !important;
+}
+
+/* Position
+   ========================================================================== */
+
+.h-absolute {
+    position: absolute !important;
+}
+
+/* Overflow
+   ========================================================================== */
+
+.h-overflow-hidden {
+    overflow: hidden !important;
+}
+
+/* Margins (1 - 10 y 20 - 60)
+   ========================================================================== */
+
+@for $i from 1 through 10 {
+    .h-margin-bottom-#{$i} {
+        margin-bottom: #{$i}px !important;
+    }
+
+    .h-margin-top-#{$i} {
+        margin-top: #{$i}px !important;
+    }
+}
+
+@for $i from 2 through 6 {
+    .h-margin-bottom-#{$i * 10} {
+        margin-bottom: $i * 10px !important;
+    }
+
+    .h-margin-top-#{$i * 10} {
+        margin-top: $i * 10px !important;
+    }
+
+    .h-margin-tb-#{$i * 10} {
+        margin: $i * 10px 0 !important;
+    }
+}
+
+.h-margin-top-negative-10 {
+    margin-top: -10px !important;
+}
+
+/* Paddings (0 - 5 - 10 - 15)
+   ========================================================================== */
+
+@for $i from 0 through 3 {
+    .h-padding-#{$i * 5} {
+        padding: $i * 5px !important;
+    }
+}
+
+/* Width
+   ========================================================================== */
+
+// Helpers form inputs width
+
+.h-width-field-350 {
+    .m-field__wrapper,
+    .a-checkbox-button__label {
+        width: 100% !important;
+        @media (min-width: $screen-sm-min) {
+            max-width: 350px !important;
+        }
+    }
+}
+
+.h-width-field-130 {
+    .m-field__wrapper {
+        width: 130px !important;
+    }
+}
+
+.h-width-100 {
+    width: 100% !important;
+}
+
+/* Cursor
+========================================================================== */
+
+.h-cursor {
+    cursor: pointer !important;
+}
+
+/* Text Alignment
+========================================================================== */
+
+.h-text-center {
+    text-align: center !important;
+}
+
+/* Color
+========================================================================== */
+
+.h-red {
+    color: $red !important;
+}
+
+/* Line separators
+========================================================================== */
+
+@for $i from 1 through 5 {
+    .h-line-bottom-#{$i * 10} {
+        position: relative;
+        margin-bottom: 20px;
+        padding-bottom: $i * 10px;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border: 1px solid $grey-3;
+            opacity: 0.3;
+        }
+    }
+}
+
+/* Truncate
+   ========================================================================== */
+
+@for $i from 1 through 3 {
+    .h-truncate-#{$i * 100} {
+        width: $i * 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/* Icons
+   ========================================================================== */
+
+.h-icon--online-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--online-consultation.svg');
+}
+
+.h-icon--video-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--video-consultation.svg');
+}
+
+.h-icon--chat-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--chat-consultation.svg');
+}
+
+.h-icon--phone-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--phone-consultation.svg');
+}
+
+.h-icon--gfp-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--gfp-consultation.svg');
+}
+
+.h-icon--emo-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--emo-consultation.svg');
+}
+
+.h-icon--sc-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--sc-consultation.svg');
+}
+
+.h-icon--derma-consultation {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--derma-consultation.svg');
+}
+
+.h-icon--login {
+    @include button-icon;
+    mask-image: url('/assets/images/icons/icon--person-outlined.svg');
+}
+
+.h-html-content {
+    p {
+        margin-bottom: 1em;
+    }
+}

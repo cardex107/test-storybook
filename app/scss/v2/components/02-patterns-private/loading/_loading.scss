@@ -1,0 +1,50 @@
+/* ==========================================================================
+   #LOADING
+   ========================================================================== */
+
+.m-loading {
+    @include fade-out(0.3s);
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $additional-background-color;
+
+    &.is-visible {
+        @include fade-in(0.3s);
+    }
+}
+
+.m-loading__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.m-loading__wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.m-loading__text {
+    @include text-note;
+    margin-left: 10px;
+}
+
+.m-loading__icon {
+    animation-name: infinite-spinning;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

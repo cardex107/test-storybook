@@ -1,0 +1,60 @@
+/* ==========================================================================
+   #SERVICE-GRID
+   ========================================================================== */
+
+.o-service-grid {
+    @if $theme== 'a' {
+        padding: 20px 0;
+    } @else if $theme== 'b' {
+        padding: 50px 0;
+    }
+}
+
+.o-service-grid__card-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        margin-left: -30px;
+        margin-bottom: -30px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        flex-direction: column;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.o-service-grid__card {
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: calc(50% - 30px);
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: 15px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.o-service-grid__title {
+    @include paragraph-bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: 25px;
+    }
+}

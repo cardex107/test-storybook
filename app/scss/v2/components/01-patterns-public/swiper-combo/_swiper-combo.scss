@@ -1,0 +1,118 @@
+/* ==========================================================================
+  #SWIPER COMBO
+  ========================================================================== */
+
+.o-swiper-combo {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 100%;
+    margin-top: -68px;
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+        flex-direction: row;
+        margin-top: 0;
+        text-align: left;
+    }
+
+    &:not(:has(.o-swiper-combo__swiper)) {
+        margin: 50px 0;
+
+        .o-swiper-combo__block {
+            margin-right: 70px;
+        }
+    }
+}
+
+.o-swiper-combo__block {
+    display: flex;
+    flex-direction: column-reverse;
+
+    @media (min-width: $screen-md-min) {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        min-height: 400px;
+        margin-left: 70px;
+    }
+
+    @media (min-width: $screen-xl-min) {
+        min-height: 500px;
+    }
+}
+
+.o-swiper-combo__block__image {
+    background-size: cover;
+    background-position: top center;
+    margin-top: 30px;
+    width: 100vw;
+    height: 70vw;
+
+    @media (min-width: $screen-sm-min) {
+        height: 40vw;
+    }
+
+    @media (min-width: $screen-md-min) {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.o-swiper-combo__block__text-panel {
+    margin: 40px 50px;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 40px 30px 40px 60px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        position: relative;
+        z-index: 200;
+        max-width: 350px;
+        margin: 40px 50px;
+        padding: 40px 30px 50px;
+        border-radius: 4px;
+        background-color: $text-block-image-background-color;
+    }
+
+    h2 {
+        @include text-style-3;
+        color: $grey-1;
+        margin-bottom: 20px;
+
+        @media (min-width: $screen-md-min) {
+            @include text-style-2-white;
+        }
+    }
+    p {
+        @include paragraph;
+        line-height: 1.5;
+        color: $grey-1;
+
+        @media (min-width: $screen-md-min) {
+            color: $white;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.o-swiper-combo__swiper {
+    position: relative;
+    top: 50%;
+    right: auto;
+    margin: 0 auto;
+
+    @media (min-width: $screen-md-min) {
+        right: 40px;
+        margin: auto;
+    }
+}

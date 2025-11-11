@@ -1,0 +1,295 @@
+/* ==========================================================================
+   #TEXT STYLES
+   ========================================================================== */
+
+/* Text style 1
+   ========================================================================== */
+
+@mixin text-style-1 {
+    font-family: $secondary-font;
+    font-weight: $brand-weight-for-title-1;
+    line-height: 1.3;
+    color: $title-color;
+
+    @if $theme== 'a' {
+        font-size: 1.9rem;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 2.5rem;
+        }
+    } @else if $theme== 'b' {
+        font-size: 2.1rem;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 2.4rem;
+        }
+    }
+}
+
+@mixin text-style-1-white {
+    @include text-style-1;
+    color: $white;
+}
+
+/* Text style 2
+   ========================================================================== */
+
+@mixin text-style-2 {
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    font-weight: $brand-weight-2;
+    line-height: 1.25;
+    color: $title-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.75rem;
+    }
+}
+
+@mixin text-style-2-white {
+    @include text-style-2;
+    color: $white;
+}
+
+/* Text style 2-b
+   ========================================================================== */
+
+@mixin text-style-2-b {
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: $title-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 2.25rem;
+    }
+}
+
+/* Text style 3
+   ========================================================================== */
+
+@mixin text-style-3 {
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    font-weight: $brand-weight-2;
+    line-height: 1.25;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.75rem;
+    }
+}
+
+@mixin text-style-3-white {
+    @include text-style-3;
+    color: $white;
+}
+
+/* Text style 4
+   ========================================================================== */
+
+@mixin text-style-4 {
+    font-family: $secondary-font;
+    font-size: 1.125rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.25;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.5rem;
+    }
+}
+
+@mixin text-style-4-white {
+    @include text-style-4;
+    color: $white;
+}
+
+/* Text style 5
+   ========================================================================== */
+
+@mixin text-style-5 {
+    font-family: $primary-font;
+    font-size: 1.25rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.4;
+    color: $text-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.5rem;
+    }
+}
+
+@mixin text-style-5-white {
+    @include text-style-5;
+    color: $white;
+}
+
+/* Text style 6
+   ========================================================================== */
+
+@mixin text-style-6 {
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: $brand-weight-2;
+    line-height: 1.5;
+    color: $text-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.25rem;
+    }
+}
+
+@mixin text-style-6-white {
+    @include text-style-6;
+    color: $white;
+}
+
+/* Paragraph
+   ========================================================================== */
+
+@mixin paragraph {
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.5;
+    color: $text-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.125rem;
+    }
+}
+
+@mixin paragraph-white {
+    @include paragraph;
+    color: $white;
+}
+
+@mixin paragraph-bold {
+    @include paragraph;
+    font-weight: $brand-weight-2;
+}
+
+@mixin paragraph-fixed {
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.5;
+    color: $text-color;
+}
+
+/* Text small
+   ========================================================================== */
+
+@mixin text-note {
+    font-size: 0.75rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.5;
+    color: $text-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 0.875rem;
+    }
+}
+
+@mixin text-note-white {
+    @include text-note;
+    color: $white;
+}
+
+@mixin text-note-grey-3 {
+    @include text-note;
+    color: $grey-3;
+}
+
+@mixin text-note-grey-4 {
+    @include text-note;
+    color: $grey-4;
+}
+
+/* ==========================================================================
+   #FORM SYLES
+   ========================================================================== */
+
+/* Label
+   ========================================================================== */
+
+@mixin label-text {
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    color: $text-color;
+}
+
+@mixin label-text-bold {
+    font-size: 1rem;
+    font-weight: $brand-weight-2;
+    color: $text-color;
+}
+
+/* Text link
+   ========================================================================== */
+
+@mixin text-link {
+    @include paragraph;
+    text-decoration: underline;
+    color: $text-link;
+    cursor: pointer;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+@mixin text-link-small {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    cursor: pointer;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 0.875rem;
+    }
+}
+
+@mixin text-link-small-primary {
+    @include text-link-small;
+    color: $text-link;
+}
+
+@mixin error-message-text {
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: $red;
+}
+
+/* ==========================================================================
+   #NAV SYLES
+   ========================================================================== */
+
+@mixin nav-text {
+    font-size: 1.125rem;
+    font-weight: $brand-weight-1;
+    color: $text-color;
+}
+
+@mixin nav-text-bold {
+    font-size: 1.125rem;
+    font-weight: $brand-weight-2;
+    color: $text-color;
+}
+
+/* ==========================================================================
+    #EFFECTS
+   ========================================================================== */
+
+@mixin highlighed-text {
+    padding: 0.625rem;
+    background-color: $grey-8;
+}

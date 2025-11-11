@@ -1,0 +1,30 @@
+/* ==========================================================================
+   #CHAT BUBBLE
+   ========================================================================== */
+// styles not associated to a styleguide component
+
+.m-chat-bubble {
+    @include label-text;
+    padding: 8px 16px;
+    border: 1px solid $grey-5;
+    background-color: $grey-3;
+    color: $white;
+    border-radius: 5px;
+    max-width: 85%;
+    width: fit-content;
+    margin: 2px;
+
+    @media (min-width: $screen-sm-min) {
+        max-width: 65%;
+    }
+}
+
+.m-chat__attachedFile {
+    margin: 15px 0;
+
+    svg {
+        width: 20px;
+        height: 20px;
+        margin-bottom: -6px;
+    }
+}

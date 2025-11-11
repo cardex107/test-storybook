@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #COMMENTS BLOCK
+   ========================================================================== */
+
+.o-comments-block {
+    border-top: 1px solid $grey-5;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 50px;
+    }
+}

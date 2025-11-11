@@ -1,0 +1,10 @@
+import { IconProps } from '~/modules/user/shared/components/icon/types';
+export default function CloseIcon({ className }: IconProps) {
+    return (
+        <svg className={className} xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+            <g fill="#AAA" fillRule="nonzero">
+                <path d="M2.293 3.707a1 1 0 1 1 1.414-1.414l6.667 6.667a1 1 0 0 1-1.414 1.414L2.293 3.707zM15.626 17.04a1 1 0 1 1 1.414-1.414l6.667 6.667a1 1 0 0 1-1.414 1.414l-6.667-6.667zM3.707 23.707l20-20a1 1 0 1 0-1.414-1.414l-20 20a1 1 0 0 0 1.414 1.414z" />
+            </g>
+        </svg>
+    );
+}

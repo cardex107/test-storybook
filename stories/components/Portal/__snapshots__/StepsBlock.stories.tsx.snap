@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/StepsBlock Default smoke-test 1`] = `
+<div class="o-steps-block">
+  <div class="o-steps-block__inner">
+    <div class="o-steps-block__text-panel">
+      <div class="o-steps-block__text-panel-wrapper">
+        <h2 class="o-steps-block__title">
+          the title
+        </h2>
+        <div class="s-cms-content s-cms-content--big">
+          <span>
+            <p>
+              Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="o-steps-block__steps-panel">
+      <ul class="m-steps-list">
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            1
+          </span>
+          <span class="m-steps-list__title">
+            First step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            2
+          </span>
+          <span class="m-steps-list__title">
+            Second step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            3
+          </span>
+          <span class="m-steps-list__title">
+            Third step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            4
+          </span>
+          <span class="m-steps-list__title">
+            Fourth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            5
+          </span>
+          <span class="m-steps-list__title">
+            Fifth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            6
+          </span>
+          <span class="m-steps-list__title">
+            Sixth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/StepsBlock Inverted smoke-test 1`] = `
+<div class="o-steps-block o-steps-block--inverted">
+  <div class="o-steps-block__inner">
+    <div class="o-steps-block__text-panel">
+      <div class="o-steps-block__text-panel-wrapper">
+        <h2 class="o-steps-block__title">
+          the title
+        </h2>
+        <div class="s-cms-content s-cms-content--big">
+          <span>
+            <p>
+              Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="o-steps-block__steps-panel">
+      <ul class="m-steps-list">
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            1
+          </span>
+          <span class="m-steps-list__title">
+            First step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            2
+          </span>
+          <span class="m-steps-list__title">
+            Second step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            3
+          </span>
+          <span class="m-steps-list__title">
+            Third step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            4
+          </span>
+          <span class="m-steps-list__title">
+            Fourth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            5
+          </span>
+          <span class="m-steps-list__title">
+            Fifth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+        <li class="m-steps-list__item">
+          <span class="m-steps-list__number">
+            6
+          </span>
+          <span class="m-steps-list__title">
+            Sixth step title
+          </span>
+          <div class="s-cms-content">
+            <span>
+              <p>
+                Enim cupidatat do lorem nostrud reprehenderit duis eiusmod ex occaecat dolore tempor sit ipsum. Deserunt laborum cupidatat exercitation in veniam sunt in aute excepteur. Consequat nulla cillum aliquip velit exercitation non tempor veniam eu dolore magna elit labore qui veniam.
+              </p>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

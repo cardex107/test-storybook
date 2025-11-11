@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/ConfirmButton Primary smoke-test 1`] = `
+<button style="opacity: 1;"
+        class="a-button a-button--outlined undefined h-cursor"
+        type="button"
+>
+  Confirm button
+</button>
+<div data-testid="modal_closed"
+     class="o-base-modal"
+>
+  <div class="o-base-modal__box undefined">
+    <div class="o-base-modal__wrapper undefined">
+      <div class="o-base-modal__header">
+        <p class="o-base-modal__title">
+          confirm
+        </p>
+        <button style="opacity: 1;"
+                class=" o-base-modal__icon h-cursor"
+                type="button"
+        >
+        </button>
+      </div>
+      <div class="o-base-modal__body">
+        <div class="o-base-modal__text">
+          <p>
+            Confirm?
+          </p>
+        </div>
+        <div class="o-base-modal__buttons-wrapper">
+          <span class="a-button--naked h-cursor js-base-modal-close">
+            Cancel
+          </span>
+          <button class="a-button"
+                  name="button"
+                  disabled
+                  type="button"
+                  data-testid="modal_closed_confirm"
+          >
+            Ok
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="o-base-modal__background">
+  </div>
+</div>
+`;

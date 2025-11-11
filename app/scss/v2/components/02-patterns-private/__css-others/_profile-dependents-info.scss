@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #PROFILE-DEPENDENTS-INFO
+   ========================================================================== */
+// styles not associated to a styleguide component
+
+.o-profile-dependents-info__wrapper {
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 100%;
+    }
+}
+
+.o-profile-dependents-info__card {
+    margin-bottom: 10px;
+}

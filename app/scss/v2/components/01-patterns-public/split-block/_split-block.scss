@@ -1,0 +1,81 @@
+/* ==========================================================================
+   #SPLIT-BLOCK
+   ========================================================================== */
+
+.o-split-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        margin-bottom: 100px;
+    }
+}
+
+.o-split-block__image {
+    height: 280px;
+    background-size: cover;
+    background-position: center center;
+
+    @media (min-width: $screen-sm-min) {
+        flex: 1 0 50%;
+        height: auto;
+    }
+}
+
+.o-split-block__content {
+    flex: 1 0 50%;
+    padding: 20px 20px 30px;
+    background-color: $split-block-background-color;
+
+    @media (min-width: $screen-sm-min) {
+        flex: 1 0 50%;
+        padding: 40px 40px 50px;
+    }
+}
+
+.o-split-block__title {
+    margin-top: 20px;
+    font-size: 1.875rem;
+    font-weight: $brand-weight-1;
+    color: $white;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 2.187rem;
+    }
+}
+
+.o-split-block__text {
+    @include text-style-4-white;
+    margin-top: 20px;
+}
+
+.o-split-block__list {
+    @include reset-list;
+    margin-top: 30px;
+}
+
+.o-split-block__list-item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
+
+.o-split-block__list-item-link {
+    margin-right: 5px;
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    line-height: 1.38;
+    color: $white;
+    text-decoration: underline;
+
+    @media (min-width: $screen-md-min) {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

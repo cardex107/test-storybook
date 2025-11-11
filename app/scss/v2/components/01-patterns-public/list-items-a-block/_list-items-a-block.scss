@@ -1,0 +1,71 @@
+/* ==========================================================================
+   #LIST-ITEMS-A-BLOCK
+   ========================================================================== */
+
+.o-list-item-block {
+    @if $theme== 'a' {
+        padding: 0 0 50px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 60px 50px 70px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 80px 70px 100px;
+        }
+    } @else if $theme== 'b' {
+        padding: 0 0 50px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 60px 30px 90px 30px;
+        }
+    }
+}
+
+.o-list-item-block__inner {
+    container-name: list-items;
+    container-type: inline-size;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-sm-min) {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    } @else if $theme== 'b' {
+        @media (min-width: $screen-sm-min) {
+            gap: 70px;
+        }
+    }
+
+    .o-list-item-block__item {
+        width: 100%;
+
+        @if $theme== 'a' {
+            margin-bottom: 30px;
+
+            @container list-items (min-width: 700px) {
+                width: calc(50% - 30px);
+            }
+            @media (min-width: $screen-md-min) {
+                width: calc(33.33333333% - 30px);
+                margin-bottom: 0;
+            }
+            &:only-child {
+                width: 100%;
+            }
+            &:first-child:nth-last-child(2),
+            &:first-child:nth-last-child(2) ~ .o-list-item-block__item {
+                width: 100%;
+
+                @container list-items (min-width: 700px) {
+                    width: calc(50% - 60px);
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}

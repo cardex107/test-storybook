@@ -1,0 +1,125 @@
+/* ==========================================================================
+   #VIDEOCALL
+   ========================================================================== */
+
+.o-videocall {
+    position: relative;
+    background-color: #111111;
+    margin-bottom: 80px;
+}
+
+.o-videocall__inner {
+    position: relative;
+    width: 100%;
+}
+
+.o-videocall__wrapper {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.o-videocall__wrapper--local,
+#cf-video-container--host {
+    z-index: 600;
+    top: auto;
+    left: 10px;
+    bottom: 10px;
+    height: 300px !important;
+    background-color: $grey-8;
+
+    @media (min-width: $screen-sm-min) {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        max-width: 260px;
+        max-height: 165px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.o-videocall__wrapper--remote,
+.cf-attendee.doctor {
+    position: relative;
+    width: 100%;
+    height: 300px !important;
+
+    @media (min-width: $screen-sm-min) {
+        height: 600px !important;
+    }
+}
+
+.o-videocall__controls {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 700;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+
+    @media (min-width: 1024px) {
+        bottom: 20px;
+    }
+}
+
+.o-videocall__controls-item {
+    margin-right: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-right: 30px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.o-videocall__button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    cursor: pointer;
+}
+
+#cf-video-container--attendees {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+
+    @media (min-width: $screen-sm-min) {
+        min-height: 600px !important;
+    }
+}
+
+.OT_fit-mode-cover .OT_video-element {
+    object-fit: contain !important;
+}
+
+.OT_widget-container {
+    background-color: #111111;
+}
+
+.OT_publisher {
+    min-width: 260px !important;
+    min-height: 165px !important;
+}
+
+.notification-status {
+    display: none;
+    padding: 20px;
+    background-color: $white;
+}
+
+#cf-video-container--controls {
+    display: none;
+}

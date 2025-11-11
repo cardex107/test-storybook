@@ -1,0 +1,66 @@
+/* ==========================================================================
+   #ACCEPTANCES LIST
+   ========================================================================== */
+
+.o-acceptances-list {
+    margin-top: 50px;
+
+    .o-request-info__inner & {
+        margin-left: 0;
+    }
+
+    .o-acceptance {
+        border-bottom: 1px solid $grey-5;
+        padding: 20px 0;
+
+        &:first-child {
+            border-top: 1px solid $grey-5;
+        }
+
+        &:first-child.hidden ~ .o-acceptance {
+            border-top: 1px solid $grey-5;
+        }
+
+        .a-checkbox {
+            .a-checkbox__label,
+            .a-checkbox__text {
+                @include text-note;
+            }
+
+            .a-checkbox__link {
+                @include text-link-small;
+            }
+        }
+
+        .o-form__checkbox {
+            margin-top: 0;
+        }
+
+        &:disabled {
+            .a-checkbox__label {
+                color: $grey-3;
+                cursor: auto;
+            }
+            .a-checkbox__link {
+                color: $brand-color-1;
+            }
+            .a-checkbox__label:after {
+                content: '';
+                position: absolute;
+                top: 6px;
+                left: 6px;
+                width: 8px;
+                height: 8px;
+                background: $grey-5;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.o-consultation-data-info {
+    .o-acceptance--highlight {
+        background-color: $brand-color-1-lighter;
+        padding: 20px 10px;
+    }
+}

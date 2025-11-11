@@ -1,0 +1,158 @@
+/* ==========================================================================
+   #BOTTOM BANNER
+   ========================================================================== */
+
+.o-bottom-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 320px;
+    padding: 80px 30px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 80px 40px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 60px;
+    }
+
+    @if $theme== 'a' {
+        background-color: $banner-background-color-theme-a;
+    } @else if $theme== 'b' {
+        margin: 0 30px;
+        background-color: $footer-background-color-theme-b;
+        border-bottom: 1px solid $grey-6;
+        border-top-left-radius: $panels-radius;
+        border-top-right-radius: $panels-radius;
+    }
+
+    .o-profile-user & {
+        align-items: flex-start;
+        gap: 15px;
+        padding: 20px;
+        min-height: auto;
+        color: $white;
+
+        @media (min-width: $screen-md-min) {
+            padding: 30px 20px;
+        }
+
+        @if $theme== 'b' {
+            margin: 0 0 30px 0;
+            color: $text-color;
+            border-bottom: none;
+            border-bottom-left-radius: $panels-radius;
+            border-bottom-right-radius: $panels-radius;
+        }
+    }
+}
+
+.o-bottom-banner__list {
+    @include reset-list;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.o-bottom-banner__list-item {
+    @include paragraph-white;
+    max-width: 950px;
+    color: $white;
+    font-weight: $brand-weight-1;
+    line-height: 1.25;
+
+    @if $theme== 'a' {
+        @include paragraph-white;
+    } @else if $theme== 'b' {
+        @include paragraph;
+    }
+}
+
+.o-bottom-banner__title {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: $white;
+    text-align: center;
+    text-wrap: balance;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.5rem;
+    }
+
+    @if $theme== 'a' {
+        color: $white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        padding-bottom: 30px;
+        font-weight: $brand-weight-1;
+
+        @media (min-width: $screen-md-min) {
+            padding: 0 20% 20px 20%;
+        }
+    } @else if $theme== 'b' {
+        color: $brand-color-2;
+        font-weight: $brand-weight-2;
+
+        @media (min-width: $screen-md-min) {
+            padding: 0 20%;
+        }
+    }
+}
+
+.o-bottom-banner__text {
+    @include paragraph-white;
+    max-width: 950px;
+    text-align: center;
+
+    @if $theme== 'a' {
+        @include paragraph-white;
+    } @else if $theme== 'b' {
+        @include paragraph;
+    }
+
+    a {
+        color: $white;
+        text-decoration: underline;
+    }
+}
+
+.o-bottom-banner__buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+    }
+
+    @if $theme== 'b' {
+        .o-banner__button {
+            background-color: $primary-button-background-color;
+            color: $primary-button-color;
+            border: 2px solid $primary-button-background-color;
+
+            .a-button__left-icon[class*='h-icon--'] {
+                background-color: $white;
+            }
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    background-color: $white;
+                    color: $brand-color-1;
+                    border: 2px solid $brand-color-1;
+
+                    [class*='h-icon--'] {
+                        background-color: $brand-color-1;
+                    }
+                }
+            }
+        }
+    }
+}

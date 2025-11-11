@@ -1,0 +1,958 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/ConsultationsPage Default smoke-test 1`] = `
+<div class="l-site-wrapper">
+  <div class="l-site-content">
+    <div class="o-alert">
+      <div class="o-alert__inner">
+        <p class="o-alert__text">
+          Para poder darte un mejor servicio, necesitamos que completes tus datos médicos
+        </p>
+        <a style="opacity: 1;"
+           class="a-button o-alert__button a-button--white h-cursor"
+           type="button"
+           href="/user/medical-history"
+        >
+          Completar datos
+        </a>
+      </div>
+    </div>
+    <div class="o-consultations-list-block">
+      <div class="o-consultations-list-block__header">
+        <div class="o-header-image">
+          <div class="o-header-image__image"
+               style="background-image: url(&quot;/images/projects/v2/defaults/header-consultations.jpg&quot;);"
+          >
+          </div>
+          <div class="o-header-image__text-wrapper">
+            <h1 class="o-header-image__title">
+              Consultation title
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="o-consultations-list-block__upcoming">
+        <div class="o-consultations-list-block__title">
+          Upcoming consultations
+        </div>
+        <div class="m-consultations-group"
+             style="position: relative;"
+        >
+          <div class="m-consultations-group__title-wrapper">
+            <div class="m-consultations-group__title">
+            </div>
+            <div class="m-paginator m-consultations-group__paginator">
+              <div class="m-paginator__counter">
+                <span class="m-paginator__number">
+                  1 - 4 of 10
+                </span>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M11.306 14.5H21.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H11.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 10 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L11.306 14.5zM9 8.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 1 0z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M10.306 14.5H20.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H10.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 9 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L10.306 14.5z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M13.41 9.21a.468.468 0 0 1 .669-.117l6.72 5A.507.507 0 0 1 21 14.5v1a.507.507 0 0 1-.201.407l-6.72 5a.468.468 0 0 1-.67-.116.514.514 0 0 1 .112-.698l6.172-4.593H9.48A.496.496 0 0 1 9 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M21.5 8a.5.5 0 0 1 .5.5v13a.5.5 0 1 1-1 0v-13c0-.277.232-.5.5-.5zm-8.496 1.047l.075.046 6.72 5c.1.075.169.187.192.312L20 14.5v1c0 .13-.048.252-.132.344l-.069.063-6.72 5a.468.468 0 0 1-.67-.116.516.516 0 0 1 .046-.639l.066-.059 6.172-4.593H8.48A.496.496 0 0 1 8 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62l.043-.078a.469.469 0 0 1 .595-.162z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="o-consultations-list-block__title">
+          Consultation history
+        </div>
+        <div class="m-consultations-group"
+             style="position: relative;"
+        >
+          <div class="m-consultations-group__title-wrapper">
+            <div class="m-consultations-group__title">
+              <div class="svg-fill-brand-color-1 m-consultations-group__icon">
+                <svg viewbox="0 0 49 37">
+                  <path clip-rule="evenodd"
+                        d="M3.68034 36.57H45.0103C45.9846 36.5674 46.9181 36.1785 47.606 35.4886C48.294 34.7988 48.6803 33.8643 48.6803 32.89V3.73C48.687 3.24338 48.597 2.76029 48.4156 2.30868C48.2343 1.85707 47.9652 1.44592 47.6238 1.09902C47.2825 0.752118 46.8758 0.476364 46.4272 0.287717C45.9786 0.09907 45.497 0.00127755 45.0103 1.56576e-08H3.68034C3.19284 -4.49528e-05 2.71019 0.0967721 2.26042 0.284828C1.81065 0.472884 1.40273 0.748431 1.06035 1.09546C0.717967 1.4425 0.44795 1.8541 0.265981 2.30637C0.0840112 2.75863 -0.00628394 3.24254 0.000339716 3.73V32.89C0.000339716 33.3733 0.0955258 33.8518 0.280463 34.2983C0.4654 34.7448 0.736467 35.1504 1.07819 35.4922C1.41991 35.8339 1.82559 36.1049 2.27206 36.2899C2.71854 36.4748 3.19708 36.57 3.68034 36.57ZM3.02567 2.13249C3.23283 2.04496 3.45545 1.9999 3.68034 2L45.0103 2.05C45.4542 2.05264 45.8789 2.23081 46.1918 2.54558C46.5047 2.86036 46.6803 3.28616 46.6803 3.73V32.89C46.6803 33.3338 46.5047 33.7596 46.1918 34.0744C45.8789 34.3892 45.4542 34.5674 45.0103 34.57H3.68034C3.23478 34.57 2.80746 34.393 2.4924 34.0779C2.17734 33.7629 2.00034 33.3356 2.00034 32.89V3.73C1.99365 3.50521 2.03215 3.28136 2.11358 3.07173C2.19501 2.86209 2.31769 2.67094 2.47437 2.5096C2.63104 2.34827 2.81851 2.22003 3.02567 2.13249ZM40.0614 5.15133C40.4725 4.87662 40.9559 4.73 41.4503 4.73C41.779 4.72868 42.1047 4.79244 42.4086 4.91761C42.7125 5.04278 42.9886 5.22687 43.2211 5.45928C43.4535 5.69169 43.6376 5.96782 43.7627 6.27173C43.8879 6.57564 43.9517 6.90132 43.9503 7.23C43.9503 7.72445 43.8037 8.2078 43.529 8.61893C43.2543 9.03005 42.8639 9.35048 42.407 9.5397C41.9502 9.72892 41.4476 9.77843 40.9626 9.68196C40.4777 9.5855 40.0322 9.3474 39.6826 8.99777C39.3329 8.64814 39.0948 8.20268 38.9984 7.71773C38.9019 7.23277 38.9514 6.73011 39.1406 6.27329C39.3299 5.81648 39.6503 5.42603 40.0614 5.15133ZM29.8111 14.2403C29.8111 17.2836 27.344 19.7506 24.3008 19.7506C21.2575 19.7506 18.7905 17.2836 18.7905 14.2403C18.7905 11.197 21.2575 8.72998 24.3008 8.72998C27.344 8.72998 29.8111 11.197 29.8111 14.2403ZM13.3008 28.0058C13.3008 24.3322 20.6272 22.4955 24.3008 22.4955C27.9743 22.4955 35.3008 24.3529 35.3008 28.0058V30.7506H13.3008V28.0058Z"
+                  >
+                  </path>
+                </svg>
+              </div>
+              <span>
+                Videocalls
+              </span>
+            </div>
+            <div class="m-paginator m-consultations-group__paginator">
+              <div class="m-paginator__counter">
+                <span class="m-paginator__number">
+                  1 - 4 of 10
+                </span>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M11.306 14.5H21.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H11.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 10 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L11.306 14.5zM9 8.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 1 0z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M10.306 14.5H20.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H10.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 9 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L10.306 14.5z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M13.41 9.21a.468.468 0 0 1 .669-.117l6.72 5A.507.507 0 0 1 21 14.5v1a.507.507 0 0 1-.201.407l-6.72 5a.468.468 0 0 1-.67-.116.514.514 0 0 1 .112-.698l6.172-4.593H9.48A.496.496 0 0 1 9 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M21.5 8a.5.5 0 0 1 .5.5v13a.5.5 0 1 1-1 0v-13c0-.277.232-.5.5-.5zm-8.496 1.047l.075.046 6.72 5c.1.075.169.187.192.312L20 14.5v1c0 .13-.048.252-.132.344l-.069.063-6.72 5a.468.468 0 0 1-.67-.116.516.516 0 0 1 .046-.639l.066-.059 6.172-4.593H8.48A.496.496 0 0 1 8 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62l.043-.078a.469.469 0 0 1 .595-.162z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-consultations-group"
+             style="position: relative;"
+        >
+          <div class="m-consultations-group__title-wrapper">
+            <div class="m-consultations-group__title">
+              <div class="svg-fill-brand-color-1 m-consultations-group__icon">
+                <svg viewbox="0 0 50 50">
+                  <path d="M39.58,49.24h-.06c-7.16,0-15.52-4.72-24.82-14C3.57,24.08-1,14.48,1.15,6.66A5.28,5.28,0,0,1,3.58,3.53L8.08.85a2.28,2.28,0,0,1,2.77.83L17.72,12a2.33,2.33,0,0,1-.63,2.84l-3.95,3.08a1.93,1.93,0,0,0-.33,2.33l.51.94a32.81,32.81,0,0,0,5.9,7.64l.93.94c4,4,6.09,5.47,9,7l.76.4a1.89,1.89,0,0,0,2.26-.62l3.1-4a2.31,2.31,0,0,1,2.89-.31l10.3,6.89a2.28,2.28,0,0,1,.49,2.9l-2.74,4.53a5.34,5.34,0,0,1-2.94,2.12A14.2,14.2,0,0,1,39.58,49.24ZM8.88,2.68l-.12.06L4.6,5.25a3.29,3.29,0,0,0-1.52,2c-1.94,7.06,2.45,16,13,26.6C25,42.72,32.91,47.24,39.52,47.24a12.24,12.24,0,0,0,3.19-.41,3.34,3.34,0,0,0,1.81-1.3l.16-.25,2.53-4.2a.26.26,0,0,0-.06-.33l-.08-.07L37,34a.27.27,0,0,0-.34,0l-.07.08-2.89,3.71A3.88,3.88,0,0,1,29,39l-.87-.46c-3.05-1.66-5.24-3.19-9.43-7.38l-.94-.95a35.19,35.19,0,0,1-6.22-8.07l-.51-.94a3.91,3.91,0,0,1,.75-4.8l.24-.2,3.81-3a.29.29,0,0,0,.08-.34l-.06-.09-6.69-10A.29.29,0,0,0,8.88,2.68Zm22.87,20.9A5.76,5.76,0,0,0,26,17.83a1,1,0,0,0,0,2,3.75,3.75,0,0,1,3.75,3.75,1,1,0,0,0,2,0Zm5.32,0A11.08,11.08,0,0,0,26,12.51a1,1,0,0,0,0,2,9.08,9.08,0,0,1,9.07,9.07,1,1,0,0,0,2,0Zm5.38,0A16.47,16.47,0,0,0,26,7.13a1,1,0,1,0,0,2A14.46,14.46,0,0,1,40.45,23.58a1,1,0,0,0,2,0Z">
+                  </path>
+                </svg>
+              </div>
+              <span>
+                Phone
+              </span>
+            </div>
+            <div class="m-paginator m-consultations-group__paginator">
+              <div class="m-paginator__counter">
+                <span class="m-paginator__number">
+                  1 - 4 of 10
+                </span>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M11.306 14.5H21.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H11.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 10 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L11.306 14.5zM9 8.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 1 0z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button is-disabled svg-fill-grey-6">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M10.306 14.5H20.52c.26 0 .48.224.48.5 0 .268-.215.5-.48.5H10.306l6.173 4.593c.216.16.266.473.112.698a.468.468 0 0 1-.67.116l-6.72-5A.507.507 0 0 1 9 15.5v-1c0-.161.075-.313.201-.407l6.72-5a.468.468 0 0 1 .67.116.514.514 0 0 1-.112.698L10.306 14.5z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M13.41 9.21a.468.468 0 0 1 .669-.117l6.72 5A.507.507 0 0 1 21 14.5v1a.507.507 0 0 1-.201.407l-6.72 5a.468.468 0 0 1-.67-.116.514.514 0 0 1 .112-.698l6.172-4.593H9.48A.496.496 0 0 1 9 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+                <a class="m-paginator__button">
+                  <svg width="30"
+                       height="30"
+                       viewbox="0 0 30 30"
+                  >
+                    <path fill="currentColor"
+                          fill-rule="nonzero"
+                          d="M21.5 8a.5.5 0 0 1 .5.5v13a.5.5 0 1 1-1 0v-13c0-.277.232-.5.5-.5zm-8.496 1.047l.075.046 6.72 5c.1.075.169.187.192.312L20 14.5v1c0 .13-.048.252-.132.344l-.069.063-6.72 5a.468.468 0 0 1-.67-.116.516.516 0 0 1 .046-.639l.066-.059 6.172-4.593H8.48A.496.496 0 0 1 8 15c0-.276.22-.5.48-.5h10.215l-6.174-4.593a.513.513 0 0 1-.155-.62l.043-.078a.469.469 0 0 1 .595-.162z"
+                    >
+                    </path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" m-consultations-card"
+               id="10108"
+               data-testid="consultation-card-10108"
+          >
+            <div class=" m-consultations-card__main">
+              <div class="m-consultations-card__text-wrapper">
+                <div class="m-consultations-card__title">
+                  <span class="m-consultations-card__channel">
+                    Call me back -
+                  </span>
+                  <span class="m-consultations-card__specialty">
+                    Vegetarian
+                  </span>
+                </div>
+                <p class="m-consultations-card__text">
+                  Tempor adipisicing quis est nostrud eu sint.
+                </p>
+              </div>
+              <div class="m-consultations-card__data-wrapper">
+                <div class="m-consultations-card__patient">
+                  Luis Gonzalez
+                </div>
+                <div class="m-consultations-card__asap m-consultations-card__time--upcoming">
+                  <span class="m-consultations-card__date">
+                    Apr 16, 2024
+                  </span>
+                </div>
+                <div class="m-status-tag m-consultations-card__status">
+                  <svg width="10"
+                       height="12"
+                       viewbox="0 0 10 12"
+                       fill="none"
+                       class="svg-fill-brand-color-1 undefined"
+                  >
+                    <path d="M10 6L0.249999 11.6292L0.25 0.370834L10 6Z"
+                          fill
+                    >
+                    </path>
+                  </svg>
+                  Ongoing
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="o-consultations-list-block__services">
+        <div class=" o-service-grid ">
+          <p class="o-service-grid__title">
+            Service title
+          </p>
+          <div class="o-service-grid__card-wrapper">
+            <div class="o-service-grid__card m-service-card ">
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M39.58,49.24h-.06c-7.16,0-15.52-4.72-24.82-14C3.57,24.08-1,14.48,1.15,6.66A5.28,5.28,0,0,1,3.58,3.53L8.08.85a2.28,2.28,0,0,1,2.77.83L17.72,12a2.33,2.33,0,0,1-.63,2.84l-3.95,3.08a1.93,1.93,0,0,0-.33,2.33l.51.94a32.81,32.81,0,0,0,5.9,7.64l.93.94c4,4,6.09,5.47,9,7l.76.4a1.89,1.89,0,0,0,2.26-.62l3.1-4a2.31,2.31,0,0,1,2.89-.31l10.3,6.89a2.28,2.28,0,0,1,.49,2.9l-2.74,4.53a5.34,5.34,0,0,1-2.94,2.12A14.2,14.2,0,0,1,39.58,49.24ZM8.88,2.68l-.12.06L4.6,5.25a3.29,3.29,0,0,0-1.52,2c-1.94,7.06,2.45,16,13,26.6C25,42.72,32.91,47.24,39.52,47.24a12.24,12.24,0,0,0,3.19-.41,3.34,3.34,0,0,0,1.81-1.3l.16-.25,2.53-4.2a.26.26,0,0,0-.06-.33l-.08-.07L37,34a.27.27,0,0,0-.34,0l-.07.08-2.89,3.71A3.88,3.88,0,0,1,29,39l-.87-.46c-3.05-1.66-5.24-3.19-9.43-7.38l-.94-.95a35.19,35.19,0,0,1-6.22-8.07l-.51-.94a3.91,3.91,0,0,1,.75-4.8l.24-.2,3.81-3a.29.29,0,0,0,.08-.34l-.06-.09-6.69-10A.29.29,0,0,0,8.88,2.68Zm22.87,20.9A5.76,5.76,0,0,0,26,17.83a1,1,0,0,0,0,2,3.75,3.75,0,0,1,3.75,3.75,1,1,0,0,0,2,0Zm5.32,0A11.08,11.08,0,0,0,26,12.51a1,1,0,0,0,0,2,9.08,9.08,0,0,1,9.07,9.07,1,1,0,0,0,2,0Zm5.38,0A16.47,16.47,0,0,0,26,7.13a1,1,0,1,0,0,2A14.46,14.46,0,0,1,40.45,23.58a1,1,0,0,0,2,0Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Phone Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+              <div class="m-service-card__options m-service-card__options--show">
+                <a class="m-service-card__option m-service-card__asap"
+                   href="/"
+                >
+                  ASAP
+                </a>
+                <a class="m-service-card__option m-service-card__scheduled"
+                   href="/"
+                >
+                  Scheduled
+                </a>
+              </div>
+            </div>
+            <div class="o-service-grid__card m-service-card ">
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 49 37">
+                    <path clip-rule="evenodd"
+                          d="M3.68034 36.57H45.0103C45.9846 36.5674 46.9181 36.1785 47.606 35.4886C48.294 34.7988 48.6803 33.8643 48.6803 32.89V3.73C48.687 3.24338 48.597 2.76029 48.4156 2.30868C48.2343 1.85707 47.9652 1.44592 47.6238 1.09902C47.2825 0.752118 46.8758 0.476364 46.4272 0.287717C45.9786 0.09907 45.497 0.00127755 45.0103 1.56576e-08H3.68034C3.19284 -4.49528e-05 2.71019 0.0967721 2.26042 0.284828C1.81065 0.472884 1.40273 0.748431 1.06035 1.09546C0.717967 1.4425 0.44795 1.8541 0.265981 2.30637C0.0840112 2.75863 -0.00628394 3.24254 0.000339716 3.73V32.89C0.000339716 33.3733 0.0955258 33.8518 0.280463 34.2983C0.4654 34.7448 0.736467 35.1504 1.07819 35.4922C1.41991 35.8339 1.82559 36.1049 2.27206 36.2899C2.71854 36.4748 3.19708 36.57 3.68034 36.57ZM3.02567 2.13249C3.23283 2.04496 3.45545 1.9999 3.68034 2L45.0103 2.05C45.4542 2.05264 45.8789 2.23081 46.1918 2.54558C46.5047 2.86036 46.6803 3.28616 46.6803 3.73V32.89C46.6803 33.3338 46.5047 33.7596 46.1918 34.0744C45.8789 34.3892 45.4542 34.5674 45.0103 34.57H3.68034C3.23478 34.57 2.80746 34.393 2.4924 34.0779C2.17734 33.7629 2.00034 33.3356 2.00034 32.89V3.73C1.99365 3.50521 2.03215 3.28136 2.11358 3.07173C2.19501 2.86209 2.31769 2.67094 2.47437 2.5096C2.63104 2.34827 2.81851 2.22003 3.02567 2.13249ZM40.0614 5.15133C40.4725 4.87662 40.9559 4.73 41.4503 4.73C41.779 4.72868 42.1047 4.79244 42.4086 4.91761C42.7125 5.04278 42.9886 5.22687 43.2211 5.45928C43.4535 5.69169 43.6376 5.96782 43.7627 6.27173C43.8879 6.57564 43.9517 6.90132 43.9503 7.23C43.9503 7.72445 43.8037 8.2078 43.529 8.61893C43.2543 9.03005 42.8639 9.35048 42.407 9.5397C41.9502 9.72892 41.4476 9.77843 40.9626 9.68196C40.4777 9.5855 40.0322 9.3474 39.6826 8.99777C39.3329 8.64814 39.0948 8.20268 38.9984 7.71773C38.9019 7.23277 38.9514 6.73011 39.1406 6.27329C39.3299 5.81648 39.6503 5.42603 40.0614 5.15133ZM29.8111 14.2403C29.8111 17.2836 27.344 19.7506 24.3008 19.7506C21.2575 19.7506 18.7905 17.2836 18.7905 14.2403C18.7905 11.197 21.2575 8.72998 24.3008 8.72998C27.344 8.72998 29.8111 11.197 29.8111 14.2403ZM13.3008 28.0058C13.3008 24.3322 20.6272 22.4955 24.3008 22.4955C27.9743 22.4955 35.3008 24.3529 35.3008 28.0058V30.7506H13.3008V28.0058Z"
+                    >
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Video Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+              <div class="m-service-card__options m-service-card__options--show">
+                <a class="m-service-card__option m-service-card__asap"
+                   href="/"
+                >
+                  ASAP
+                </a>
+                <a class="m-service-card__option m-service-card__scheduled"
+                   href="/"
+                >
+                  Scheduled
+                </a>
+              </div>
+            </div>
+            <a class="o-service-grid__card m-service-card "
+               href="/"
+            >
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M12,47.8A2.81,2.81,0,0,1,9.15,45V38.26h-5a3.4,3.4,0,0,1-3.4-3.4V7.67a3.41,3.41,0,0,1,3.4-3.41h41.4a3.41,3.41,0,0,1,3.4,3.41V34.86a3.41,3.41,0,0,1-3.4,3.4H21.91l-9.24,9.25A1,1,0,0,1,12,47.8ZM4.14,6.26a1.41,1.41,0,0,0-1.4,1.41V34.86a1.4,1.4,0,0,0,1.4,1.4h6a1,1,0,0,1,1,1V45a.81.81,0,0,0,.47.74l9.17-9.18a1,1,0,0,1,.71-.29h24a1.4,1.4,0,0,0,1.4-1.4V7.67a1.41,1.41,0,0,0-1.4-1.41ZM40,15.05a1,1,0,0,0-1-1H8.7a1,1,0,1,0,0,2H39A1,1,0,0,0,40,15.05ZM23.37,22.38a1,1,0,0,0-1-1H8.7a1,1,0,1,0,0,2H22.37A1,1,0,0,0,23.37,22.38Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Chat Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a class="o-service-grid__card m-service-card "
+               href="/"
+            >
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M35.9,20.12H21.5a1,1,0,0,1,0-2H35.9a1,1,0,0,1,0,2ZM15,17.45a1.67,1.67,0,1,0,1.66,1.67A1.67,1.67,0,0,0,15,17.45Zm0,8.86A1.67,1.67,0,1,0,16.7,28,1.66,1.66,0,0,0,15,26.31Zm0,8.85a1.67,1.67,0,1,0,1.66,1.66A1.66,1.66,0,0,0,15,35.16ZM36.9,28a1,1,0,0,0-1-1H21.5a1,1,0,0,0,0,2H35.9A1,1,0,0,0,36.9,28Zm0,8.85a1,1,0,0,0-1-1H21.5a1,1,0,0,0,0,2H35.9A1,1,0,0,0,36.9,36.82ZM42,8.41V46A4.06,4.06,0,0,1,38,50.09H11.35A4.06,4.06,0,0,1,7.3,46V8.41a4.06,4.06,0,0,1,4.05-4.06h8.77a4.6,4.6,0,0,1,9.18,0H38A4.06,4.06,0,0,1,42,8.41Zm-2,0A2.07,2.07,0,0,0,38,6.35H32.34a1,1,0,0,1,.09.42v.5A1.74,1.74,0,0,1,30.69,9h-12A1.74,1.74,0,0,1,16.9,7.27V6.35H11.35a2.06,2.06,0,0,0-2,2.06V46a2.06,2.06,0,0,0,2,2.06H38A2.07,2.07,0,0,0,40,46Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Symptom Checker
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="o-service-grid__card h-padding-15">
+              <a href="tel:666444222"
+                 class="a-button-icon"
+                 data-testid="call-in-button"
+                 target="_blank"
+                 rel="noreferrer"
+              >
+                <div class="a-svg-rounded svg-fill-brand-color-2">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M39.58,49.24h-.06c-7.16,0-15.52-4.72-24.82-14C3.57,24.08-1,14.48,1.15,6.66A5.28,5.28,0,0,1,3.58,3.53L8.08.85a2.28,2.28,0,0,1,2.77.83L17.72,12a2.33,2.33,0,0,1-.63,2.84l-3.95,3.08a1.93,1.93,0,0,0-.33,2.33l.51.94a32.81,32.81,0,0,0,5.9,7.64l.93.94c4,4,6.09,5.47,9,7l.76.4a1.89,1.89,0,0,0,2.26-.62l3.1-4a2.31,2.31,0,0,1,2.89-.31l10.3,6.89a2.28,2.28,0,0,1,.49,2.9l-2.74,4.53a5.34,5.34,0,0,1-2.94,2.12A14.2,14.2,0,0,1,39.58,49.24ZM8.88,2.68l-.12.06L4.6,5.25a3.29,3.29,0,0,0-1.52,2c-1.94,7.06,2.45,16,13,26.6C25,42.72,32.91,47.24,39.52,47.24a12.24,12.24,0,0,0,3.19-.41,3.34,3.34,0,0,0,1.81-1.3l.16-.25,2.53-4.2a.26.26,0,0,0-.06-.33l-.08-.07L37,34a.27.27,0,0,0-.34,0l-.07.08-2.89,3.71A3.88,3.88,0,0,1,29,39l-.87-.46c-3.05-1.66-5.24-3.19-9.43-7.38l-.94-.95a35.19,35.19,0,0,1-6.22-8.07l-.51-.94a3.91,3.91,0,0,1,.75-4.8l.24-.2,3.81-3a.29.29,0,0,0,.08-.34l-.06-.09-6.69-10A.29.29,0,0,0,8.88,2.68Zm22.87,20.9A5.76,5.76,0,0,0,26,17.83a1,1,0,0,0,0,2,3.75,3.75,0,0,1,3.75,3.75,1,1,0,0,0,2,0Zm5.32,0A11.08,11.08,0,0,0,26,12.51a1,1,0,0,0,0,2,9.08,9.08,0,0,1,9.07,9.07,1,1,0,0,0,2,0Zm5.38,0A16.47,16.47,0,0,0,26,7.13a1,1,0,1,0,0,2A14.46,14.46,0,0,1,40.45,23.58a1,1,0,0,0,2,0Z">
+                    </path>
+                  </svg>
+                </div>
+                <span class="a-button-icon_text">
+                  Call 666444222 or ask a doctor from our team to call you whenever you want, free of charge
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pages/ConsultationsPage WithoutConsultations smoke-test 1`] = `
+<div class="l-site-wrapper">
+  <div class="l-site-content">
+    <div class="o-alert">
+      <div class="o-alert__inner">
+        <p class="o-alert__text">
+          Para poder darte un mejor servicio, necesitamos que completes tus datos médicos
+        </p>
+        <a style="opacity: 1;"
+           class="a-button o-alert__button a-button--white h-cursor"
+           type="button"
+           href="/user/medical-history"
+        >
+          Completar datos
+        </a>
+      </div>
+    </div>
+    <div class="o-consultations-list-block">
+      <div class="o-consultations-list-block__header">
+        <div class="o-header-image">
+          <div class="o-header-image__image"
+               style="background-image: url(&quot;/images/projects/v2/defaults/header-consultations.jpg&quot;);"
+          >
+          </div>
+          <div class="o-header-image__text-wrapper">
+            <h1 class="o-header-image__title">
+              Consultation title
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="o-consultations-list-block__upcoming">
+        <div class="o-consultations-list-block__title">
+          Upcoming consultations
+        </div>
+        <span>
+          No incoming consultations found
+        </span>
+        <div class="o-consultations-list-block__title">
+          Consultation history
+        </div>
+        <span>
+          No consultations found
+        </span>
+      </div>
+      <div class="o-consultations-list-block__services">
+        <div class=" o-service-grid ">
+          <p class="o-service-grid__title">
+            Service title
+          </p>
+          <div class="o-service-grid__card-wrapper">
+            <div class="o-service-grid__card m-service-card ">
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M39.58,49.24h-.06c-7.16,0-15.52-4.72-24.82-14C3.57,24.08-1,14.48,1.15,6.66A5.28,5.28,0,0,1,3.58,3.53L8.08.85a2.28,2.28,0,0,1,2.77.83L17.72,12a2.33,2.33,0,0,1-.63,2.84l-3.95,3.08a1.93,1.93,0,0,0-.33,2.33l.51.94a32.81,32.81,0,0,0,5.9,7.64l.93.94c4,4,6.09,5.47,9,7l.76.4a1.89,1.89,0,0,0,2.26-.62l3.1-4a2.31,2.31,0,0,1,2.89-.31l10.3,6.89a2.28,2.28,0,0,1,.49,2.9l-2.74,4.53a5.34,5.34,0,0,1-2.94,2.12A14.2,14.2,0,0,1,39.58,49.24ZM8.88,2.68l-.12.06L4.6,5.25a3.29,3.29,0,0,0-1.52,2c-1.94,7.06,2.45,16,13,26.6C25,42.72,32.91,47.24,39.52,47.24a12.24,12.24,0,0,0,3.19-.41,3.34,3.34,0,0,0,1.81-1.3l.16-.25,2.53-4.2a.26.26,0,0,0-.06-.33l-.08-.07L37,34a.27.27,0,0,0-.34,0l-.07.08-2.89,3.71A3.88,3.88,0,0,1,29,39l-.87-.46c-3.05-1.66-5.24-3.19-9.43-7.38l-.94-.95a35.19,35.19,0,0,1-6.22-8.07l-.51-.94a3.91,3.91,0,0,1,.75-4.8l.24-.2,3.81-3a.29.29,0,0,0,.08-.34l-.06-.09-6.69-10A.29.29,0,0,0,8.88,2.68Zm22.87,20.9A5.76,5.76,0,0,0,26,17.83a1,1,0,0,0,0,2,3.75,3.75,0,0,1,3.75,3.75,1,1,0,0,0,2,0Zm5.32,0A11.08,11.08,0,0,0,26,12.51a1,1,0,0,0,0,2,9.08,9.08,0,0,1,9.07,9.07,1,1,0,0,0,2,0Zm5.38,0A16.47,16.47,0,0,0,26,7.13a1,1,0,1,0,0,2A14.46,14.46,0,0,1,40.45,23.58a1,1,0,0,0,2,0Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Phone Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+              <div class="m-service-card__options m-service-card__options--show">
+                <a class="m-service-card__option m-service-card__asap"
+                   href="/"
+                >
+                  ASAP
+                </a>
+                <a class="m-service-card__option m-service-card__scheduled"
+                   href="/"
+                >
+                  Scheduled
+                </a>
+              </div>
+            </div>
+            <div class="o-service-grid__card m-service-card ">
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 49 37">
+                    <path clip-rule="evenodd"
+                          d="M3.68034 36.57H45.0103C45.9846 36.5674 46.9181 36.1785 47.606 35.4886C48.294 34.7988 48.6803 33.8643 48.6803 32.89V3.73C48.687 3.24338 48.597 2.76029 48.4156 2.30868C48.2343 1.85707 47.9652 1.44592 47.6238 1.09902C47.2825 0.752118 46.8758 0.476364 46.4272 0.287717C45.9786 0.09907 45.497 0.00127755 45.0103 1.56576e-08H3.68034C3.19284 -4.49528e-05 2.71019 0.0967721 2.26042 0.284828C1.81065 0.472884 1.40273 0.748431 1.06035 1.09546C0.717967 1.4425 0.44795 1.8541 0.265981 2.30637C0.0840112 2.75863 -0.00628394 3.24254 0.000339716 3.73V32.89C0.000339716 33.3733 0.0955258 33.8518 0.280463 34.2983C0.4654 34.7448 0.736467 35.1504 1.07819 35.4922C1.41991 35.8339 1.82559 36.1049 2.27206 36.2899C2.71854 36.4748 3.19708 36.57 3.68034 36.57ZM3.02567 2.13249C3.23283 2.04496 3.45545 1.9999 3.68034 2L45.0103 2.05C45.4542 2.05264 45.8789 2.23081 46.1918 2.54558C46.5047 2.86036 46.6803 3.28616 46.6803 3.73V32.89C46.6803 33.3338 46.5047 33.7596 46.1918 34.0744C45.8789 34.3892 45.4542 34.5674 45.0103 34.57H3.68034C3.23478 34.57 2.80746 34.393 2.4924 34.0779C2.17734 33.7629 2.00034 33.3356 2.00034 32.89V3.73C1.99365 3.50521 2.03215 3.28136 2.11358 3.07173C2.19501 2.86209 2.31769 2.67094 2.47437 2.5096C2.63104 2.34827 2.81851 2.22003 3.02567 2.13249ZM40.0614 5.15133C40.4725 4.87662 40.9559 4.73 41.4503 4.73C41.779 4.72868 42.1047 4.79244 42.4086 4.91761C42.7125 5.04278 42.9886 5.22687 43.2211 5.45928C43.4535 5.69169 43.6376 5.96782 43.7627 6.27173C43.8879 6.57564 43.9517 6.90132 43.9503 7.23C43.9503 7.72445 43.8037 8.2078 43.529 8.61893C43.2543 9.03005 42.8639 9.35048 42.407 9.5397C41.9502 9.72892 41.4476 9.77843 40.9626 9.68196C40.4777 9.5855 40.0322 9.3474 39.6826 8.99777C39.3329 8.64814 39.0948 8.20268 38.9984 7.71773C38.9019 7.23277 38.9514 6.73011 39.1406 6.27329C39.3299 5.81648 39.6503 5.42603 40.0614 5.15133ZM29.8111 14.2403C29.8111 17.2836 27.344 19.7506 24.3008 19.7506C21.2575 19.7506 18.7905 17.2836 18.7905 14.2403C18.7905 11.197 21.2575 8.72998 24.3008 8.72998C27.344 8.72998 29.8111 11.197 29.8111 14.2403ZM13.3008 28.0058C13.3008 24.3322 20.6272 22.4955 24.3008 22.4955C27.9743 22.4955 35.3008 24.3529 35.3008 28.0058V30.7506H13.3008V28.0058Z"
+                    >
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Video Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+              <div class="m-service-card__options m-service-card__options--show">
+                <a class="m-service-card__option m-service-card__asap"
+                   href="/"
+                >
+                  ASAP
+                </a>
+                <a class="m-service-card__option m-service-card__scheduled"
+                   href="/"
+                >
+                  Scheduled
+                </a>
+              </div>
+            </div>
+            <a class="o-service-grid__card m-service-card "
+               href="/"
+            >
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M12,47.8A2.81,2.81,0,0,1,9.15,45V38.26h-5a3.4,3.4,0,0,1-3.4-3.4V7.67a3.41,3.41,0,0,1,3.4-3.41h41.4a3.41,3.41,0,0,1,3.4,3.41V34.86a3.41,3.41,0,0,1-3.4,3.4H21.91l-9.24,9.25A1,1,0,0,1,12,47.8ZM4.14,6.26a1.41,1.41,0,0,0-1.4,1.41V34.86a1.4,1.4,0,0,0,1.4,1.4h6a1,1,0,0,1,1,1V45a.81.81,0,0,0,.47.74l9.17-9.18a1,1,0,0,1,.71-.29h24a1.4,1.4,0,0,0,1.4-1.4V7.67a1.41,1.41,0,0,0-1.4-1.41ZM40,15.05a1,1,0,0,0-1-1H8.7a1,1,0,1,0,0,2H39A1,1,0,0,0,40,15.05ZM23.37,22.38a1,1,0,0,0-1-1H8.7a1,1,0,1,0,0,2H22.37A1,1,0,0,0,23.37,22.38Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Chat Consultation
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a class="o-service-grid__card m-service-card "
+               href="/"
+            >
+              <div class="m-service-card__wrapper">
+                <div class="svg-fill-white m-service-card__icon">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M35.9,20.12H21.5a1,1,0,0,1,0-2H35.9a1,1,0,0,1,0,2ZM15,17.45a1.67,1.67,0,1,0,1.66,1.67A1.67,1.67,0,0,0,15,17.45Zm0,8.86A1.67,1.67,0,1,0,16.7,28,1.66,1.66,0,0,0,15,26.31Zm0,8.85a1.67,1.67,0,1,0,1.66,1.66A1.66,1.66,0,0,0,15,35.16ZM36.9,28a1,1,0,0,0-1-1H21.5a1,1,0,0,0,0,2H35.9A1,1,0,0,0,36.9,28Zm0,8.85a1,1,0,0,0-1-1H21.5a1,1,0,0,0,0,2H35.9A1,1,0,0,0,36.9,36.82ZM42,8.41V46A4.06,4.06,0,0,1,38,50.09H11.35A4.06,4.06,0,0,1,7.3,46V8.41a4.06,4.06,0,0,1,4.05-4.06h8.77a4.6,4.6,0,0,1,9.18,0H38A4.06,4.06,0,0,1,42,8.41Zm-2,0A2.07,2.07,0,0,0,38,6.35H32.34a1,1,0,0,1,.09.42v.5A1.74,1.74,0,0,1,30.69,9h-12A1.74,1.74,0,0,1,16.9,7.27V6.35H11.35a2.06,2.06,0,0,0-2,2.06V46a2.06,2.06,0,0,0,2,2.06H38A2.07,2.07,0,0,0,40,46Z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="m-service-card__text-wrapper">
+                  <span class="m-service-card__title">
+                    Symptom Checker
+                  </span>
+                  <p class="m-service-card__text">
+                    Lorem ipsum sit amet teladochealth
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="o-service-grid__card h-padding-15">
+              <a href="tel:666444222"
+                 class="a-button-icon"
+                 data-testid="call-in-button"
+                 target="_blank"
+                 rel="noreferrer"
+              >
+                <div class="a-svg-rounded svg-fill-brand-color-2">
+                  <svg viewbox="0 0 50 50">
+                    <path d="M39.58,49.24h-.06c-7.16,0-15.52-4.72-24.82-14C3.57,24.08-1,14.48,1.15,6.66A5.28,5.28,0,0,1,3.58,3.53L8.08.85a2.28,2.28,0,0,1,2.77.83L17.72,12a2.33,2.33,0,0,1-.63,2.84l-3.95,3.08a1.93,1.93,0,0,0-.33,2.33l.51.94a32.81,32.81,0,0,0,5.9,7.64l.93.94c4,4,6.09,5.47,9,7l.76.4a1.89,1.89,0,0,0,2.26-.62l3.1-4a2.31,2.31,0,0,1,2.89-.31l10.3,6.89a2.28,2.28,0,0,1,.49,2.9l-2.74,4.53a5.34,5.34,0,0,1-2.94,2.12A14.2,14.2,0,0,1,39.58,49.24ZM8.88,2.68l-.12.06L4.6,5.25a3.29,3.29,0,0,0-1.52,2c-1.94,7.06,2.45,16,13,26.6C25,42.72,32.91,47.24,39.52,47.24a12.24,12.24,0,0,0,3.19-.41,3.34,3.34,0,0,0,1.81-1.3l.16-.25,2.53-4.2a.26.26,0,0,0-.06-.33l-.08-.07L37,34a.27.27,0,0,0-.34,0l-.07.08-2.89,3.71A3.88,3.88,0,0,1,29,39l-.87-.46c-3.05-1.66-5.24-3.19-9.43-7.38l-.94-.95a35.19,35.19,0,0,1-6.22-8.07l-.51-.94a3.91,3.91,0,0,1,.75-4.8l.24-.2,3.81-3a.29.29,0,0,0,.08-.34l-.06-.09-6.69-10A.29.29,0,0,0,8.88,2.68Zm22.87,20.9A5.76,5.76,0,0,0,26,17.83a1,1,0,0,0,0,2,3.75,3.75,0,0,1,3.75,3.75,1,1,0,0,0,2,0Zm5.32,0A11.08,11.08,0,0,0,26,12.51a1,1,0,0,0,0,2,9.08,9.08,0,0,1,9.07,9.07,1,1,0,0,0,2,0Zm5.38,0A16.47,16.47,0,0,0,26,7.13a1,1,0,1,0,0,2A14.46,14.46,0,0,1,40.45,23.58a1,1,0,0,0,2,0Z">
+                    </path>
+                  </svg>
+                </div>
+                <span class="a-button-icon_text">
+                  Call 666444222 or ask a doctor from our team to call you whenever you want, free of charge
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,3493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/HomePage Default smoke-test 1`] = `
+<div class="l-site-wrapper">
+  <div class="l-site-content">
+    <div class="o-top-bar">
+      <div class="o-contact">
+        <a href="tel:934 675 051"
+           class="o-contact__action"
+        >
+          <span>
+            934 675 051
+          </span>
+        </a>
+      </div>
+      <div class="m-lang-selector"
+           data-testid="desktop-language-selector"
+      >
+        <span class="m-lang-selector__action">
+          <svg class="m-lang-selector__icon">
+            <path d="M7.6,0.1C7.6,0.1,7.5,0.1,7.6,0.1L7.6,0.1C7.5,0.1,7.5,0.1,7.6,0.1c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5
+	c4.1,0,7.5-3.4,7.5-7.5C15.1,3.4,11.7,0.1,7.6,0.1z M5.3,9.5c-0.1-0.6-0.2-1.3-0.2-2c0-0.7,0.1-1.3,0.2-2h4.6c0.1,0.6,0.2,1.3,0.2,2
+	c0,0.7-0.1,1.3-0.2,2H5.3z M9.5,10.6c-0.4,1.2-1.1,2.2-2,3.2c-0.9-0.9-1.5-2-2-3.2H9.5z M5.6,4.5c0.4-1.2,1.1-2.2,2-3.2
+	c0.9,0.9,1.5,2,2,3.2H5.6z M10.9,5.6h2.7c0.2,0.6,0.3,1.3,0.3,2c0,0.7-0.1,1.3-0.3,2h-2.7c0.1-0.6,0.2-1.3,0.2-2
+	C11.1,6.9,11.1,6.2,10.9,5.6z M13.2,4.5h-2.5c-0.4-1.2-1-2.3-1.7-3.2C10.8,1.7,12.3,2.9,13.2,4.5z M6.2,1.3c-0.8,1-1.4,2.1-1.7,3.2
+	H1.9C2.8,2.9,4.3,1.7,6.2,1.3z M1.4,5.6h2.7C4,6.2,4,6.9,4,7.6c0,0.7,0.1,1.3,0.2,2H1.4c-0.2-0.6-0.3-1.3-0.3-2
+	C1.1,6.9,1.2,6.2,1.4,5.6z M1.9,10.6h2.5c0.4,1.2,1,2.3,1.7,3.2C4.3,13.4,2.8,12.2,1.9,10.6z M8.9,13.8c0.8-1,1.4-2.1,1.7-3.2h2.5
+	C12.3,12.2,10.8,13.4,8.9,13.8z"
+                  fill="currentColor"
+            >
+            </path>
+          </svg>
+          English
+          <div class="h-space-separator">
+          </div>
+          <span class="a-dropdown__arrow">
+          </span>
+        </span>
+        <div class="m-lang-selector__wrapper">
+          <ul class="m-lang-selector__list">
+            <li class="m-lang-selector__item is-active">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/en-UK?language=en-UK"
+              >
+                English
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/es-ES?language=es-ES"
+              >
+                Español
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/ca-ES?language=ca-ES"
+              >
+                Català
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/pt-PT?language=pt-PT"
+              >
+                Português
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/fr-FR?language=fr-FR"
+              >
+                Français
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/hu-HU?language=hu-HU"
+              >
+                Magyar
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/pl-PL?language=pl-PL"
+              >
+                Polski
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/tl-TL?language=tl-TL"
+              >
+                locales.tl-TL.long
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header id="header"
+            class="o-header"
+    >
+      <div class="o-header__backdrop--nav">
+      </div>
+      <div class="o-header__backdrop--account">
+      </div>
+      <div class="o-header__inner">
+        <div class="o-header__icon-menu">
+          <span class="o-header__icon-line">
+          </span>
+        </div>
+        <a class="o-header__home-link"
+           href="/"
+        >
+          <img class="o-header__logo"
+               src="https://via.placeholder.com/100?text=Demo%20image"
+               alt="Logo AXA Grecia"
+          >
+        </a>
+        <nav class="o-header__nav">
+          <ul class="o-header__nav-list"
+              data-testid="desktop-menu"
+          >
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                General Medicine
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename="omc-general"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/omc-general"
+                     target="_self"
+                  >
+                    General Practitioner
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename="scope-key-1"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/scope-key-1"
+                     target="_self"
+                  >
+                    Scope
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename="scope-key-2"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/scope-key-2"
+                     target="_self"
+                  >
+                    Scope2
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <a data-pagename="emo"
+                 data-discover="true"
+                 class="o-header__action "
+                 href="/emo"
+                 target="_self"
+              >
+                Second Opinion
+              </a>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                Group 3
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename="page1"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/page1"
+                     target="_self"
+                  >
+                    Page 1
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.someurl.com"
+                     target="_blank"
+                  >
+                    External url
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                Group 4
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.webinar1.com"
+                     target="_blank"
+                  >
+                    Webinar 1
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.webinar2.com"
+                     target="_blank"
+                  >
+                    Webinar 2
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a class="a-button a-button--outlined o-header__consultations-button"
+             data-discover="true"
+             href="/user/consultations"
+          >
+            Consultations
+          </a>
+          <div class="o-header__account">
+            <span class="o-header__account-action">
+              <svg class="o-header__account-icon"
+                   width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M8 8a2.67 2.67 0 1 0 0-5.34A2.67 2.67 0 0 0 8 8zm0 1.33c-1.78 0-5.33.89-5.33 2.67v1.33h10.66V12c0-1.77-3.55-2.67-5.33-2.67z"
+                >
+                </path>
+              </svg>
+              <span class="a-dropdown__arrow">
+              </span>
+            </span>
+            <ul class="o-header__submenu-account m-submenu">
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/personal-details"
+                >
+                  Personal details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/postal-data"
+                >
+                  Postal data
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/medical-history"
+                >
+                  Medical history
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu">
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/dependents"
+                >
+                  Dependents
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/beneficiaries"
+                >
+                  Beneficiary
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/emergency-contacts"
+                >
+                  Emergency contacts
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/gp-details"
+                >
+                  GP details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/id-verification"
+                >
+                  ID verification
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item m-submenu__item--logout">
+                <button style="opacity: 1;"
+                        class=" m-submenu__item-link h-cursor"
+                        type="button"
+                >
+                  <svg width="15"
+                       height="15"
+                       viewbox="0 0 11 11"
+                       class="a-button__left-icon "
+                  >
+                    <g>
+                      <path fill="currentColor"
+                            d="M5.2,9.9H1.1V1.1h4.1c0.3,0,0.5-0.2,0.5-0.5S5.5,0,5.2,0H0.5C0.2,0,0,0.2,0,0.5v9.9C0,10.8,0.2,11,0.5,11h4.6 c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4C5.4,10,5.3,9.9,5.2,9.9z"
+                      >
+                      </path>
+                      <path fill="currentColor"
+                            d="M10.8,5.1L8.6,2.8C8.5,2.7,8.3,2.6,8.2,2.6C8,2.6,7.9,2.7,7.8,2.8C7.6,3,7.6,3.4,7.8,3.6L9.2,5H2.9C2.6,5,2.3,5.2,2.3,5.5 s0.2,0.5,0.5,0.5h6.3L7.8,7.4C7.6,7.6,7.6,8,7.8,8.2C7.9,8.3,8,8.4,8.2,8.4c0,0,0,0,0,0c0.1,0,0.3-0.1,0.4-0.2l2.3-2.3 C11.1,5.7,11.1,5.3,10.8,5.1z"
+                      >
+                      </path>
+                    </g>
+                  </svg>
+                  Log out
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="o-header__side-menus">
+          <nav class="o-header__nav-mobile m-nav-mobile ">
+            <div class="m-nav-mobile__top-wrapper">
+              <div class="o-contact">
+                <a href="tel:934 675 051"
+                   class="o-contact__action"
+                >
+                  <span>
+                    934 675 051
+                  </span>
+                </a>
+              </div>
+            </div>
+            <ul class="m-nav-mobile__nav-list"
+                data-testid="mobile-menu"
+            >
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  General Medicine
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="omc-general"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/omc-general"
+                       target="_self"
+                    >
+                      General Practitioner
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="scope-key-1"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/scope-key-1"
+                       target="_self"
+                    >
+                      Scope
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="scope-key-2"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/scope-key-2"
+                       target="_self"
+                    >
+                      Scope2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <a data-pagename="emo"
+                   data-discover="true"
+                   class="m-nav-mobile__action "
+                   href="/emo"
+                   target="_self"
+                >
+                  Second Opinion
+                </a>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  Group 3
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="page1"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/page1"
+                       target="_self"
+                    >
+                      Page 1
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.someurl.com"
+                       target="_blank"
+                    >
+                      External url
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  Group 4
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.webinar1.com"
+                       target="_blank"
+                    >
+                      Webinar 1
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.webinar2.com"
+                       target="_blank"
+                    >
+                      Webinar 2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="m-lang-selector m-lang-selector--navigation"
+                 data-testid="mobile-language-selector"
+            >
+              <span class="m-lang-selector__action m-lang-selector__action--navigation">
+                <svg class="m-lang-selector__icon">
+                  <path d="M7.6,0.1C7.6,0.1,7.5,0.1,7.6,0.1L7.6,0.1C7.5,0.1,7.5,0.1,7.6,0.1c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5
+	c4.1,0,7.5-3.4,7.5-7.5C15.1,3.4,11.7,0.1,7.6,0.1z M5.3,9.5c-0.1-0.6-0.2-1.3-0.2-2c0-0.7,0.1-1.3,0.2-2h4.6c0.1,0.6,0.2,1.3,0.2,2
+	c0,0.7-0.1,1.3-0.2,2H5.3z M9.5,10.6c-0.4,1.2-1.1,2.2-2,3.2c-0.9-0.9-1.5-2-2-3.2H9.5z M5.6,4.5c0.4-1.2,1.1-2.2,2-3.2
+	c0.9,0.9,1.5,2,2,3.2H5.6z M10.9,5.6h2.7c0.2,0.6,0.3,1.3,0.3,2c0,0.7-0.1,1.3-0.3,2h-2.7c0.1-0.6,0.2-1.3,0.2-2
+	C11.1,6.9,11.1,6.2,10.9,5.6z M13.2,4.5h-2.5c-0.4-1.2-1-2.3-1.7-3.2C10.8,1.7,12.3,2.9,13.2,4.5z M6.2,1.3c-0.8,1-1.4,2.1-1.7,3.2
+	H1.9C2.8,2.9,4.3,1.7,6.2,1.3z M1.4,5.6h2.7C4,6.2,4,6.9,4,7.6c0,0.7,0.1,1.3,0.2,2H1.4c-0.2-0.6-0.3-1.3-0.3-2
+	C1.1,6.9,1.2,6.2,1.4,5.6z M1.9,10.6h2.5c0.4,1.2,1,2.3,1.7,3.2C4.3,13.4,2.8,12.2,1.9,10.6z M8.9,13.8c0.8-1,1.4-2.1,1.7-3.2h2.5
+	C12.3,12.2,10.8,13.4,8.9,13.8z"
+                        fill="currentColor"
+                  >
+                  </path>
+                </svg>
+                English
+                <div class="h-space-separator">
+                </div>
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <div class="m-lang-selector__wrapper m-lang-selector__wrapper--navigation">
+                <ul class="m-lang-selector__list m-lang-selector__list--navigation">
+                  <li class="m-lang-selector__item is-active">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/en-UK?language=en-UK"
+                    >
+                      English
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/es-ES?language=es-ES"
+                    >
+                      Español
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/ca-ES?language=ca-ES"
+                    >
+                      Català
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/pt-PT?language=pt-PT"
+                    >
+                      Português
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/fr-FR?language=fr-FR"
+                    >
+                      Français
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/hu-HU?language=hu-HU"
+                    >
+                      Magyar
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/pl-PL?language=pl-PL"
+                    >
+                      Polski
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/tl-TL?language=tl-TL"
+                    >
+                      locales.tl-TL.long
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <nav class="o-header__account-mobile m-account-mobile">
+            <a class="a-button a-button--outlined m-account-mobile__consultations-button"
+               data-discover="true"
+               href="/user/consultations"
+            >
+              Consultations
+            </a>
+            <span class="m-account-mobile__title">
+              My personal area
+            </span>
+            <ul class="m-account-mobile__list">
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/personal-details"
+                >
+                  Personal details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/postal-data"
+                >
+                  Postal data
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/medical-history"
+                >
+                  Medical history
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu">
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/dependents"
+                >
+                  Dependents
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/beneficiaries"
+                >
+                  Beneficiary
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/emergency-contacts"
+                >
+                  Emergency contacts
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/gp-details"
+                >
+                  GP details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/id-verification"
+                >
+                  ID verification
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item m-account-mobile__list-item--logout">
+                <button style="opacity: 1;"
+                        class=" m-account-mobile__list-item-link h-cursor"
+                        type="button"
+                >
+                  <svg width="15"
+                       height="15"
+                       viewbox="0 0 11 11"
+                       class="a-button__left-icon "
+                  >
+                    <g>
+                      <path fill="currentColor"
+                            d="M5.2,9.9H1.1V1.1h4.1c0.3,0,0.5-0.2,0.5-0.5S5.5,0,5.2,0H0.5C0.2,0,0,0.2,0,0.5v9.9C0,10.8,0.2,11,0.5,11h4.6 c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4C5.4,10,5.3,9.9,5.2,9.9z"
+                      >
+                      </path>
+                      <path fill="currentColor"
+                            d="M10.8,5.1L8.6,2.8C8.5,2.7,8.3,2.6,8.2,2.6C8,2.6,7.9,2.7,7.8,2.8C7.6,3,7.6,3.4,7.8,3.6L9.2,5H2.9C2.6,5,2.3,5.2,2.3,5.5 s0.2,0.5,0.5,0.5h6.3L7.8,7.4C7.6,7.6,7.6,8,7.8,8.2C7.9,8.3,8,8.4,8.2,8.4c0,0,0,0,0,0c0.1,0,0.3-0.1,0.4-0.2l2.3-2.3 C11.1,5.7,11.1,5.3,10.8,5.1z"
+                      >
+                      </path>
+                    </g>
+                  </svg>
+                  Log out
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="o-hero-block o-hero-block--home">
+      <div class="o-hero-block__background"
+           style="background-image: url(&quot;/stories/assets/01_247_helpline_1800x560.jpg&quot;);"
+      >
+      </div>
+      <div class="o-hero-block__text-panel">
+        <div class="o-hero-block__text-panel-inner">
+          <h1 class="o-hero-block__title">
+            <span>
+              Qui Lorem labore tempor labore elit fugiat culpa.
+            </span>
+          </h1>
+          <h2 class="o-hero-block__subtitle">
+            <span>
+              Nostrud cupidatat qui culpa ut ea elit laborum ex.
+            </span>
+          </h2>
+          <div class="o-hero-block__button-wrapper">
+          </div>
+        </div>
+      </div>
+      <div class="o-hero-block__velum">
+      </div>
+    </div>
+    <div class="o-list-item-block">
+      <div class="o-list-item-block__inner">
+        <div class="o-list-item-block__item m-list-item-a">
+          <div class="m-list-item-a__image--wrapper">
+            <img class="m-list-item-a__image"
+                 src="/stories/assets/medical.jpg"
+                 alt
+            >
+          </div>
+          <div class="m-list-item-a__text-panel">
+            <h2 class="m-list-item-a__title">
+              General Medicine
+            </h2>
+            <div class="s-cms-content">
+              <span>
+                <p>
+                  For any health concerns you have or even if you want help to quit smoking, our experienced Doctors are available to speak to you wherever you are in the world, 24 hours a day, 7 days a week. For more complex medical cases you can seek a Second Medical Opinion.
+                </p>
+              </span>
+            </div>
+            <div class="m-list-item-a__links-list">
+              <a class="m-list-item-a__link"
+                 href="/omc-general"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  General Practitioner
+                </span>
+              </a>
+              <a class="m-list-item-a__link"
+                 href="/scope-key-1"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  Scope
+                </span>
+              </a>
+              <a class="m-list-item-a__link"
+                 href="/scope-key-2"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  Scope2
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="o-list-item-block__item m-list-item-a">
+          <div class="m-list-item-a__image--wrapper">
+            <img class="m-list-item-a__image"
+                 src="/stories/assets/destacado3327693.jpg"
+                 alt
+            >
+          </div>
+          <div class="m-list-item-a__text-panel">
+            <h2 class="m-list-item-a__title">
+              Second Opinion
+            </h2>
+            <div class="s-cms-content">
+              <span>
+                <p>
+                  Are you looking to achieve or maintain a healthy body weight? Do you want to change your eating habits both at home and at the workplace? Our team of nutritional experts are here to support you all the way.
+                </p>
+              </span>
+            </div>
+            <div class="m-list-item-a__links-list">
+              <a class="m-list-item-a__link"
+                 href="/emo"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  More information
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="o-list-item-block__item m-list-item-a">
+          <div class="m-list-item-a__image--wrapper">
+            <img class="m-list-item-a__image"
+                 src="/stories/assets/wellbeing.jpg"
+                 alt
+            >
+          </div>
+          <div class="m-list-item-a__text-panel">
+            <h2 class="m-list-item-a__title">
+              Group 3
+            </h2>
+            <div class="s-cms-content">
+              <span>
+                <p>
+                  If a life event knocks you sideways, you’re struggling with sleeping or work is getting on top of you. Speak to our team of mental health professionals in complete confidence and get back on track.
+                </p>
+              </span>
+            </div>
+            <div class="m-list-item-a__links-list">
+              <a class="m-list-item-a__link"
+                 href="/page1"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  Page 1
+                </span>
+              </a>
+              <a class="m-list-item-a__link"
+                 href="https://www.someurl.com"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  External url
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="o-list-item-block__item m-list-item-a">
+          <div class="m-list-item-a__image--wrapper">
+            <img class="m-list-item-a__image"
+                 src="/stories/assets/how-does-it-work.jpeg"
+                 alt
+            >
+          </div>
+          <div class="m-list-item-a__text-panel">
+            <h2 class="m-list-item-a__title">
+              Group 4
+            </h2>
+            <div class="s-cms-content">
+              <span>
+                <p>
+                </p>
+              </span>
+            </div>
+            <div class="m-list-item-a__links-list">
+              <a class="m-list-item-a__link"
+                 href="https://www.webinar1.com"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  Webinar 1
+                </span>
+              </a>
+              <a class="m-list-item-a__link"
+                 href="https://www.webinar2.com"
+              >
+                <span class="m-list-item-a__link-icon">
+                </span>
+                <span class="m-list-item-a__link-text">
+                  Webinar 2
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="o-app-block">
+      <div class="o-app-block__text-wrapper">
+        <span class="o-app-block__small-text">
+          Title
+        </span>
+        <span class="o-app-block__text">
+          Voluptate occaecat in excepteur laborum dolore sunt mollit deserunt adipisicing sunt commodo fugiat sit cillum.
+        </span>
+        <div class="m-download-buttons-cont m-download-buttons-cont-centered-md">
+          <div class="m-download-button m-download-button-google">
+            <a href="https://google.com"
+               class="m-download-button__link"
+            >
+              <img src="/images/common/google-play-en.svg"
+                   alt
+              >
+            </a>
+            <img src="data:image/png;base64,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"
+                 alt
+                 class="m-download-button__qr"
+            >
+          </div>
+          <div class="m-download-button m-download-button-apple">
+            <a href="https://google.com"
+               class="m-download-button__link"
+            >
+              <img src="/images/common/app-store-en.svg"
+                   alt
+              >
+            </a>
+            <img src="data:image/png;base64,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"
+                 alt
+                 class="m-download-button__qr"
+            >
+          </div>
+        </div>
+      </div>
+      <div class="o-app-block__app-screen"
+           style="background-image: url(&quot;/stories/assets/app-image.png&quot;);"
+      >
+        <img class="a-mobile-notch"
+             src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+             alt="mobile screen"
+        >
+      </div>
+    </div>
+    <footer class="o-footer">
+      <div class="o-footer__top">
+        <p class="o-footer__disclaimer">
+          Advance Medical. These services are intended to provide general health information. Under no circumstances should these recommendations be considered to be a diagnosis or treatment. The recommendations derived from these services are based on medical information provided by the customer and should in no way replace or substitute medical information provided by medical professionals.
+        </p>
+      </div>
+      <div class="o-footer__bottom">
+        <span class="o-footer__copyright">
+          <span>
+            ©
+          </span>
+          Advance Medical, 2025. All rights reserved.
+        </span>
+        <nav class="o-footer__navigation">
+          <ul class="o-footer__links">
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/terms-and-conditions"
+                 target
+              >
+                Terms &amp;amp; Conditions
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/disclaimer"
+                 target
+              >
+                Privacy Notice
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/cookies"
+              >
+                Cookies
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/faqs"
+              >
+                FAQs
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`pages/HomePage Movistar smoke-test 1`] = `
+<div class="l-site-wrapper">
+  <div class="l-site-content">
+    <div class="o-top-bar">
+      <div class="o-contact">
+        <a href="tel:934 675 051"
+           class="o-contact__action"
+        >
+          <span>
+            934 675 051
+          </span>
+        </a>
+      </div>
+      <div class="m-lang-selector"
+           data-testid="desktop-language-selector"
+      >
+        <span class="m-lang-selector__action">
+          <svg class="m-lang-selector__icon">
+            <path d="M7.6,0.1C7.6,0.1,7.5,0.1,7.6,0.1L7.6,0.1C7.5,0.1,7.5,0.1,7.6,0.1c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5
+	c4.1,0,7.5-3.4,7.5-7.5C15.1,3.4,11.7,0.1,7.6,0.1z M5.3,9.5c-0.1-0.6-0.2-1.3-0.2-2c0-0.7,0.1-1.3,0.2-2h4.6c0.1,0.6,0.2,1.3,0.2,2
+	c0,0.7-0.1,1.3-0.2,2H5.3z M9.5,10.6c-0.4,1.2-1.1,2.2-2,3.2c-0.9-0.9-1.5-2-2-3.2H9.5z M5.6,4.5c0.4-1.2,1.1-2.2,2-3.2
+	c0.9,0.9,1.5,2,2,3.2H5.6z M10.9,5.6h2.7c0.2,0.6,0.3,1.3,0.3,2c0,0.7-0.1,1.3-0.3,2h-2.7c0.1-0.6,0.2-1.3,0.2-2
+	C11.1,6.9,11.1,6.2,10.9,5.6z M13.2,4.5h-2.5c-0.4-1.2-1-2.3-1.7-3.2C10.8,1.7,12.3,2.9,13.2,4.5z M6.2,1.3c-0.8,1-1.4,2.1-1.7,3.2
+	H1.9C2.8,2.9,4.3,1.7,6.2,1.3z M1.4,5.6h2.7C4,6.2,4,6.9,4,7.6c0,0.7,0.1,1.3,0.2,2H1.4c-0.2-0.6-0.3-1.3-0.3-2
+	C1.1,6.9,1.2,6.2,1.4,5.6z M1.9,10.6h2.5c0.4,1.2,1,2.3,1.7,3.2C4.3,13.4,2.8,12.2,1.9,10.6z M8.9,13.8c0.8-1,1.4-2.1,1.7-3.2h2.5
+	C12.3,12.2,10.8,13.4,8.9,13.8z"
+                  fill="currentColor"
+            >
+            </path>
+          </svg>
+          English
+          <div class="h-space-separator">
+          </div>
+          <span class="a-dropdown__arrow">
+          </span>
+        </span>
+        <div class="m-lang-selector__wrapper">
+          <ul class="m-lang-selector__list">
+            <li class="m-lang-selector__item is-active">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/en-UK?language=en-UK"
+              >
+                English
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/es-ES?language=es-ES"
+              >
+                Español
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/ca-ES?language=ca-ES"
+              >
+                Català
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/pt-PT?language=pt-PT"
+              >
+                Português
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/fr-FR?language=fr-FR"
+              >
+                Français
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/hu-HU?language=hu-HU"
+              >
+                Magyar
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/pl-PL?language=pl-PL"
+              >
+                Polski
+              </a>
+            </li>
+            <li class="m-lang-selector__item ">
+              <svg width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+                   class="m-lang-selector__icon-check"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                >
+                </path>
+              </svg>
+              <a class="m-lang-selector__link"
+                 data-discover="true"
+                 href="/tl-TL?language=tl-TL"
+              >
+                locales.tl-TL.long
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <header id="header"
+            class="o-header"
+    >
+      <div class="o-header__backdrop--nav">
+      </div>
+      <div class="o-header__backdrop--account">
+      </div>
+      <div class="o-header__inner">
+        <div class="o-header__icon-menu">
+          <span class="o-header__icon-line">
+          </span>
+        </div>
+        <a class="o-header__home-link"
+           href="/"
+        >
+          <img class="o-header__logo"
+               src="https://via.placeholder.com/100?text=Demo%20image"
+               alt="Logo AXA Grecia"
+          >
+        </a>
+        <nav class="o-header__nav">
+          <ul class="o-header__nav-list"
+              data-testid="desktop-menu"
+          >
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                General Medicine
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename="omc-general"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/omc-general"
+                     target="_self"
+                  >
+                    General Practitioner
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename="scope-key-1"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/scope-key-1"
+                     target="_self"
+                  >
+                    Scope
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename="scope-key-2"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/scope-key-2"
+                     target="_self"
+                  >
+                    Scope2
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <a data-pagename="emo"
+                 data-discover="true"
+                 class="o-header__action "
+                 href="/emo"
+                 target="_self"
+              >
+                Second Opinion
+              </a>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                Group 3
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename="page1"
+                     data-discover="true"
+                     class="m-submenu__item-link "
+                     href="/page1"
+                     target="_self"
+                  >
+                    Page 1
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.someurl.com"
+                     target="_blank"
+                  >
+                    External url
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="o-header__nav-item"
+                data-testid="menu-group"
+            >
+              <span class="o-header__action is-open">
+                Group 4
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <ul class="o-header__submenu m-submenu">
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.webinar1.com"
+                     target="_blank"
+                  >
+                    Webinar 1
+                  </a>
+                </li>
+                <li class="m-submenu__item">
+                  <a data-pagename
+                     class="m-submenu__item-link "
+                     href="https://www.webinar2.com"
+                     target="_blank"
+                  >
+                    Webinar 2
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a class="a-button a-button--outlined o-header__consultations-button"
+             data-discover="true"
+             href="/user/consultations"
+          >
+            Consultations
+          </a>
+          <div class="o-header__account">
+            <span class="o-header__account-action">
+              <svg class="o-header__account-icon"
+                   width="16"
+                   height="16"
+                   viewbox="0 0 16 16"
+              >
+                <path fill="currentColor"
+                      fill-rule="nonzero"
+                      d="M8 8a2.67 2.67 0 1 0 0-5.34A2.67 2.67 0 0 0 8 8zm0 1.33c-1.78 0-5.33.89-5.33 2.67v1.33h10.66V12c0-1.77-3.55-2.67-5.33-2.67z"
+                >
+                </path>
+              </svg>
+              <span class="a-dropdown__arrow">
+              </span>
+            </span>
+            <ul class="o-header__submenu-account m-submenu">
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/personal-details"
+                >
+                  Personal details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/postal-data"
+                >
+                  Postal data
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/medical-history"
+                >
+                  Medical history
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu">
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/dependents"
+                >
+                  Dependents
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/beneficiaries"
+                >
+                  Beneficiary
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/emergency-contacts"
+                >
+                  Emergency contacts
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/gp-details"
+                >
+                  GP details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item">
+                <a data-discover="true"
+                   class="m-submenu__item-link"
+                   href="/user/id-verification"
+                >
+                  ID verification
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-submenu__item m-submenu__item--logout">
+                <button style="opacity: 1;"
+                        class=" m-submenu__item-link h-cursor"
+                        type="button"
+                >
+                  <svg width="15"
+                       height="15"
+                       viewbox="0 0 11 11"
+                       class="a-button__left-icon "
+                  >
+                    <g>
+                      <path fill="currentColor"
+                            d="M5.2,9.9H1.1V1.1h4.1c0.3,0,0.5-0.2,0.5-0.5S5.5,0,5.2,0H0.5C0.2,0,0,0.2,0,0.5v9.9C0,10.8,0.2,11,0.5,11h4.6 c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4C5.4,10,5.3,9.9,5.2,9.9z"
+                      >
+                      </path>
+                      <path fill="currentColor"
+                            d="M10.8,5.1L8.6,2.8C8.5,2.7,8.3,2.6,8.2,2.6C8,2.6,7.9,2.7,7.8,2.8C7.6,3,7.6,3.4,7.8,3.6L9.2,5H2.9C2.6,5,2.3,5.2,2.3,5.5 s0.2,0.5,0.5,0.5h6.3L7.8,7.4C7.6,7.6,7.6,8,7.8,8.2C7.9,8.3,8,8.4,8.2,8.4c0,0,0,0,0,0c0.1,0,0.3-0.1,0.4-0.2l2.3-2.3 C11.1,5.7,11.1,5.3,10.8,5.1z"
+                      >
+                      </path>
+                    </g>
+                  </svg>
+                  Log out
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="o-header__side-menus">
+          <nav class="o-header__nav-mobile m-nav-mobile ">
+            <div class="m-nav-mobile__top-wrapper">
+              <div class="o-contact">
+                <a href="tel:934 675 051"
+                   class="o-contact__action"
+                >
+                  <span>
+                    934 675 051
+                  </span>
+                </a>
+              </div>
+            </div>
+            <ul class="m-nav-mobile__nav-list"
+                data-testid="mobile-menu"
+            >
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  General Medicine
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="omc-general"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/omc-general"
+                       target="_self"
+                    >
+                      General Practitioner
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="scope-key-1"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/scope-key-1"
+                       target="_self"
+                    >
+                      Scope
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="scope-key-2"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/scope-key-2"
+                       target="_self"
+                    >
+                      Scope2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <a data-pagename="emo"
+                   data-discover="true"
+                   class="m-nav-mobile__action "
+                   href="/emo"
+                   target="_self"
+                >
+                  Second Opinion
+                </a>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  Group 3
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename="page1"
+                       data-discover="true"
+                       class="m-nav-mobile__submenu-item-link "
+                       href="/page1"
+                       target="_self"
+                    >
+                      Page 1
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.someurl.com"
+                       target="_blank"
+                    >
+                      External url
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="m-nav-mobile__nav-item"
+                  data-testid="menu-group"
+              >
+                <span class="m-nav-mobile__action ">
+                  Group 4
+                  <span class="a-dropdown__arrow">
+                  </span>
+                </span>
+                <ul class="m-nav-mobile__submenu h-hidden">
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.webinar1.com"
+                       target="_blank"
+                    >
+                      Webinar 1
+                    </a>
+                  </li>
+                  <li class="m-nav-mobile__submenu-item">
+                    <a data-pagename
+                       class="m-nav-mobile__submenu-item-link "
+                       href="https://www.webinar2.com"
+                       target="_blank"
+                    >
+                      Webinar 2
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="m-lang-selector m-lang-selector--navigation"
+                 data-testid="mobile-language-selector"
+            >
+              <span class="m-lang-selector__action m-lang-selector__action--navigation">
+                <svg class="m-lang-selector__icon">
+                  <path d="M7.6,0.1C7.6,0.1,7.5,0.1,7.6,0.1L7.6,0.1C7.5,0.1,7.5,0.1,7.6,0.1c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5
+	c4.1,0,7.5-3.4,7.5-7.5C15.1,3.4,11.7,0.1,7.6,0.1z M5.3,9.5c-0.1-0.6-0.2-1.3-0.2-2c0-0.7,0.1-1.3,0.2-2h4.6c0.1,0.6,0.2,1.3,0.2,2
+	c0,0.7-0.1,1.3-0.2,2H5.3z M9.5,10.6c-0.4,1.2-1.1,2.2-2,3.2c-0.9-0.9-1.5-2-2-3.2H9.5z M5.6,4.5c0.4-1.2,1.1-2.2,2-3.2
+	c0.9,0.9,1.5,2,2,3.2H5.6z M10.9,5.6h2.7c0.2,0.6,0.3,1.3,0.3,2c0,0.7-0.1,1.3-0.3,2h-2.7c0.1-0.6,0.2-1.3,0.2-2
+	C11.1,6.9,11.1,6.2,10.9,5.6z M13.2,4.5h-2.5c-0.4-1.2-1-2.3-1.7-3.2C10.8,1.7,12.3,2.9,13.2,4.5z M6.2,1.3c-0.8,1-1.4,2.1-1.7,3.2
+	H1.9C2.8,2.9,4.3,1.7,6.2,1.3z M1.4,5.6h2.7C4,6.2,4,6.9,4,7.6c0,0.7,0.1,1.3,0.2,2H1.4c-0.2-0.6-0.3-1.3-0.3-2
+	C1.1,6.9,1.2,6.2,1.4,5.6z M1.9,10.6h2.5c0.4,1.2,1,2.3,1.7,3.2C4.3,13.4,2.8,12.2,1.9,10.6z M8.9,13.8c0.8-1,1.4-2.1,1.7-3.2h2.5
+	C12.3,12.2,10.8,13.4,8.9,13.8z"
+                        fill="currentColor"
+                  >
+                  </path>
+                </svg>
+                English
+                <div class="h-space-separator">
+                </div>
+                <span class="a-dropdown__arrow">
+                </span>
+              </span>
+              <div class="m-lang-selector__wrapper m-lang-selector__wrapper--navigation">
+                <ul class="m-lang-selector__list m-lang-selector__list--navigation">
+                  <li class="m-lang-selector__item is-active">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/en-UK?language=en-UK"
+                    >
+                      English
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/es-ES?language=es-ES"
+                    >
+                      Español
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/ca-ES?language=ca-ES"
+                    >
+                      Català
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/pt-PT?language=pt-PT"
+                    >
+                      Português
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/fr-FR?language=fr-FR"
+                    >
+                      Français
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/hu-HU?language=hu-HU"
+                    >
+                      Magyar
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/pl-PL?language=pl-PL"
+                    >
+                      Polski
+                    </a>
+                  </li>
+                  <li class="m-lang-selector__item ">
+                    <svg width="16"
+                         height="16"
+                         viewbox="0 0 16 16"
+                         class="m-lang-selector__icon-check"
+                    >
+                      <path fill="currentColor"
+                            fill-rule="nonzero"
+                            d="M6 10.78L3.22 8l-.95.94L6 12.67l8-8-.94-.94z"
+                      >
+                      </path>
+                    </svg>
+                    <a class="m-lang-selector__link"
+                       data-discover="true"
+                       href="/tl-TL?language=tl-TL"
+                    >
+                      locales.tl-TL.long
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <nav class="o-header__account-mobile m-account-mobile">
+            <a class="a-button a-button--outlined m-account-mobile__consultations-button"
+               data-discover="true"
+               href="/user/consultations"
+            >
+              Consultations
+            </a>
+            <span class="m-account-mobile__title">
+              My personal area
+            </span>
+            <ul class="m-account-mobile__list">
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/personal-details"
+                >
+                  Personal details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/postal-data"
+                >
+                  Postal data
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/medical-history"
+                >
+                  Medical history
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu">
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/dependents"
+                >
+                  Dependents
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/beneficiaries"
+                >
+                  Beneficiary
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/emergency-contacts"
+                >
+                  Emergency contacts
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/gp-details"
+                >
+                  GP details
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item">
+                <a data-discover="true"
+                   class="m-account-mobile__list-item-link"
+                   href="/user/id-verification"
+                >
+                  ID verification
+                  <span class="h-space-separator">
+                  </span>
+                  <span class="alert_icon_submenu"
+                        hidden
+                  >
+                    <svg width="14"
+                         height="14"
+                         viewbox="0 0 14 14"
+                    >
+                      <g fill="none"
+                         fill-rule="evenodd"
+                      >
+                        <path fill="#ff0000"
+                              d="M7 0c3.866 0 7 3.134 7 7s-3.134 7-7 7-7-3.134-7-7 3.134-7 7-7zm0 9.66c-.387 0-.7.313-.7.7 0 .387.313.7.7.7.387 0 .7-.313.7-.7 0-.387-.313-.7-.7-.7zm.805-6.86h-1.61l.27 5.6h1.078l.262-5.6z"
+                        >
+                        </path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="m-account-mobile__list-item m-account-mobile__list-item--logout">
+                <button style="opacity: 1;"
+                        class=" m-account-mobile__list-item-link h-cursor"
+                        type="button"
+                >
+                  <svg width="15"
+                       height="15"
+                       viewbox="0 0 11 11"
+                       class="a-button__left-icon "
+                  >
+                    <g>
+                      <path fill="currentColor"
+                            d="M5.2,9.9H1.1V1.1h4.1c0.3,0,0.5-0.2,0.5-0.5S5.5,0,5.2,0H0.5C0.2,0,0,0.2,0,0.5v9.9C0,10.8,0.2,11,0.5,11h4.6 c0.3,0,0.5-0.2,0.5-0.5c0-0.1-0.1-0.3-0.2-0.4C5.4,10,5.3,9.9,5.2,9.9z"
+                      >
+                      </path>
+                      <path fill="currentColor"
+                            d="M10.8,5.1L8.6,2.8C8.5,2.7,8.3,2.6,8.2,2.6C8,2.6,7.9,2.7,7.8,2.8C7.6,3,7.6,3.4,7.8,3.6L9.2,5H2.9C2.6,5,2.3,5.2,2.3,5.5 s0.2,0.5,0.5,0.5h6.3L7.8,7.4C7.6,7.6,7.6,8,7.8,8.2C7.9,8.3,8,8.4,8.2,8.4c0,0,0,0,0,0c0.1,0,0.3-0.1,0.4-0.2l2.3-2.3 C11.1,5.7,11.1,5.3,10.8,5.1z"
+                      >
+                      </path>
+                    </g>
+                  </svg>
+                  Log out
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="swiper-container swiper-hero swiper-initialized swiper-horizontal swiper-backface-hidden">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-active"
+             style="width: 1248px;"
+             data-swiper-slide-index="0"
+        >
+          <div class="o-swiper-content-banner o-swiper-content-banner--hero">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-movistar-salud.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <h2 class="o-swiper-content-banner__title">
+                Esse nisi aliquip velit irure sit.
+              </h2>
+              <div class="o-swiper-content-banner__subtitle">
+                <span>
+                  Nisi id aliquip minim et.
+                </span>
+              </div>
+              <div class="m-download-buttons-cont m-download-buttons-cont-centered-md">
+                <div class="m-download-button m-download-button-google">
+                  <a href="https://google.com"
+                     class="m-download-button__link"
+                  >
+                    <img src="/images/common/google-play-en.svg"
+                         alt
+                    >
+                  </a>
+                  <img src="data:image/png;base64,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"
+                       alt
+                       class="m-download-button__qr"
+                  >
+                </div>
+                <div class="m-download-button m-download-button-apple">
+                  <a href="https://google.com"
+                     class="m-download-button__link"
+                  >
+                    <img src="/images/common/app-store-en.svg"
+                         alt
+                    >
+                  </a>
+                  <img src="data:image/png;base64,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"
+                       alt
+                       class="m-download-button__qr"
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-next"
+             style="width: 1248px;"
+             data-swiper-slide-index="1"
+        >
+          <div class="o-swiper-content-banner o-swiper-content-banner--hero">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/slide-hero.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="o-swiper-content-banner__new-badge">
+                __badge.new
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Sunt duis irure in sint ex excepteur.
+              </h2>
+              <div class="o-swiper-content-banner__subtitle">
+                <span>
+                  Reprehenderit amet pariatur eu laboris.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="sliderTitle">
+      Eiusmod qui enim adipisicing nisi et ipsum dolore eu amet pariatur ipsum excepteur amet enim.
+    </div>
+    <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-active"
+             style="width: 1248px;"
+             data-swiper-slide-index="0"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/consulta-medica-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <h2 class="o-swiper-content-banner__title">
+                Nisi commodo enim et adipisicing.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Nulla commodo reprehenderit amet magna et.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/omc-general"
+              >
+                Proident adipisicing id sit nulla adipisicing.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-consulta.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-next"
+             style="width: 1248px;"
+             data-swiper-slide-index="1"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/especialidades-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Veniam sit dolor deserunt pariatur reprehenderit aliquip non.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Consectetur sint aute minim in eu dolor fugiat fugiat cupidatat est incididunt.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/specialties"
+              >
+                Voluptate nisi dolor elit proident velit tempor ipsum exercitation dolor.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-especialidades.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"
+             style="width: 1248px;"
+             data-swiper-slide-index="2"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/medico-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Aute laboris enim voluptate mollit proident sint pariatur duis duis non.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Cillum officia magna duis consequat sunt minim nulla sint quis irure.
+                </span>
+              </div>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-medico.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"
+             style="width: 1248px;"
+             data-swiper-slide-index="3"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/preevaluacion-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <h2 class="o-swiper-content-banner__title">
+                Ad adipisicing ipsum exercitation ut exercitation.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Laboris proident mollit amet dolore nostrud quis laborum elit cupidatat.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/sc"
+              >
+                Nisi irure minim nostrud adipisicing labore ad quis.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-preevaluacion.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"
+             style="width: 1248px;"
+             data-swiper-slide-index="4"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/carrusel-salud.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Ipsum Lorem minim sunt minim nisi sint consectetur id commodo ullamco eu ullamco.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Laborum aute proident ipsum tempor pariatur commodo est Lorem.
+                </span>
+              </div>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/tu-medico.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="sliderTitle">
+      Aute sit voluptate laborum veniam aliqua ullamco sit nostrud.
+    </div>
+    <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-active"
+             style="width: 1248px;"
+             data-swiper-slide-index="0"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/ponte-en-forma-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Cupidatat elit adipisicing do consequat in qui magna anim laboris deserunt culpa nostrud ad.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Exercitation nulla veniam esse ea labore est.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/gfpv3"
+              >
+                Eiusmod officia consectetur ullamco proident.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-ponte-en-forma.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-next"
+             style="width: 1248px;"
+             data-swiper-slide-index="1"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/soporte-nutricional-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <h2 class="o-swiper-content-banner__title">
+                Commodo et cupidatat ipsum magna incididunt duis tempor cupidatat culpa.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Labore officia ut nulla excepteur incididunt.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/omc-diet-support"
+              >
+                Cupidatat do ullamco ex amet.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-nutricional.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"
+             style="width: 1248px;"
+             data-swiper-slide-index="2"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/articulos-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Elit Lorem non velit sunt.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Aliquip cupidatat ullamco aute enim labore fugiat veniam tempor in.
+                </span>
+              </div>
+              <a class="h-margin-top-20 a-button a-button--outlined-secondary "
+                 href="/omc-diet-support"
+              >
+                In nisi dolore eu et in non excepteur sint cillum minim ex.
+              </a>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-articulos.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"
+             style="width: 1248px;"
+             data-swiper-slide-index="3"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/famosos-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Aliquip nulla cillum officia occaecat est voluptate.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Elit cupidatat adipisicing Lorem dolore cillum.
+                </span>
+              </div>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-famosos.jpg&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="sliderTitle">
+      Consequat adipisicing eu consequat consequat Lorem mollit.
+    </div>
+    <div class="swiper-container swiper-initialized swiper-horizontal swiper-backface-hidden">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-active"
+             style="width: 1248px;"
+             data-swiper-slide-index="0"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/descuentos-presenciales-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Enim labore est Lorem in ad veniam adipisicing laboris ad.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Est officia qui veniam dolor aute magna dolore.
+                </span>
+              </div>
+              <div class="o-swiper-content-banner__logos">
+                <img src="/assets/images/movistar/other/logo-hm.svg"
+                     alt
+                >
+                <img src="/assets/images/movistar/other/logo-synlab.svg"
+                     alt
+                >
+                <img src="/assets/images/movistar/other/logo-echevarne.svg"
+                     alt
+                >
+              </div>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-descuentos.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide swiper-slide-next"
+             style="width: 1248px;"
+             data-swiper-slide-index="1"
+        >
+          <div class="o-swiper-content-banner s-cms-content--white">
+            <div class="o-swiper-content-banner__image"
+                 style="background-image: url(&quot;/assets/images/movistar/main/explora-lg.jpg&quot;);"
+            >
+            </div>
+            <div class="o-swiper-content-banner__text-panel">
+              <div class="m-app-badge">
+                <img class="m-app-badge-mobile"
+                     src="/assets/images/icons/icon--mobile-app.svg"
+                     alt="mobile"
+                >
+                <div class="m-app-badge-text-box">
+                  <span class="m-app-badge-text1">
+                    Exclusivo
+                  </span>
+                  <span class="m-app-badge-text2">
+                    APP
+                  </span>
+                </div>
+              </div>
+              <h2 class="o-swiper-content-banner__title">
+                Elit incididunt qui laboris reprehenderit exercitation cillum anim irure dolore tempor do.
+              </h2>
+              <div class="s-cms-content">
+                <span>
+                  Veniam adipisicing est consequat nulla cupidatat laborum ex excepteur voluptate aliquip.
+                </span>
+              </div>
+            </div>
+            <div class="o-swiper-content-banner__app-screen"
+                 style="background-image: url(&quot;/assets/images/movistar/main/app-explora.png&quot;);"
+            >
+              <img class="a-mobile-notch"
+                   src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                   alt="mobile screen"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+      <div class="swiper-button-prev">
+        <div class="swiper-arrow">
+          <svg width="20"
+               height="16"
+               viewbox="0 0 20 16"
+               fill="none"
+          >
+            <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+            <path d="M19 8.21191L1.76584 8.21192"
+                  stroke="#AAAAAA"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+            >
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="o-app-modal is-visible">
+      <div class="o-app-modal__box o-app-modal__box--downloadApp">
+        <div class="o-app-modal__app-box">
+          <div class="o-app-modal__app-screen o-app-modal__app-screen--overlap"
+               style="background-image: url(&quot;/assets/images/movistar/main/tu-medico.png&quot;);"
+          >
+            <img class="a-mobile-notch"
+                 src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                 alt="mobile screen"
+            >
+          </div>
+          <div class="o-app-modal__app-screen"
+               style="background-image: url(&quot;/assets/images/movistar/main/screen-popup.jpg&quot;);"
+          >
+            <img class="a-mobile-notch"
+                 src="/assets/images/movistar/icons/icon--mobile-notch.svg"
+                 alt="mobile screen"
+            >
+          </div>
+        </div>
+        <div class="o-app-modal__wrapper">
+          <button style="opacity: 1;"
+                  class=" o-base-modal__icon o-app-modal__icon white h-cursor"
+                  type="button"
+          >
+          </button>
+          <div class="o-app-modal__content">
+            <p class="o-app-modal__title">
+              Cupidatat cillum cupidatat elit velit velit non.
+            </p>
+            <div class="o-app-modal__text">
+              <p>
+                <span>
+                  Culpa occaecat Lorem et quis duis anim duis cupidatat cillum labore.
+                </span>
+              </p>
+            </div>
+            <div>
+              <div class="m-download-buttons-cont m-download-buttons-cont-centered-md">
+                <div class="m-download-button m-download-button-google">
+                  <a href="https://google.com"
+                     class="m-download-button__link"
+                  >
+                    <img src="/images/common/google-play-en.svg"
+                         alt
+                    >
+                  </a>
+                  <img src="data:image/png;base64,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"
+                       alt
+                       class="m-download-button__qr"
+                  >
+                </div>
+                <div class="m-download-button m-download-button-apple">
+                  <a href="https://google.com"
+                     class="m-download-button__link"
+                  >
+                    <img src="/images/common/app-store-en.svg"
+                         alt
+                    >
+                  </a>
+                  <img src="data:image/png;base64,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"
+                       alt
+                       class="m-download-button__qr"
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="o-app-modal__background">
+      </div>
+    </div>
+    <footer class="o-footer">
+      <div class="o-footer__top">
+        <p class="o-footer__disclaimer">
+          Advance Medical. These services are intended to provide general health information. Under no circumstances should these recommendations be considered to be a diagnosis or treatment. The recommendations derived from these services are based on medical information provided by the customer and should in no way replace or substitute medical information provided by medical professionals.
+        </p>
+      </div>
+      <div class="o-footer__bottom">
+        <span class="o-footer__copyright">
+          <span>
+            ©
+          </span>
+          Advance Medical, 2025. All rights reserved.
+        </span>
+        <nav class="o-footer__navigation">
+          <ul class="o-footer__links">
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/terms-and-conditions"
+                 target
+              >
+                Terms &amp;amp; Conditions
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/disclaimer"
+                 target
+              >
+                Privacy Notice
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/cookies"
+              >
+                Cookies
+              </a>
+            </li>
+            <li class="o-footer__links-item">
+              <a class="o-footer__links-anchor"
+                 href="/faqs"
+              >
+                FAQs
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

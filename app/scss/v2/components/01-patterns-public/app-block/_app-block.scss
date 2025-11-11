@@ -1,0 +1,127 @@
+/* ==========================================================================
+   #APP-BLOCK
+   ========================================================================== */
+
+.o-app-block {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: $brand-color-1;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+        min-height: 460px;
+        padding: 40px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        min-height: 400px;
+        padding: 60px 85px;
+    }
+}
+
+.o-app-block__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 200;
+    padding: 0 15px 45px;
+    text-align: center;
+
+    @media (min-width: $screen-sm-min) {
+        width: 58%;
+        margin-top: 10px;
+        padding: 0;
+        text-align: left;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 68%;
+        margin-top: 0;
+        padding-left: 100px;
+        padding-right: 121px;
+    }
+}
+
+.o-app-block__small-text {
+    @include text-style-5-white;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: 18px;
+    }
+}
+
+.o-app-block__text {
+    @include text-style-3-white;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin-bottom: 35px;
+    }
+}
+
+.o-app-block__button-wrapper {
+    display: flex;
+    justify-content: center;
+
+    @media (min-width: $screen-sm-min) {
+        justify-content: flex-start;
+    }
+}
+
+.o-app-block__button {
+    width: 50%;
+    max-width: 200px;
+
+    @media (min-width: $screen-sm-min) {
+        max-width: 100px;
+    }
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.o-app-block__button-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.o-app-block__phone-image {
+    width: 38%;
+    margin: 30px auto;
+
+    @media (min-width: $screen-sm-min) {
+        width: 239px;
+        margin: 0;
+    }
+
+    @media (min-width: $screen-md-min) {
+        width: 254px;
+        margin-right: 100px;
+    }
+}
+
+.o-app-block__app-screen {
+    display: flex;
+    margin: 50px auto;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 230px;
+    height: 460px;
+    border-radius: 20px;
+    border: 6px solid #ffffff;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.15);
+
+    @media (min-width: $screen-sm-min) {
+        margin: 0 0 0 50px;
+    }
+}

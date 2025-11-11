@@ -1,0 +1,11 @@
+/* ==========================================================================
+   #CONSULTATIONS-DATA-BLOCK
+   ========================================================================== */
+
+.o-consultations-data-block {
+    @include consultation-container;
+}
+
+.o-consultations-data-block__wrapper {
+    @include consultation-form-wrapper;
+}

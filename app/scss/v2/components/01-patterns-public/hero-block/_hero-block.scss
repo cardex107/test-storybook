@@ -1,0 +1,384 @@
+/* ==========================================================================
+   #HERO-BLOCK
+   ========================================================================== */
+
+.o-hero-block--home,
+.o-hero-block--app {
+    position: relative;
+    container-name: hero;
+    container-type: inline-size;
+
+    @if $theme== 'a' {
+        @media (min-width: $screen-md-min) {
+            min-height: 550px;
+        }
+    } @else if $theme== 'b' {
+        background-color: $site-background-color;
+
+        @media (min-width: $screen-md-min) {
+            min-height: 40vh;
+            background-color: transparent;
+        }
+
+        @media (min-width: $screen-xl-min) {
+            min-height: 25vw;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .o-hero-block__background {
+        @include background-hero;
+        background-image: url('/assets/images/test/hero-block-test-1.jpg');
+
+        @if $theme== 'b' {
+            @include mask-bottom;
+            @include overlay;
+
+            @media (min-width: $screen-md-min) {
+                height: 100%;
+            }
+        }
+    }
+
+    .o-hero-block__text-panel {
+        position: relative;
+        z-index: 200;
+        background-color: $site-background-color;
+        text-align: center;
+
+        @if $theme== 'a' {
+            padding: 80px 30px;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 40px 50px 50px;
+            }
+
+            @media (min-width: $screen-md-min) {
+                padding: 50px 50px 70px;
+                margin: 50px 20px;
+                max-width: 410px;
+                background-color: $hero-block-text-panel-background-color;
+                backdrop-filter: $panel-blur;
+            }
+        } @else if $theme== 'b' {
+            padding: 50px 30px 80px 30px;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 40px 50px 80px 50px;
+            }
+
+            @media (min-width: $screen-md-min) {
+                padding: 50px 50px 70px;
+                margin: 150px 20px 50px 20px;
+                max-width: 70vw;
+                min-height: 500px;
+                background-color: transparent;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                max-width: 50vw;
+            }
+
+            @media (min-width: $screen-xl-min) {
+                max-width: 40vw;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100%;
+            border-radius: $panels-radius;
+            text-align: left;
+        }
+    }
+
+    .o-hero-block__text-panel-inner {
+        position: relative;
+
+        @media (min-width: $screen-md-min) {
+            padding: 0;
+        }
+
+        .m-download-buttons-cont {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Service page
+   ========================================================================== */
+
+.o-hero-block--service {
+    .o-hero-block__background--service {
+        background-image: url('/assets/images/test/img-service-2.jpg');
+        background-position: center;
+    }
+
+    .o-hero-block__background--service-movistar {
+        background-image: url('/assets/images/main/especialidades.jpg');
+    }
+    .o-hero-block__background--gfp-movistar {
+        background-image: url('/assets/images/main/mental.jpg');
+    }
+    .o-hero-block__background--specialties-movistar {
+        background-image: url('/assets/images/main/especialidades-cover.jpg');
+    }
+
+    .o-hero-block__text-panel-inner {
+        position: relative;
+
+        @media (min-width: $screen-md-min) {
+            padding: 0;
+        }
+    }
+
+    .o-hero-block__title--service {
+        @include text-style-1;
+        margin: 0 auto 15px;
+        color: $title-color;
+
+        @media (min-width: $screen-md-min) {
+            margin: 0 0 15px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .o-hero-block__subtitle--service {
+        margin: 0 auto 30px;
+        text-align: center;
+
+        @media (min-width: $screen-md-min) {
+            margin: 0 0 30px;
+            text-align: left;
+        }
+    }
+
+    @if $theme== 'a' {
+        position: relative;
+
+        @media (min-width: $screen-md-min) {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 550px;
+            padding-top: 0;
+        }
+
+        .o-hero-block__background {
+            @include background-hero;
+            @include background--service;
+        }
+
+        .o-hero-block__text-panel {
+            position: relative;
+            z-index: 200;
+            background-color: $site-background-color;
+            text-align: center;
+            padding: 80px 30px;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 40px 50px 50px;
+            }
+
+            @media (min-width: $screen-md-min) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                min-width: 600px;
+                width: auto;
+                max-width: 50%;
+                height: 100%;
+                margin: 50px 20px;
+                padding: 40px 50px 50px;
+                background-color: $hero-block-text-panel-background-color;
+                backdrop-filter: $panel-blur;
+                border-radius: $panels-radius;
+                text-align: left;
+            }
+        }
+    } @else if $theme== 'b' {
+        container-name: hero;
+        container-type: inline-size;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(auto, 50vh) 1fr;
+        margin: 110px 20px 0 20px;
+        padding-bottom: 50px;
+        background-color: $grey-8;
+        border-radius: $panels-radius;
+        border: 1px solid $white;
+        overflow: hidden;
+
+        @media (min-width: $screen-sm-min) {
+            margin: 110px 30px 30px 30px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            grid-template-columns: 40% 60%;
+            grid-template-rows: 1fr;
+            min-height: 500px;
+            margin: 110px 50px 50px 50px;
+            padding-bottom: 0;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .o-hero-block__text-panel {
+            display: flex;
+            align-items: center;
+        }
+
+        .o-hero-block__text-panel-inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            text-align: center;
+            padding: 30px 20px;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 30px;
+            }
+
+            @media (min-width: $screen-md-min) {
+                justify-content: flex-start;
+                text-align: left;
+                padding: 50px;
+            }
+        }
+
+        .o-hero-block__background {
+            @include mask-bottom;
+            background-size: cover;
+
+            @media (min-width: $screen-md-min) {
+                @include mask-lateral-1;
+            }
+        }
+    }
+}
+
+.o-hero-block__title {
+    @include text-style-1;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: $title-color;
+
+    .o-hero-block--home &,
+    .o-hero-block--app & {
+        @if $theme== 'b' {
+            @media (min-width: $screen-md-min) {
+                @include text-over-image;
+            }
+        }
+    }
+}
+
+.o-hero-block__subtitle {
+    @include text-style-4;
+    line-height: 1.3;
+    max-width: 600px;
+    font-weight: $brand-weight-1;
+    margin: 0 auto 30px;
+    text-wrap: wrap;
+    color: $title-color;
+
+    .o-hero-block--home &,
+    .o-hero-block--app & {
+        @if $theme== 'b' {
+            @media (min-width: $screen-md-min) {
+                @include text-over-image;
+            }
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin: 0 0 30px;
+    }
+}
+
+.o-hero-block__button-wrapper {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+
+    @media (min-width: $screen-sm-min) {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+
+        @if $theme== 'a' {
+            max-width: 70%;
+        } @else if $theme== 'b' {
+            max-width: 90%;
+        }
+
+        &:has(.a-button:only-child) {
+            grid-template-columns: 1fr;
+            max-width: fit-content;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        justify-content: flex-start;
+        max-width: none;
+        margin: 0;
+    }
+}
+
+.o-hero-block__button {
+    width: 100%;
+    max-width: 320px;
+
+    @media (min-width: $screen-sm-min) {
+        width: auto;
+        max-width: none;
+    }
+}
+
+/* App Movistar Salud modifiers
+   ========================================================================== */
+
+.o-hero-block__background-movistar {
+    @include background-hero;
+    background-image: url('/projects/movistar/images/main/app-movistar-salud.jpg');
+}
+
+.o-hero-block__text-panel--app {
+    padding: 20px 40px 30px;
+    z-index: 1;
+
+    @media (min-width: $screen-md-min) {
+        padding: 40px 50px 50px;
+        min-width: 600px;
+        width: auto;
+    }
+}
+
+.o-hero-block__subtitle--app {
+    margin: 0 auto 30px;
+    text-align: center;
+
+    strong {
+        color: $brand-color-1;
+        font-weight: 600;
+    }
+
+    @media (min-width: $screen-md-min) {
+        margin: 0 0 30px;
+        text-align: left;
+    }
+}

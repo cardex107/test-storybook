@@ -1,0 +1,32 @@
+/* ==========================================================================
+   #FORM-BLOCK
+   ========================================================================== */
+
+.o-form-block {
+    @media (min-width: $screen-sm-min) {
+        padding: 30px 40px 80px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 50px 40px 100px;
+    }
+
+    @if $theme== 'a' {
+        padding: 20px 15px 40px;
+    } @else if $theme== 'b' {
+        padding: 20px 30px 40px;
+        margin-top: 100px;
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 80px;
+        }
+    }
+}
+
+.o-form-block__form {
+    @include max-width;
+}
+
+.o-form-block__form--reduced {
+    @include max-width-reduced;
+}

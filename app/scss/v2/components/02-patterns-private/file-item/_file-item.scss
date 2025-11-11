@@ -1,0 +1,50 @@
+/* ==========================================================================
+   #FILE ITEM
+   ========================================================================== */
+
+.m-file-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+
+    &:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}
+
+.m-file-item__remove {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+    path {
+        fill: $grey-4;
+    }
+
+    &:hover {
+        path {
+            fill: $red;
+        }
+    }
+}
+
+.m-file-item__add {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: $primary-button-background-color;
+    cursor: pointer;
+
+    path {
+        fill: $white;
+    }
+
+    &:hover {
+        background-color: $primary-button-hover-background-color;
+    }
+}

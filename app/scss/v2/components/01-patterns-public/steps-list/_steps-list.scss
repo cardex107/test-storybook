@@ -1,0 +1,159 @@
+/* ==========================================================================
+   #STEPS-LIST
+   ========================================================================== */
+
+.m-steps-list {
+    @include reset-list;
+
+    @if $theme== 'b' {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @media (min-width: $screen-sm-min) {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 0 30px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            gap: 50px;
+        }
+    }
+}
+
+.m-steps-list__item {
+    @if $theme== 'a' {
+        position: relative;
+        padding-left: 38px;
+
+        @media (min-width: $screen-sm-min) {
+            min-height: 85px;
+            padding-left: 58px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-left: 95px;
+            margin-left: 20px;
+        }
+
+        &:not(:last-child) {
+            padding-bottom: 15px;
+
+            @media (min-width: $screen-sm-min) {
+                padding-bottom: 10px;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 14px;
+                height: 100%;
+                width: 1px;
+                background-color: $steps-list-line-color;
+
+                @media (min-width: $screen-sm-min) {
+                    left: 19px;
+                }
+            }
+        }
+    } @else if $theme== 'b' {
+        display: grid;
+        grid-template-areas:
+            'number'
+            'title'
+            'text';
+        grid-gap: 10px;
+        align-items: center;
+        text-align: center;
+
+        @media (min-width: $screen-md-min) {
+            grid-template-areas:
+                'number title'
+                'text text';
+            grid-template-columns: 38px auto;
+            grid-template-rows: auto 1fr;
+            align-items: start;
+            width: 30%;
+            text-align: left;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 25%;
+        }
+
+        .m-download-buttons-cont {
+            flex-wrap: wrap;
+        }
+    }
+
+    .s-cms-content {
+        @include paragraph;
+        font-family: $primary-font;
+        font-weight: $brand-weight-1;
+        line-height: 1.4;
+        color: $text-color;
+
+        @media (min-width: $screen-sm-min) {
+            min-height: 40px;
+        }
+
+        @if $theme== 'b' {
+            grid-area: text;
+        }
+    }
+}
+
+.m-steps-list__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 0.844rem;
+    font-weight: $brand-weight-2;
+    color: $white;
+    background-color: $steps-list-number-background-color;
+
+    @media (min-width: $screen-sm-min) {
+        font-size: 1.125rem;
+        width: 38px;
+        height: 38px;
+    }
+
+    @if $theme== 'a' {
+        position: absolute;
+        top: 0;
+        left: 0;
+    } @else if $theme== 'b' {
+        grid-area: number;
+        justify-self: center;
+
+        @media (min-width: $screen-md-min) {
+            justify-self: end;
+        }
+    }
+}
+
+.m-steps-list__title {
+    @include paragraph-bold;
+    display: block;
+    font-family: $primary-font;
+    font-weight: $brand-weight-2;
+    line-height: 1.4;
+    color: $text-color;
+
+    @if $theme== 'a' {
+        margin-bottom: 5px;
+    } @else if $theme== 'b' {
+        grid-area: title;
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 7px;
+        }
+    }
+}

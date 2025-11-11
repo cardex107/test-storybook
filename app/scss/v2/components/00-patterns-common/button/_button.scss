@@ -1,0 +1,410 @@
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+
+@layer reset, button, variants, buttonOverwrites;
+@layer button {
+    button {
+        @include reset-button;
+    }
+
+    .a-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: $button-min-height-mobile;
+        min-width: $button-min-width;
+        padding: $button-padding;
+        text-align: center;
+        font-family: $button-font;
+        font-size: 1.062rem;
+        font-weight: $button-font-weight;
+        text-transform: $button-text-transform;
+        border-radius: $button-radius;
+        line-height: 1.2;
+        letter-spacing: 0.5px;
+        color: $primary-button-color;
+        background-color: $primary-button-background-color;
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+
+        @if $theme== 'a' {
+            border: 0;
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    background-color: $primary-button-hover-background-color;
+                    color: $primary-button-hover-color;
+
+                    [class*='h-icon--'] {
+                        background-color: $primary-button-hover-color;
+                    }
+                }
+            }
+        } @else if $theme== 'b' {
+            border: 2px solid $primary-button-background-color;
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    background-color: $white;
+                    color: $brand-color-1;
+                    border: 2px solid $brand-color-1;
+
+                    [class*='h-icon--'] {
+                        background-color: $brand-color-1;
+                    }
+
+                    path {
+                        fill: $brand-color-1;
+                    }
+                }
+            }
+        }
+
+        path {
+            fill: $primary-button-color;
+        }
+
+        [class*='h-icon--'] {
+            background-color: $primary-button-color;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: auto;
+            min-height: $button-min-height-desktop;
+        }
+
+        &.is-active {
+            background-color: $primary-button-hover-background-color;
+            color: $primary-button-hover-color;
+        }
+
+        &:disabled {
+            border: solid $button-border-width $disabled-button-color;
+            background-color: transparent;
+            font-style: italic;
+            font-weight: $brand-weight-1;
+            text-transform: none;
+            color: $disabled-button-color;
+            cursor: not-allowed;
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    border: solid $button-border-width $disabled-button-color;
+                    background-color: transparent;
+                    color: $disabled-button-color;
+                    cursor: not-allowed;
+                }
+            }
+
+            path {
+                fill: $disabled-button-color;
+            }
+        }
+    }
+
+    /**
+    * Icons
+    */
+
+    .a-button__left-icon {
+        flex-shrink: 0;
+        margin-right: 8px;
+        max-width: 25px;
+    }
+    .a-button__right-icon {
+        flex-shrink: 0;
+        margin-left: 8px;
+        max-width: 25px;
+    }
+
+    .a-button--right-icon {
+        svg {
+            margin-left: 0.5em;
+        }
+    }
+
+    .a-button--left-icon {
+        svg {
+            margin-right: 0.5em;
+        }
+    }
+
+    /* Style variants
+    ========================================================================== */
+
+    .a-button--secondary {
+        color: $white;
+        background-color: $secondary-button-background-color;
+
+        [class*='h-icon--'] {
+            background-color: $white;
+        }
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $secondary-button-hover-color;
+                background-color: $secondary-button-hover-background-color;
+
+                [class*='h-icon--'] {
+                    background-color: $secondary-button-hover-color;
+                }
+            }
+        }
+    }
+
+    .a-button--outlined {
+        border: solid $button-border-width $outlined-primary-button-border-color;
+        color: $outlined-primary-button-color;
+        background-color: $outlined-primary-button-background;
+        transition:
+            color 0.3s ease-in-out,
+            background-color 0.3s ease-in-out;
+
+        [class*='h-icon--'] {
+            background-color: $outlined-primary-button-color;
+        }
+
+        path {
+            fill: $outlined-primary-button-color;
+            transition: fill 0.3s ease-in-out;
+        }
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $outlined-primary-button-background;
+                background-color: $outlined-primary-button-hover-background-color;
+
+                [class*='h-icon--'] {
+                    background-color: $outlined-primary-button-color;
+                }
+
+                path {
+                    fill: $outlined-primary-button-background;
+                }
+            }
+        }
+    }
+
+    .a-button--outlined-secondary {
+        border: solid $button-border-width $outlined-secondary-button-border-color;
+        color: $outlined-secondary-button-color;
+        background-color: $outlined-secondary-button-background;
+
+        [class*='h-icon--'] {
+            background-color: $outlined-secondary-button-color;
+        }
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $outlined-secondary-button-background;
+                background-color: $outlined-secondary-button-hover-background-color;
+
+                [class*='h-icon--'] {
+                    background-color: $outlined-secondary-button-background;
+                }
+            }
+        }
+    }
+
+    .a-button--white {
+        color: $white-color-button-color;
+        background-color: $white;
+        transition: background-color 0.3s ease-in-out;
+
+        [class*='h-icon--'] {
+            background-color: $white-color-button-color;
+        }
+
+        @if $theme== 'a' {
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    color: $white-color-button-color;
+                    background-color: $white-color-button-hover-background-color;
+
+                    [class*='h-icon--'] {
+                        background-color: $white-color-button-color;
+                    }
+                }
+            }
+        } @else if $theme== 'b' {
+            border: 2px solid $white;
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    background-color: $brand-color-1-lighter;
+                    border: 2px solid $brand-color-1-light;
+                }
+            }
+        }
+    }
+
+    .a-button--ghost {
+        border: solid $button-border-width $ghost-button-border-color;
+        color: $ghost-button-color;
+        background-color: transparent;
+        transition:
+            color 0.3s ease-in-out,
+            background-color 0.3s ease-in-out;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $ghost-button-hover-color;
+                background-color: $ghost-button-hover-background-color;
+            }
+        }
+    }
+
+    .a-button--fluid {
+        width: 100%;
+        background-color: $primary-button-background-color;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $white;
+                background-color: $primary-button-hover-background-color;
+            }
+        }
+    }
+
+    .a-button--fluid-secondary {
+        width: 100%;
+        background-color: $secondary-button-background-color;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                background-color: $secondary-button-hover-background-color;
+            }
+        }
+    }
+
+    .a-button--naked {
+        @include reset-button;
+        font-family: $primary-font;
+        font-size: $button-naked-size;
+        font-weight: $brand-weight-2;
+        color: $naked-button-primary;
+        background-color: transparent;
+        text-decoration: $button-naked-decoration;
+        text-transform: $button-naked-text-transform;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                border: 0;
+                color: $naked-button-primary;
+                text-decoration: $button-naked-decoration-hover;
+            }
+        }
+
+        svg path {
+            fill: $naked-button-primary;
+        }
+    }
+
+    .a-button--naked-secondary {
+        @include reset-button;
+        font-family: $primary-font;
+        font-size: $button-naked-size;
+        font-weight: $brand-weight-2;
+        text-decoration: $button-naked-decoration;
+        text-transform: $button-naked-text-transform;
+
+        @if $theme== 'a' {
+            color: $naked-button-secondary;
+            background-color: transparent;
+
+            svg {
+                path {
+                    fill: $naked-button-secondary;
+                }
+            }
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    color: $naked-button-secondary;
+                    text-decoration: $button-naked-decoration-hover;
+                }
+            }
+        } @else if $theme== 'b' {
+            padding: 5px 8px;
+            color: $brand-color-1;
+            background-color: $grey-8;
+            border-radius: 6px;
+            text-decoration: none;
+
+            svg {
+                path {
+                    fill: $brand-color-1;
+                }
+            }
+
+            @media (min-width: $screen-md-min) {
+                &:hover {
+                    border: 0;
+                    color: $white;
+                    background-color: $brand-color-1;
+
+                    svg path {
+                        fill: $white;
+                    }
+                }
+            }
+        }
+    }
+
+    .a-button--naked-white {
+        @include reset-button;
+        font-family: $primary-font;
+        color: $naked-button-white;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $naked-button-white;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .a-button--naked-grey {
+        @include reset-button;
+        font-family: $primary-font;
+        font-size: $button-naked-size;
+        font-weight: $brand-weight-2;
+        color: $naked-button-grey;
+        background-color: transparent;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                color: $naked-button-grey;
+                text-decoration: underline;
+            }
+        }
+
+        svg {
+            path {
+                fill: $naked-button-grey;
+            }
+        }
+    }
+
+    .a-button--disabled {
+        border: solid $button-border-width $disabled-button-color;
+        background-color: transparent;
+        font-style: italic;
+        font-weight: $brand-weight-1;
+        text-transform: none;
+        color: $disabled-button-color;
+        cursor: not-allowed;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                border: solid $button-border-width $disabled-button-color;
+                background-color: transparent;
+                color: $disabled-button-color;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

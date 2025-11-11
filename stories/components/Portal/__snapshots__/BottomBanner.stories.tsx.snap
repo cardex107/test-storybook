@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/BottomBanner Default play-test 1`] = `
+<div class="o-bottom-banner">
+  <p class="o-bottom-banner__title">
+    <span>
+      The title
+    </span>
+  </p>
+  <div class="o-bottom-banner__text">
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus suscipit tortor eget felis porttitor volutpat. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.
+    </span>
+  </div>
+  <ul class="o-bottom-banner__list">
+    <li class="o-bottom-banner__list-item">
+      item1
+    </li>
+    <li class="o-bottom-banner__list-item">
+      item2
+    </li>
+    <li class="o-bottom-banner__list-item">
+      item3
+    </li>
+  </ul>
+  <div class="o-bottom-banner__text">
+    <span>
+      the note
+    </span>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/BottomBanner WithButtons smoke-test 1`] = `
+<div class="o-bottom-banner">
+  <p class="o-bottom-banner__title">
+    <span>
+      The title
+    </span>
+  </p>
+  <div class="o-bottom-banner__text">
+    <span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus suscipit tortor eget felis porttitor volutpat. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit.
+    </span>
+  </div>
+  <ul class="o-bottom-banner__list">
+    <li class="o-bottom-banner__list-item">
+      item1
+    </li>
+    <li class="o-bottom-banner__list-item">
+      item2
+    </li>
+    <li class="o-bottom-banner__list-item">
+      item3
+    </li>
+  </ul>
+  <div class="o-bottom-banner__buttons-wrapper">
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/omc-general/link 1"
+    >
+      button 1
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/omc-general/link 2"
+    >
+      button 2
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/omc-general/link 3"
+    >
+      button 3
+    </a>
+  </div>
+  <div class="o-bottom-banner__buttons-wrapper">
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/phone/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+      </span>
+      Request Phone Service
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/phone-scheduled/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+      </span>
+      Request scheduled phone consultation
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/online/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--online-consultation a-icon">
+      </span>
+      Request Online Service
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/video-asap/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--video-consultation a-icon">
+      </span>
+      Request video consultation as soon as possible
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/video/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--video-consultation a-icon">
+      </span>
+      Request Video Service
+    </a>
+    <a class="a-button o-bottom-banner__button a-button--white"
+       href="/user/consultations/omc/chat/new?specialty=general"
+    >
+      <span class="a-button__left-icon h-icon--chat-consultation a-icon">
+      </span>
+      Request chat consultation
+    </a>
+  </div>
+  <div class="m-download-buttons-cont m-download-buttons-cont-centered-md">
+    <div class="m-download-button m-download-button-google">
+      <a href="http://google.com"
+         class="m-download-button__link"
+      >
+        <img src="/images/common/google-play-en.svg"
+             alt
+        >
+      </a>
+      <img src="data:image/png;base64,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"
+           alt
+           class="m-download-button__qr"
+      >
+    </div>
+    <div class="m-download-button m-download-button-apple">
+      <a href="http://apple.com"
+         class="m-download-button__link"
+      >
+        <img src="/images/common/app-store-en.svg"
+             alt
+        >
+      </a>
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAGuklEQVR4Xu3dwXbrNgyE4eT9H7rtootKPs3nOaCk63CyhUgCgx8gJcvO91///H31rwr8q8B3gSgL/1WgQJSHgwIFokAUiDLw/wq0Q5SOdogy0A5RBt5UoFvGm0LtclmB2CXTb8ZZIN4UapfLCsQumX4zzgLxplC7XFYgdsn0m3EWiDeF2uWyArFLpt+McwzE9/f3m0utuSx9feNq/+TP1eufVZU/ykKBkEKwKwEFYiiwhisB5/FXJ0T+XL1+O0T4xt/VCSkQJyTPgksgdQBV+Hn+1QmX/2m86fWr9Ynnm75T+XTABeJ4qBfQAmT5oXLqUDuEUna0ry7IAnHSX0CnCUivz3D4+lo9/+VApC1dZwTZdepOBdT1q+0CQvELaM1fIHDXsjrhSqgSpvEFAk9KpwIWCCEa3nZ2y/j5LuBqfcJ0fv26LSNtmWkHkMBpRyoQ4WcDacIKxOy72+0QpzOIKrwdAgqkFXy1oO0Qm3eI9Mmmrhewes6h+e/uQGk8H79lpAnQ9amA6khPd9A0ngIxfOOrQPxhzyFU8WnC0opK599+y0gFniZ4Ol7PBZTQ1P60Pi96ffr7EBJUe7gA0iFS88su/2VfPf/lZwgFJPs04HR8O4Q2weFzCCVc9jShqniFWyCkUAiEEjy1p3u0gLrbPo1f44fpXP/hlhye2gvEzwoWiPCziKeBmhaExheIAnFg5HEgROzVdh0CtX7aMaaHVvnztH182/l4AIsfPeuQWSCezvjFdzntEEeB2yFOb123QwxPIamAacPR/Kldj6KnW4LONJJb41P/Y70//bOMAjF7Q+qlAArEz4IKOHWUtKLbIcJDY3oIlMBpC0+vLxDhIW1agUpQuodOK17xCNDU39Xxj+8yUgHSCleCVgui9VTxqR4pAFp/Ol+BCLcsJaRAXPxZgiq2HeIPv8tQBamlaY8VAKrQKWCpf6v9SdeX3pffdhaIY8UWiBMRqmhVbArY6gRM/VvtTztECNjqBBSIcNNRAqZ2uaOKSTtMCoDmV/xaTx02nZ96Xv3oWg7LzgDC9yEksBIkf+5+zjLV7/JDZSrINKB2iA/74VIlXHZVZIH4w4BQwtIWnHYYzZ/OJ8Cm86VblvSdFtTyLUMOK2F3H8okYIFYjSwIWS24gJtW9BRYAZgWVBpvOv/4w614wQ/7odECEWZYFS9Bw+VeLtf6aoAan/qXrqfrr+4Iy88QqaCpAEqI1td6Gq/1U+CnW8h0vOIZbxmpoEqQHFbFTBOUrj9dL9WjQCw+pKZApYAowdOETscrnuUdIj3V08GLH03fDYgSmtrTDkW9n/4sgw4WiINE2qLVoah3gThKJMElqCo27QDquFov9bdbxkmxAjHsMSJ+ukcP3eM/Kfs0ANQxxnpdvWUUiOw/6qQJTwtSW8jlW0aBKBA/Qpi26HELDL83ogqSfXWFqwPILn9fCvbuLSN2MLzt1PzThGn+qT31b7pegRh+GXl1AnTbuLoDyP/bzxByaHrm0PxpBaZbnNaXPfVP86X2AnHzGUMJ+nggFODVdlXw9FAq/6ctXeNll3+pfdwh0gVXX18g1ipaIIZ6TitY42Ufuv8yvEAMFZ0mTONlH7q/Hgi17NUO60wgf3Rok78aP7XrNlR3YdJH8Y07hBIgB1K7ApY/Spj80fipvUAoAyd7gTgKsnpLaYcIH41PO4DG/7oOoQoOGwLfZ0j31LSitAWlCUz9lV5pPJzv0z7cEnASSHYlTILKP81/9/gXfwpE9lvXBQIKpBUnQacVJH9k1/ry/+4KT+OR/8sPlemhSXtwGvDde74EXm2XvimQt28Z0wQViGPKCgQ+nn66xa/uAJqvQBSIAyMFIgRCHUOC6kyjCtYWqT1eW+R0fvp/9W2nAlACJBADHL4RpQQKQMWn8VcD/OsPlU8LrAIQYCqA6fwsoHaI4xdp0ooWgOl8BeKkmFqkKkwJ0vi0ApXA1f6s1qdbxul7GUqYKrxAnBSSIKq41YIrwe0QP58ift2j6wIx+x9clwOhU63s6kDT8epg044i/9QhNX6qz+1nCAUk+zRgjS8Qxwy0Q4Q/tawtSYDLro6k9dPx7RD49nfawtVhBEC63scBkQqQXq/7cAmcJnD1eqpgbXEF4qTA6gQJyNXrFQgpHtpXJ0jLr16vQEjx0L46QVp+9Xq/HggJWvtnKTC+7fyscOutFCgQUmgze4HYLOEKt0BIoc3sBWKzhCvcAiGFNrMXiM0SrnALhBTazF4gNku4wi0QUmgze4HYLOEKt0BIoc3sBWKzhCvcAiGFNrMXiM0SrnD/BvodBwt7OrofAAAAAElFTkSuQmCC"
+           alt
+           class="m-download-button__qr"
+      >
+    </div>
+  </div>
+  <div class="o-bottom-banner__text">
+    <span>
+      the note
+    </span>
+  </div>
+</div>
+`;

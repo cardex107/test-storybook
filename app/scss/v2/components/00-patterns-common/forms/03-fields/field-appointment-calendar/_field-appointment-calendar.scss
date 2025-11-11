@@ -1,0 +1,123 @@
+/* ==========================================================================
+   #FIELD-APPOINTMENT-CALENDAR
+   ========================================================================== */
+
+.m-field-appointment-calendar {
+    container-name: appointment;
+    container-type: inline-size;
+    max-width: 100%;
+
+    @media (min-width: $screen-sm-min) {
+        width: 96%;
+    }
+}
+
+.m-field-appointment-calendar__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    gap: 20px;
+
+    @container appointment (min-width: 503px) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .flatpickr-input {
+        display: none !important;
+    }
+
+    .flatpickr-calendar.inline {
+        box-shadow: none;
+    }
+}
+
+.m-field-appointment-calendar__wrapper-calendar {
+    flex-shrink: 0;
+    border: 1px solid $grey-6;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.m-field-appointment-calendar__wrapper-hours {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    border: 1px solid $grey-6;
+    border-radius: 9px;
+    background-color: color-mix(in srgb, $brand-color-1 10%, $white);
+
+    .m-field-appointment-calendar__hours {
+        @include scrollbar-styled;
+        container-name: slots;
+        container-type: inline-size;
+        align-self: flex-start;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px;
+        margin-left: -10px;
+        margin-bottom: -10px;
+        overflow-y: scroll;
+
+        @media (min-width: $screen-sm-min) {
+            margin-left: -5px;
+            margin-bottom: -5px;
+        }
+
+        .a-radio-button-toggle--small .a-radio-button-toggle__label {
+            min-width: 65px;
+            min-height: 28px;
+        }
+
+        .m-field-appointment-calendar__hour {
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: auto !important;
+
+            @media (min-width: $screen-sm-min) {
+                margin-left: 5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.m-field-appointment-calendar__loading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.m-field-appointment-calendar__empty {
+    padding: 22px;
+    border: 1px solid $grey-5;
+}
+
+.m-field-appointment-calendar__error {
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: 30px;
+    }
+}
+
+.m-field-appointment-calendar__label {
+    @include label-text-bold;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 10px;
+        font-size: 1.125rem;
+    }
+}

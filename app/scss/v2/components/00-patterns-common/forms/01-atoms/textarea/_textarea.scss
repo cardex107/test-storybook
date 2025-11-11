@@ -1,0 +1,45 @@
+/* ==========================================================================
+   #TEXTAREA
+   ========================================================================== */
+
+/**
+* 1. Styles needed to override IOS styles
+*/
+
+.a-textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: $brand-weight-1;
+    color: $text-color;
+    border-radius: 0; /* [1] */
+    border: 1px solid $input-border-color;
+    background-color: $white;
+    appearance: none; /* [1] */
+    resize: none;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out;
+
+    &:focus,
+    &:active {
+        border: 1px solid $input-focus-border-color;
+    }
+
+    &::placeholder {
+        color: $input-placeholder-color;
+    }
+
+    &[disabled],
+    &[readonly] {
+        border: 1px solid $input-border-color !important;
+        color: $input-disabled-color !important;
+        background-color: $input-disabled-background-color !important;
+        cursor: not-allowed !important;
+    }
+}
+
+.a-textarea--tall {
+    height: 200px;
+}

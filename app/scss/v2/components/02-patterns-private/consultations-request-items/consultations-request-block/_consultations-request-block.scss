@@ -1,0 +1,11 @@
+/* ==========================================================================
+   #CONSULTATIONS-REQUEST-BLOCK
+   ========================================================================== */
+
+.o-consultations-request-block__form {
+    @include consultation-container;
+}
+
+.o-consultations-request-block__wrapper {
+    @include consultation-form-wrapper;
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/AnchorsMenu Default smoke-test 1`] = `
+<div style="position: relative; width: 1000px; height: 100px; margin-top: 60px;">
+  <div class="m-anchors-menu">
+    <a class="m-anchors-menu__link"
+       href="#https://www.testanchors.com/option1"
+    >
+      option 1
+    </a>
+    <a class="m-anchors-menu__link"
+       href="#https://www.testanchors.com/option2"
+    >
+      option 2
+    </a>
+    <a class="m-anchors-menu__link"
+       href="#https://www.testanchors.com/option3"
+    >
+      option 3
+    </a>
+  </div>
+</div>
+`;

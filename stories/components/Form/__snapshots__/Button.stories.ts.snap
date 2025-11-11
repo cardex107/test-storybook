@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Form/Button Disabled play-test 1`] = `
+<button style="opacity: 0.5;"
+        class=" undefined "
+        disabled
+        type="button"
+>
+  Disabled Button
+</button>
+`;
+
+exports[`components/Form/Button Outlined play-test 1`] = `
+<button style="opacity: 1;"
+        class="a-button a-button--outlined undefined h-cursor"
+        type="button"
+>
+  Secondary Button
+</button>
+`;
+
+exports[`components/Form/Button Primary play-test 1`] = `
+<button style="opacity: 1;"
+        class="a-button undefined h-cursor"
+        type="button"
+>
+  Primary Button
+</button>
+`;
+
+exports[`components/Form/Button Secondary play-test 1`] = `
+<button style="opacity: 1;"
+        class="a-button a-button--secondary undefined h-cursor"
+        type="button"
+>
+  Secondary Button
+</button>
+`;

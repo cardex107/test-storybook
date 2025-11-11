@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #TEXT-BLOCK-B
+   ========================================================================== */
+
+.m-text-block-b {
+}
+
+.m-text-block-b__title {
+    @include paragraph-bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.m-text-block-b__text {
+    @include text-note-grey-4;
+}

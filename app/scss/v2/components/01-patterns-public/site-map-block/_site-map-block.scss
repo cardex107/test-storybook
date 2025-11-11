@@ -1,0 +1,132 @@
+@use 'sass:math';
+
+/* ==========================================================================
+   #SITEMAP
+   ========================================================================== */
+
+/**
+  * Legacy code
+  */
+
+.c-site-map {
+    padding: 30px 10px;
+
+    @media (min-width: $screen-sm-min) {
+        padding: 60px 34px 70px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        padding: 60px 40px 70px;
+    }
+
+    h1 {
+        @include text-style-1;
+        padding-bottom: 40px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        @media (min-width: $screen-sm-min) {
+            text-align: left;
+        }
+
+        li {
+            width: 100%;
+            list-style: none;
+            margin: 10px 0 20px 0;
+
+            @media (min-width: $screen-sm-min) {
+                width: 50%;
+            }
+
+            a {
+                font-size: 1.5rem;
+                line-height: 1.36;
+                letter-spacing: 3px;
+                font-weight: 900;
+                text-transform: lowercase;
+                color: $black;
+
+                &::first-letter {
+                    text-transform: uppercase;
+                }
+            }
+
+            ul {
+                height: auto;
+
+                li {
+                    margin: 12px 0 0 12px;
+                    width: 100%;
+
+                    a {
+                        font-size: 1.125rem;
+                        font-family: $primary-font;
+                        line-height: 1.1;
+                        font-weight: 300;
+                        text-decoration: underline;
+
+                        @media (min-width: $screen-md-min) {
+                            &:hover {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .site-map-columns {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-map-column {
+        width: 100%;
+        text-align: center;
+
+        a {
+            display: block;
+            padding-bottom: 25px;
+        }
+
+        .site-map-column {
+            width: 100%;
+            margin-left: 0;
+
+            a {
+                display: block;
+                padding-bottom: 0;
+            }
+
+            &:first-child {
+                margin-top: -10px;
+            }
+
+            &:last-child {
+                padding-bottom: 25px;
+            }
+        }
+    }
+
+    // MEDIA QUERIES ====================================================
+
+    @media (min-width: $screen-md-min) {
+        .site-map-column {
+            width: math.div(100%, 3);
+            padding: 0 20px;
+        }
+
+        .site-map-columns {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            text-align: center;
+        }
+    }
+}

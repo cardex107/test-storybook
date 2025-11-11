@@ -1,0 +1,67 @@
+/* ==========================================================================
+   #PAGE-TITLE
+   ========================================================================== */
+
+.m-page-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    @if $theme== 'b' {
+        margin-top: 150px;
+
+        @media (min-width: $screen-sm-min) {
+            margin-top: 140px;
+        }
+    }
+
+    &.m-page-title--reduced {
+        @include max-width;
+        @include padding-content;
+    }
+
+    .m-page-title__title {
+        @include text-style-1;
+    }
+}
+
+.m-page-title--private {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom: 30px;
+    }
+
+    .m-page-title--private__title {
+        font-family: $secondary-font;
+        font-size: 1.875rem;
+        font-weight: $brand-weight-1;
+        line-height: 1.3;
+        color: $title-color-2;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 2.875rem;
+        }
+    }
+}
+
+.m-page-title__centered-bar {
+    margin-bottom: 0;
+
+    .m-page-title__title {
+        @include text-style-2-b;
+        padding: 20px;
+        text-align: center;
+        max-width: none;
+        width: 100%;
+        background-color: #f7f7f7;
+        font-size: 1.6rem;
+    }
+}

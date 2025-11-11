@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #TOP-BAR-ALERT
+   ========================================================================== */
+
+.o-top-bar-alert {
+    @include paragraph-fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    min-height: 40px;
+    max-width: 100vw;
+    font-weight: $brand-weight-2;
+    color: $white;
+    background-color: $top-bar-background-color;
+
+    @media (min-width: $screen-md-min) {
+        padding: 0 30px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        font-weight: $brand-weight-1;
+        color: $top-bar-link-color;
+        text-decoration: underline;
+
+        @media (min-width: $screen-md-min) {
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

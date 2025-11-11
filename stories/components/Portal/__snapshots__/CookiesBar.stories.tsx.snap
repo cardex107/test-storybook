@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/CookiesBar Default smoke-test 1`] = `
+<div class="l-site-wrapper">
+  <div class="l-site-content">
+    <div class="o-cookie-layer o-cookie-layer--white is-visible"
+         data-testid="cookies-bar"
+    >
+      <p class="o-cookie-layer__text o-cookie-layer--white__text">
+        We use proprietary and third-party cookies to analyze your use of our website and improve your experience. If you continue to navigate, we consider that you accept it's use.
+        <a class="o-cookie-layer__link o-cookie-layer--white__link"
+           data-discover="true"
+           href="/cookies"
+        >
+          More information
+        </a>
+      </p>
+      <button style="opacity: 1;"
+              class=" o-cookie-layer__button o-cookie-layer--white__button h-cursor"
+              type="button"
+      >
+        Accept
+      </button>
+      <span class="o-cookie-layer__icon a-icon a-icon--black-cookie">
+      </span>
+    </div>
+  </div>
+</div>
+`;

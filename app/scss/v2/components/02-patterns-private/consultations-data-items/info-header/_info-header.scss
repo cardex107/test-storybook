@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #INFO-HEADER
+   ========================================================================== */
+
+.o-info-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    .o-info-header__title {
+        @include text-style-2-b;
+        color: $text-color;
+    }
+}

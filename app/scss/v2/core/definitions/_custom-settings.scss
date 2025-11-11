@@ -1,0 +1,57 @@
+/* ==========================================================================
+   #CUSTOM SETTINGS
+   ========================================================================== */
+
+$icons-path: '/assets/images/icons' !default;
+
+$tabs-radius: 8px !default;
+$input-radius: 5px;
+$panels-radius: 25px !default;
+$panels-radius-low: 15px !default;
+$panel-blur: blur(16px) saturate(180%) !default;
+$arrow-gap: 10px !default;
+
+/* Buttons
+========================================================================== */
+
+$button-min-width: 160px !default;
+$button-min-height-mobile: 40px !default;
+$button-min-height-desktop: 50px !default;
+$button-padding: 10px 20px !default;
+$button-font-weight: 600 !default;
+$button-border-width: 2px !default;
+$button-radius: 50px !default;
+
+$button-text-transform: uppercase !default;
+
+$button-naked-size: 0.875rem;
+$button-naked-text-transform: uppercase !default;
+$button-naked-decoration: underline !default;
+$button-naked-decoration-hover: none !default;
+
+/* Typography
+========================================================================== */
+
+$font-base-size: 16px !default;
+$brand-weight-1: 400 !default;
+$brand-weight-2: 600 !default;
+$brand-weight-for-title-1: $brand-weight-2 !default;
+
+/* Forms: checkbox / radio buttons
+========================================================================== */
+
+$field-button-font-weight: $brand-weight-1 !default;
+$field-button-color: $input-checkbox-color !default;
+$field-button-border: solid 3px $input-checkbox-color !default;
+$field-button-border-radius: 4px !default;
+$field-button-background-color: $white !default;
+
+$field-button-font-weight-active: 700 !default;
+$field-button-color-active: $white !default;
+$field-button-border-active: solid 3px $input-checkbox-color !default;
+$field-button-background-color-active: $input-checkbox-color !default;
+
+/* Header logo for theme-b
+========================================================================== */
+
+$logo-filter: brightness(0) invert(1) drop-shadow(0 5px 14px rgba(0, 0, 0, 0.1));

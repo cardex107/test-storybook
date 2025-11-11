@@ -1,0 +1,19 @@
+import { IconProps } from '~/modules/user/shared/components/icon/types';
+
+export default function CheckList({ className }: IconProps) {
+    return (
+        <svg width="26" height="23" viewBox="0 0 26 23" fill="none" className={className}>
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M6.16656 9.27892L4.32379 11.1217L10.3979 17.1958L25.5854 2.71126L23.8693 0.75L10.5167 13.629L6.16656 9.27892Z"
+                fill="currentColor"
+            ></path>
+            <path
+                d="M20.4132 11.8257C20.4132 17.1134 16.1266 21.4 10.8389 21.4C5.55121 21.4 1.26467 17.1134 1.26467 11.8257C1.26467 6.53802 5.55121 2.25149 10.8389 2.25149C16.1266 2.25149 20.4132 6.53802 20.4132 11.8257Z"
+                stroke="currentColor"
+                strokeWidth="1.7"
+            ></path>
+        </svg>
+    );
+}

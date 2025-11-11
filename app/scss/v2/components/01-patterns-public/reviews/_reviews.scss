@@ -1,0 +1,60 @@
+/* ==========================================================================
+  #USERS REVIEWS
+  ========================================================================== */
+
+.o-reviews {
+    max-width: 1170px;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.o-reviews__title {
+    @include text-style-3;
+    color: $grey-1;
+    margin: 20px 30px;
+    text-align: center;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+    }
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+
+.o-reviews__cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: $screen-sm-min) {
+        flex-direction: row;
+    }
+}
+
+.o-reviews__review {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: $screen-md-min) {
+        flex-direction: row;
+        text-align: left;
+        width: 50%;
+    }
+}
+
+.o-reviews__image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 30px;
+}
+
+.o-reviews__text {
+    @include paragraph;
+    margin: 0 30px;
+}

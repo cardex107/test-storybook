@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #DROPDOWN ARROW
+   ========================================================================== */
+
+.a-dropdown__arrow {
+    width: 14px;
+    height: 14px;
+    background-color: $dropdown-arrow-color;
+    mask-image: url('#{$icons-path}/icon--arrow-down.svg');
+    mask-position: center;
+    mask-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+    margin: 10px;
+    flex-shrink: 0;
+}

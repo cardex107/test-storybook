@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/BannerHighlight Default smoke-test 1`] = `
+<div class="o-banner-highlight"
+     id="who-can-use"
+>
+  <img src="/stories/assets/banner-app.png"
+       class="o-banner-highlight__image"
+  >
+  <div class="o-banner-highlight__wrapper">
+    <div class="o-banner-highlight__text-wrapper">
+      <h3 class="o-banner-highlight__title">
+        Who can use this service?
+      </h3>
+      <div class="o-banner-highlight__text">
+        You have unlimited access to this service at no additional cost.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/BannerHighlight WithServiceButtons smoke-test 1`] = `
+<div class="o-banner-highlight"
+     id="who-can-use"
+>
+  <img src="/stories/assets/banner-app.png"
+       class="o-banner-highlight__image"
+  >
+  <div class="o-banner-highlight__wrapper">
+    <div class="o-banner-highlight__text-wrapper">
+      <h3 class="o-banner-highlight__title">
+        Who can use this service?
+      </h3>
+      <div class="o-banner-highlight__text">
+        You have unlimited access to this service at no additional cost.
+      </div>
+    </div>
+    <div class="o-banner-highlight__buttons-wrapper">
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/phone/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+        </span>
+        Request Phone Service
+      </a>
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/phone-scheduled/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+        </span>
+        Request scheduled phone consultation
+      </a>
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/online/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--online-consultation a-icon">
+        </span>
+        Request Online Service
+      </a>
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/video-asap/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--video-consultation a-icon">
+        </span>
+        Request video consultation as soon as possible
+      </a>
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/video/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--video-consultation a-icon">
+        </span>
+        Request Video Service
+      </a>
+      <a class="a-button o-bottom-banner__button a-button--white"
+         href="/user/consultations/omc/chat/new?specialty=general"
+      >
+        <span class="a-button__left-icon h-icon--chat-consultation a-icon">
+        </span>
+        Request chat consultation
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/CmsContent Big smoke-test 1`] = `
+<div class="s-cms-content s-cms-content--big">
+  <span>
+    <p>
+      Ea nostrud tempor velit veniam aute ipsum ad eiusmod nisi deserunt magna. In et enim pariatur amet dolore id magna ad reprehenderit. Ad quis nostrud ipsum ut. Velit incididunt sit aliqua consequat sit ex. In laborum fugiat sit officia exercitation minim incididunt elit. Voluptate fugiat eu non mollit Lorem quis ex reprehenderit velit fugiat fugiat.
+    </p>
+  </span>
+</div>
+`;
+
+exports[`components/Portal/CmsContent Default smoke-test 1`] = `
+<div class="s-cms-content">
+  <span>
+    <p>
+      Incididunt aliquip ut laborum dolor eiusmod ullamco. Aliquip velit nisi nisi culpa laborum. Incididunt ipsum eiusmod duis minim. Labore velit quis ipsum tempor dolor quis. Adipisicing fugiat esse aliqua minim laboris eiusmod labore dolor in.
+    </p>
+  </span>
+</div>
+`;
+
+exports[`components/Portal/CmsContent MultipleLines smoke-test 1`] = `
+<div class="s-cms-content">
+  <span>
+    <p>
+      Culpa occaecat ut do laborum laborum irure consequat. Elit pariatur dolor cillum mollit culpa consequat incididunt quis id sunt voluptate. Dolore irure aute incididunt veniam et laboris nisi nostrud adipisicing aute.
+    </p>
+    <p>
+      Sunt anim pariatur nisi ad enim. In dolore aliquip sunt commodo aliqua nisi aute velit sint labore velit ut veniam. Excepteur cupidatat pariatur Lorem consectetur ut cillum. Ipsum nostrud reprehenderit duis in aute ullamco laborum esse minim laborum magna laborum officia do.
+    </p>
+  </span>
+</div>
+`;
+
+exports[`components/Portal/CmsContent Padded smoke-test 1`] = `
+<div class="s-cms-content s-cms-content--padded">
+  <span>
+    <p>
+      Qui irure exercitation sit cillum. Ex in aute nisi incididunt in veniam ipsum. Duis anim tempor reprehenderit ullamco quis ut aute sit eu consectetur nulla sit amet culpa. Cillum Lorem excepteur esse ad ullamco qui. Minim ut do ex labore Lorem ullamco.
+    </p>
+  </span>
+</div>
+`;
+
+exports[`components/Portal/CmsContent PlainText smoke-test 1`] = `
+<div class="s-cms-content">
+  <span>
+    Reprehenderit ea ad qui incididunt aliquip. Cupidatat aliquip ex quis eu occaecat labore voluptate sint ex labore. Esse deserunt laboris mollit occaecat. Eu aliquip quis incididunt esse eu minim do in est mollit deserunt. Adipisicing ea nisi non id in esse ut ea et reprehenderit dolor. Cupidatat eu laborum veniam nulla id.
+  </span>
+</div>
+`;
+
+exports[`components/Portal/CmsContent White smoke-test 1`] = `
+<div class="s-cms-content s-cms-content--white">
+  <span>
+    <p>
+      Do consequat dolore nostrud ea ipsum pariatur ea. Exercitation nostrud enim velit anim ad anim cillum. Magna et incididunt Lorem veniam nulla proident incididunt nulla est in.
+    </p>
+  </span>
+</div>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/ContactInfo Default smoke-test 1`] = `
+<div style="background: grey; padding: 20px;">
+  <div class="o-contact">
+    <a href="http://www.teladochealth.com"
+       class="o-contact__link-url o-contact__action"
+       target="_blank"
+       rel="noopener noreferrer"
+    >
+      Link
+    </a>
+    <a href="mailto:test@test.com"
+       class="o-contact__action"
+    >
+      <span class="o-contact__label">
+        Contact:
+      </span>
+      <span class="o-contact__action-mail">
+        test@test.com
+      </span>
+    </a>
+    <a href="tel:666444222"
+       class="o-contact__action"
+    >
+      <span>
+        666444222
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/ContactInfo WithoutEmailAndPhone smoke-test 1`] = `
+<div style="background: grey; padding: 20px;">
+  <div class="o-contact">
+    <a href="http://www.teladochealth.com"
+       class="o-contact__link-url o-contact__action"
+       target="_blank"
+       rel="noopener noreferrer"
+    >
+      Link
+    </a>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/ContactInfo WithoutLinks smoke-test 1`] = `
+<div style="background: grey; padding: 20px;">
+  <div class="o-contact">
+    <a href="mailto:test@test.com"
+       class="o-contact__action"
+    >
+      <span class="o-contact__label">
+        Contact:
+      </span>
+      <span class="o-contact__action-mail">
+        test@test.com
+      </span>
+    </a>
+    <a href="tel:666444222"
+       class="o-contact__action"
+    >
+      <span>
+        666444222
+      </span>
+    </a>
+  </div>
+</div>
+`;

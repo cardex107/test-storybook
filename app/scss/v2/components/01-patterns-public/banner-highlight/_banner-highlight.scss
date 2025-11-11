@@ -1,0 +1,174 @@
+/* ==========================================================================
+    #BANNER HIGHLIGHT
+   ========================================================================== */
+
+.o-banner-highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: $screen-md-min) {
+        display: grid;
+    }
+
+    @if $theme== 'a' {
+        padding: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            padding: 40px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            padding: 40px 70px;
+        }
+    } @else if $theme== 'b' {
+        margin: 40px;
+        background-color: $brand-color-1-lighter;
+        border-radius: 150px 60px 110px 60px;
+        overflow: hidden;
+
+        @media (min-width: $screen-md-min) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            grid-gap: 30px;
+            margin: 40px 70px;
+            border-radius: 60px 50px 50px 150px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            grid-template-columns: 1fr 2fr;
+        }
+    }
+
+    .o-banner-highlight__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        @if $theme== 'a' {
+            gap: 20px;
+            padding: 150px 30px 60px 30px;
+            background-color: $banner-highlight-background;
+            border-radius: $panels-radius;
+
+            @media (min-width: $screen-md-min) {
+                display: grid;
+                grid-column: 1/3;
+                grid-row: 1;
+                grid-template-columns: 300px auto 1fr;
+                grid-template-rows: 1fr;
+                grid-gap: 50px;
+                padding: 60px;
+            }
+        } @else if $theme== 'b' {
+            gap: 20px;
+            padding: 60px 30px;
+
+            @media (min-width: $screen-md-min) {
+                align-items: flex-start;
+                gap: 30px;
+            }
+        }
+    }
+
+    .o-banner-highlight__image {
+        @if $theme== 'a' {
+            grid-column: 1;
+            grid-row: 1/2;
+            max-width: 100%;
+            max-height: 350px;
+            margin: 0 auto;
+            margin-bottom: -110px;
+            z-index: 1;
+
+            @media (min-width: $screen-md-min) {
+                max-width: 300px;
+                max-height: none;
+                margin: 0 0 0 20px;
+            }
+        } @else if $theme== 'b' {
+            @include mask-bottom;
+            width: 100%;
+            max-height: 50vw;
+            object-fit: cover;
+
+            @media (min-width: $screen-md-min) {
+                @include mask-lateral-2;
+                height: 100%;
+                max-height: none;
+            }
+        }
+    }
+}
+
+.o-banner-highlight__text-wrapper {
+    grid-column: 1;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+        grid-column: 2/3;
+        grid-row: 1;
+        text-align: left;
+    }
+
+    @if $theme== 'a' {
+        color: $white;
+    }
+
+    .o-banner-highlight__title {
+        @if $theme== 'a' {
+            font-size: 2.25rem;
+            font-weight: normal;
+
+            @media (min-width: $screen-md-min) {
+                font-size: 2.5rem;
+            }
+        } @else if $theme== 'b' {
+            @include text-style-3;
+        }
+    }
+
+    .o-banner-highlight__text {
+        font-size: 1rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.o-banner-highlight__buttons-wrapper {
+    grid-column: 1;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+    @media (min-width: $screen-md-min) {
+        grid-column: 3/4;
+        grid-row: 1;
+        justify-content: flex-end;
+    }
+
+    .m-download-buttons-cont {
+        flex-direction: column;
+        row-gap: 10px;
+
+        @media (min-width: $screen-sm-min) {
+            flex-direction: row;
+            column-gap: 30px;
+        }
+    }
+
+    .a-button {
+        width: auto;
+    }
+}

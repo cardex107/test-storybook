@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/SwiperHero Default smoke-test 1`] = `
+<div class="swiper-ext-container">
+  <div class="swiper-container o-hero-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide-active swiper-slide-next"
+           style="width: 1248px;"
+           data-swiper-slide-index="0"
+      >
+        <div class="o-hero-content">
+          <video class="o-hero-content__frame"
+                 autoplay
+                 playsinline
+                 poster="/assets/images/teladoc/hero-poster.jpg"
+          >
+            <source src="/assets/images/teladoc/hero.mp4"
+                    type="video/mp4"
+            >
+          </video>
+          <div class="o-hero-content__text-panel">
+            <h1 class="o-hero-content__title">
+              Expert Medical Opinion
+            </h1>
+            <h2 class="o-hero-content__subtitle">
+              <p>
+                Provided by world renowned medical experts.
+              </p>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-button-lock">
+      <div class="swiper-arrow">
+        <svg width="20"
+             height="16"
+             viewbox="0 0 20 16"
+             fill="none"
+        >
+          <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+          <path d="M19 8.21191L1.76584 8.21192"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+        </svg>
+      </div>
+    </div>
+    <div class="swiper-button-prev swiper-button-lock">
+      <div class="swiper-arrow">
+        <svg width="20"
+             height="16"
+             viewbox="0 0 20 16"
+             fill="none"
+        >
+          <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+          <path d="M19 8.21191L1.76584 8.21192"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/SwiperHero WithSeviceButton smoke-test 1`] = `
+<div class="swiper-ext-container">
+  <div class="swiper-container o-hero-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide-active swiper-slide-next"
+           style="width: 1248px;"
+           data-swiper-slide-index="0"
+      >
+        <div class="o-hero-content">
+          <video class="o-hero-content__frame"
+                 autoplay
+                 playsinline
+                 poster="/assets/images/teladoc/hero-poster.jpg"
+          >
+            <source src="/assets/images/teladoc/hero.mp4"
+                    type="video/mp4"
+            >
+          </video>
+          <div class="o-hero-content__text-panel">
+            <h1 class="o-hero-content__title">
+              Expert Medical Opinion
+            </h1>
+            <h2 class="o-hero-content__subtitle">
+              <p>
+                Provided by world renowned medical experts.
+              </p>
+            </h2>
+            <div class="o-hero-block__button-wrapper">
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/phone/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+                </span>
+                Request Phone Service
+              </a>
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/phone-scheduled/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--phone-consultation a-icon">
+                </span>
+                Request scheduled phone consultation
+              </a>
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/online/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--online-consultation a-icon">
+                </span>
+                Request Online Service
+              </a>
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/video-asap/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--video-consultation a-icon">
+                </span>
+                Request video consultation as soon as possible
+              </a>
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/video/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--video-consultation a-icon">
+                </span>
+                Request Video Service
+              </a>
+              <a class="a-button o-bottom-banner__button"
+                 href="/user/consultations/omc/chat/new?specialty=general"
+              >
+                <span class="a-button__left-icon h-icon--chat-consultation a-icon">
+                </span>
+                Request chat consultation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next swiper-button-lock">
+      <div class="swiper-arrow">
+        <svg width="20"
+             height="16"
+             viewbox="0 0 20 16"
+             fill="none"
+        >
+          <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+          <path d="M19 8.21191L1.76584 8.21192"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+        </svg>
+      </div>
+    </div>
+    <div class="swiper-button-prev swiper-button-lock">
+      <div class="swiper-arrow">
+        <svg width="20"
+             height="16"
+             viewbox="0 0 20 16"
+             fill="none"
+        >
+          <path d="M11.9497 15L19 8.45454L11.9497 1.90909"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+          <path d="M19 8.21191L1.76584 8.21192"
+                stroke="#AAAAAA"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+          >
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

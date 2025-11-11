@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/AppBadge Default smoke-test 1`] = `
+<div style="position: relative; height: 200px; width: 200px; background: rgb(204, 204, 204);">
+  <div class="m-app-badge">
+    <img class="m-app-badge-mobile"
+         src="/assets/images/icons/icon--mobile-app.svg"
+         alt="mobile"
+    >
+    <div class="m-app-badge-text-box">
+      <span class="m-app-badge-text1">
+        FOO
+      </span>
+      <span class="m-app-badge-text2">
+        BAR
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/Portal/AppBadge WithCustomImage smoke-test 1`] = `
+<div style="position: relative; height: 200px; width: 200px; background: rgb(204, 204, 204);">
+  <div class="m-app-badge">
+    <img class="m-app-badge-mobile"
+         src="/stories/assets/529-25x37.jpg"
+         alt="mobile"
+    >
+    <div class="m-app-badge-text-box">
+      <span class="m-app-badge-text1">
+        FOO
+      </span>
+      <span class="m-app-badge-text2">
+        BAR
+      </span>
+    </div>
+  </div>
+</div>
+`;

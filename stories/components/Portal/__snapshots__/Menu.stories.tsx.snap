@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/Menu Desktop smoke-test 1`] = `
+<ul class="o-header__nav-list">
+  <li class="o-header__nav-item"
+      data-testid="menu-group"
+  >
+    <span class="o-header__action is-open">
+      Dropdown 1
+      <span class="a-dropdown__arrow">
+      </span>
+    </span>
+    <ul class="o-header__submenu m-submenu">
+      <li class="m-submenu__item">
+        <a data-pagename="google-page"
+           class="m-submenu__item-link "
+           href="http://www.google.com"
+           target
+        >
+          item 1
+        </a>
+      </li>
+      <li class="m-submenu__item">
+        <a data-pagename="apple-page"
+           class="m-submenu__item-link "
+           href="http://www.apple.com"
+           target
+        >
+          item 2
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="o-header__nav-item"
+      data-testid="menu-group"
+  >
+    <span class="o-header__action is-open">
+      Dropdown 2
+      <span class="a-dropdown__arrow">
+      </span>
+    </span>
+    <ul class="o-header__submenu m-submenu">
+      <li class="m-submenu__item">
+        <a data-pagename="teladoc-es-page"
+           class="m-submenu__item-link "
+           href="http://www.teladochealth.es"
+           target
+        >
+          item 3
+        </a>
+      </li>
+      <li class="m-submenu__item">
+        <a data-pagename="teladoc-us-page"
+           class="m-submenu__item-link "
+           href="http://www.teladochealth.com"
+           target
+        >
+          item 4
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="o-header__nav-item"
+      data-testid="menu-group"
+  >
+    <a data-pagename="teladoc-us-page"
+       class="o-header__action "
+       href="http://www.globalcareondemand.com/v2"
+       target
+    >
+      item 5
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`components/Portal/Menu Mobile smoke-test 1`] = `
+<ul class="m-nav-mobile__nav-list">
+  <li class="m-nav-mobile__nav-item"
+      data-testid="menu-group"
+  >
+    <span class="m-nav-mobile__action ">
+      Dropdown 1
+      <span class="a-dropdown__arrow">
+      </span>
+    </span>
+    <ul class="m-nav-mobile__submenu h-hidden">
+      <li class="m-nav-mobile__submenu-item">
+        <a data-pagename="google-page"
+           class="m-nav-mobile__submenu-item-link "
+           href="http://www.google.com"
+           target
+        >
+          item 1
+        </a>
+      </li>
+      <li class="m-nav-mobile__submenu-item">
+        <a data-pagename="apple-page"
+           class="m-nav-mobile__submenu-item-link "
+           href="http://www.apple.com"
+           target
+        >
+          item 2
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="m-nav-mobile__nav-item"
+      data-testid="menu-group"
+  >
+    <span class="m-nav-mobile__action ">
+      Dropdown 2
+      <span class="a-dropdown__arrow">
+      </span>
+    </span>
+    <ul class="m-nav-mobile__submenu h-hidden">
+      <li class="m-nav-mobile__submenu-item">
+        <a data-pagename="teladoc-es-page"
+           class="m-nav-mobile__submenu-item-link "
+           href="http://www.teladochealth.es"
+           target
+        >
+          item 3
+        </a>
+      </li>
+      <li class="m-nav-mobile__submenu-item">
+        <a data-pagename="teladoc-us-page"
+           class="m-nav-mobile__submenu-item-link "
+           href="http://www.teladochealth.com"
+           target
+        >
+          item 4
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="m-nav-mobile__nav-item"
+      data-testid="menu-group"
+  >
+    <a data-pagename="teladoc-us-page"
+       class="m-nav-mobile__action "
+       href="http://www.globalcareondemand.com/v2"
+       target
+    >
+      item 5
+    </a>
+  </li>
+</ul>
+`;

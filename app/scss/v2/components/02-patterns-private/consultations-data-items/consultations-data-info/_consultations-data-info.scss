@@ -1,0 +1,26 @@
+/* ==========================================================================
+   #CONSULTATIONS-DATA-INFO
+   ========================================================================== */
+
+.o-consultation-data-info {
+    @if $theme== 'a' {
+        background-color: $white;
+    }
+}
+
+.o-consultation-data-info__inner {
+    @include consultation-form;
+}
+
+.o-consultation-data-info__header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Style variants
+   ========================================================================== */
+
+.o-consultation-data-info--grey {
+    background-color: $additional-background-color;
+}

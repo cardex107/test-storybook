@@ -1,0 +1,74 @@
+/* ==========================================================================
+   #FLATPICKR
+   ========================================================================== */
+
+/* Flatpickr overwrites
+   ========================================================================== */
+
+.flatpickr-monthDropdown-months {
+    appearance: none !important;
+    padding-right: 30px !important;
+    z-index: 1;
+}
+.numInputWrapper {
+    margin-left: 15px;
+}
+.flatpickr-current-month {
+    padding-top: 11px !important;
+
+    .flatpickr-current-months:hover {
+        background-color: transparent !important;
+    }
+}
+.flatpickr-months .flatpickr-month {
+    height: 50px !important;
+    background-color: color-mix(in srgb, $brand-color-1 10%, $white);
+}
+.flatpickr-prev-month,
+.flatpickr-next-month {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 5px !important;
+    background-color: $white !important;
+    border-radius: 30px !important;
+
+    &:hover,
+    &:active {
+        background-color: color-mix(in srgb, $brand-color-1 20%, $white) !important;
+    }
+
+    &:hover svg,
+    &:active svg {
+        fill: $brand-color-1 !important;
+    }
+}
+.flatpickr-calendar.inline {
+    box-shadow: none !important;
+    margin: -2px 0 8px 0;
+}
+.flatpickr-day {
+    @media (min-width: $screen-sm-min) {
+        &:hover,
+        &:active {
+            background: color-mix(in srgb, $brand-color-1 20%, $white) !important;
+            border-color: color-mix(in srgb, $brand-color-1 20%, $white) !important;
+        }
+    }
+    &.selected {
+        background: $brand-color-1 !important;
+        border-color: $brand-color-1 !important;
+        font-weight: 700;
+
+        @media (min-width: $screen-sm-min) {
+            &:hover {
+                background: $brand-color-1 !important;
+                border-color: $brand-color-1 !important;
+                color: $white;
+            }
+        }
+    }
+    &.today {
+        font-weight: bold;
+        border: none;
+    }
+}

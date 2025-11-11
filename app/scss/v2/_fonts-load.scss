@@ -1,0 +1,13 @@
+/* ==========================================================================
+  #FONTS LOAD
+  ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+$primary-font:
+    'Source Sans Pro',
+    'Helvetica Neue',
+    Helvetica,
+    Arial sans-serif !default;
+$secondary-font: $primary-font !default;
+$button-font: $primary-font !default;

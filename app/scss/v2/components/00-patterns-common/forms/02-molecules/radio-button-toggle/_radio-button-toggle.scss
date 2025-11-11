@@ -1,0 +1,102 @@
+/* ==========================================================================
+   #RADIO-BUTTON-TOGGLE
+   ========================================================================== */
+
+/**
+ * Extended in `_field.scss`.
+ */
+
+.a-radio-button-toggle {
+    display: block;
+    width: auto;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &.is-read-only {
+        opacity: 0.5;
+
+        label {
+            cursor: not-allowed;
+        }
+    }
+}
+
+.a-radio-button-toggle__input:checked + .a-radio-button-toggle__label {
+    background-color: $field-button-background-color-active !important;
+    font-weight: $field-button-font-weight-active;
+    color: $field-button-color-active;
+}
+
+.a-radio-button-toggle__input:hover + .a-radio-button-toggle__label {
+    @media (min-width: $screen-md-min) {
+        background-color: color-mix(in srgb, $brand-color-1 10%, $white);
+    }
+}
+
+.a-radio-button-toggle__input {
+    display: none;
+
+    &[readonly] + .a-radio-button-toggle__label {
+        pointer-events: none;
+    }
+
+    &[disabled] + .a-radio-button-toggle__label {
+        cursor: not-allowed;
+        font-weight: $brand-weight-1;
+        color: $grey-4;
+        background-color: $grey-7;
+        border: 1px solid $grey-7;
+    }
+}
+
+.a-radio-button-toggle__label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 120px;
+    min-height: 40px;
+    line-height: 14px;
+    padding: 8px 20px;
+    font-size: 0.875rem;
+    font-weight: $field-button-font-weight;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $field-button-color;
+    background-color: $field-button-background-color;
+    border: $field-button-border;
+    border-radius: $field-button-border-radius;
+    cursor: pointer;
+
+    &::selection {
+        background-color: transparent;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        min-width: 100px;
+    }
+}
+
+/* Style variants
+   ========================================================================== */
+
+.a-radio-button-toggle--small {
+    &:not(:last-child) {
+        margin-right: 5px;
+    }
+
+    .a-radio-button-toggle__label {
+        min-width: 60px;
+        min-height: 30px;
+        padding: 5px;
+        border: 1px solid $grey-5;
+        border-radius: 3px;
+        background-color: $white;
+
+        @media (min-width: $screen-sm-min) {
+            min-width: 70px;
+        }
+    }
+}

@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Portal/ListItemsBlock Default smoke-test 1`] = `
+<div class="o-list-item-block">
+  <div class="o-list-item-block__inner">
+    <div class="o-list-item-block__item m-list-item-a">
+      <div class="m-list-item-a__image--wrapper">
+        <img class="m-list-item-a__image"
+             src="/stories/assets/medical.jpg"
+             alt
+        >
+      </div>
+      <div class="m-list-item-a__text-panel">
+        <h2 class="m-list-item-a__title">
+          Second Medical Opinion
+        </h2>
+        <div class="s-cms-content">
+          <span>
+            <p>
+              For any health concerns you have or even if you want help to quit smoking, our experienced Doctors are available to speak to you wherever you are in the world, 24 hours a day, 7 days a week. For more complex medical cases you can seek a Second Medical Opinion.
+            </p>
+          </span>
+        </div>
+        <div class="m-list-item-a__links-list">
+          <a class="m-list-item-a__link"
+             href="/emo"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              More information
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="o-list-item-block__item m-list-item-a">
+      <div class="m-list-item-a__image--wrapper">
+        <img class="m-list-item-a__image"
+             src="/stories/assets/destacado3327693.jpg"
+             alt
+        >
+      </div>
+      <div class="m-list-item-a__text-panel">
+        <h2 class="m-list-item-a__title">
+          Medical
+        </h2>
+        <div class="s-cms-content">
+          <span>
+            <p>
+              Are you looking to achieve or maintain a healthy body weight? Do you want to change your eating habits both at home and at the workplace? Our team of nutritional experts are here to support you all the way.
+            </p>
+          </span>
+        </div>
+        <div class="m-list-item-a__links-list">
+          <a class="m-list-item-a__link"
+             href="/omc-general"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              GP Consultation
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/sc"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Symptom checker
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-sports"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Sports
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-dermatology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Dermatology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-pediatric"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Dear
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-gynecological"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Gynecological
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-endocrinology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Endocrinology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-otorhinolaryngology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Otorhinolaryngology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-pneumology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Pneumology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-geriatric"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Geriatric
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-traveler"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Traveler
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-midwife"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              omc_midwife.home.title
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-immunoallergology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Immunoallergology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-women-care"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Women Care
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-chronics-light"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Chronics light
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-ophthalmology"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Ophthalmology
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-pregnant-program"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Pregnancy Program
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-hospital-discharge"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Hospital discharge
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-elder-program"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Elder Program
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="o-list-item-block__item m-list-item-a">
+      <div class="m-list-item-a__image--wrapper">
+        <img class="m-list-item-a__image"
+             src="/stories/assets/wellbeing.jpg"
+             alt
+        >
+      </div>
+      <div class="m-list-item-a__text-panel">
+        <h2 class="m-list-item-a__title">
+          Wellbeing
+        </h2>
+        <div class="s-cms-content">
+          <span>
+            <p>
+              If a life event knocks you sideways, you’re struggling with sleeping or work is getting on top of you. Speak to our team of mental health professionals in complete confidence and get back on track.
+            </p>
+          </span>
+        </div>
+        <div class="m-list-item-a__links-list">
+          <a class="m-list-item-a__link"
+             href="/omc-mental-health-support"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Mental Health Support
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-psychological"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Psychological
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-burn-out-prevention"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Burn Out Prevention
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-life-events-counselling"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Life Events Counselling
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-mental-health-program"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Mental Health Program
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-coaching"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Coaching
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-dementia-support"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Dementia support
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-stress-management"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Stress management
+            </span>
+          </a>
+          <a class="m-list-item-a__link"
+             href="/omc-parenting-advice"
+          >
+            <span class="m-list-item-a__link-icon">
+            </span>
+            <span class="m-list-item-a__link-text">
+              Parenting Advice
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="o-list-item-block__item m-list-item-a">
+      <div class="m-list-item-a__image--wrapper">
+        <img class="m-list-item-a__image"
+             src
+             alt
+        >
+      </div>
+      <div class="m-list-item-a__text-panel">
+        <div class="s-cms-content">
+          <span>
+            <p>
+            </p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
