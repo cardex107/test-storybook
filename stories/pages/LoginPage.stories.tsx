@@ -11,7 +11,7 @@ const LoginPage = () => {
         <>
             <div className="o-grid__inner">
                 <div className="l-site-content o-grid__span--24 o-grid__span-sm--8">
-                    <h1 className="a-text-style-1 h-margin-bottom-10 title-login">Log in or register to access your online account</h1>
+                    <h1 className="a-text-style-1 title-login">Log in or register to access your online account</h1>
                     <p className="a-paragraph h-margin-bottom-10">Send us securely your medical questions.</p>
                     <p className="a-paragraph h-margin-bottom-20">Login if you already have an account with us or proceed to register it this is the first time you request our services.</p>
                     <TextInput 
